@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet", href="./ar.css",type='text/css'>
+        <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+        <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
+        <script src="https://raw.githack.com/AR-js-org/studio-backend/master/src/modules/marker/tools/gesture-detector.js"></script>
+        <script src="https://raw.githack.com/AR-js-org/studio-backend/master/src/modules/marker/tools/gesture-handler.js"></script>
+        <script src="ar.js"></script>
+    </head>
+
+    <body style="margin: 0; overflow: hidden;">
+        <button onclick="location.href='./2d.html'">back</button>
+        <a-scene
+            vr-mode-ui="enabled: false;"
+            loading-screen="enabled: false;"
+            arjs="trackingMethod: best; sourceType: webcam; debugUIEnabled: false;"
+            id="scene"
+            embedded
+            gesture-detector
+        >
+            <a-marker
+                id="animated-marker"
+                type="pattern"
+                preset="custom"
+                url="assets/marker.patt"
+                raycaster="objects: .clickable"
+                emitevents="true"
+                cursor="fuse: false; rayOrigin: mouse;"
+                id="markerA"
+            >
+                <a-image
+                    src="assets/asset.jpeg"
+                    scale="1 1 1"
+                    class="clickable"
+                    rotation="-90 0 0"
+                    gesture-handler
+                ></a-image>
+                <a-entity
+                    text="width: 5; value: You find it"
+                    scale="1 1 1"
+                    class="clickable"
+                    rotation="-90 0 0" 
+                    position='1.4 1.8 0'>
+                </a-entity>
+                <!-- <a-entity id="refresh-button" geometry="primitive: box" material="color: red" position="1.4 2 0">
+                </a-scene> -->
+                <!-- <a-text
+                    value="哭哭">
+                </a-text> -->
+            </a-marker>
+            <a-marker
+                id="animated-marker"
+                type="pattern"
+                preset="custom"
+                url="assets/pattern-mark1.patt"
+                raycaster="objects: .clickable"
+                emitevents="true"
+                cursor="fuse: false; rayOrigin: mouse;"
+                id="markerA"
+            >
+                <a-image
+                  src="assets/mark2.png"
+                  scale="0.5 0.5 0.5"
+                  class="clickable"
+                  rotation="-90 0 0"
+                  gesture-handler
+                ></a-image>   
+            </a-marker>
+            <a-marker
+                id="animated-marker"
+                type="pattern"
+                preset="custom"
+                url="assets/pattern-tiger.patt"
+                raycaster="objects: .clickable"
+                emitevents="true"
+                cursor="fuse: false; rayOrigin: mouse;"
+                id="markerA"
+            >
+                <a-image
+                  src="assets/tiger.png"
+                  scale="0.5 0.25 0.5"
+                  class="clickable"
+                  rotation="-90 0 0"
+                  gesture-handler
+                ></a-image>   
+            </a-marker>
+            <a-entity camera></a-entity>
+        </a-scene>
+    </body>
+</html>
