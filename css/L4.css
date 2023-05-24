@@ -1,17 +1,131 @@
-/* Error: Expected identifier.
- *    ,
- * 10 | =======
- *    |  ^
- *    '
- *   L4.sass 10:2  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Expected identifier.\a    \2577 \a 10 \2502  =======\d\a    \2502   ^\a    \2575 \a   L4.sass 10:2  root stylesheet";
+body {
+  margin: 0px;
 }
+
+.background_image22 {
+  position: absolute;
+  height: 100%;
+  left: 0px;
+  z-index: 1;
+}
+
+.background_image23 {
+  position: absolute;
+  height: 100%;
+  left: 0px;
+  z-index: 1;
+}
+
+.background_image24 {
+  position: absolute;
+  height: 100%;
+  left: 0px;
+  z-index: 1;
+}
+
+.background_image25 {
+  position: absolute;
+  height: 100%;
+  left: 0px;
+  z-index: 1;
+}
+
+.background_image26 {
+  position: absolute;
+  height: 100%;
+  left: 0px;
+  z-index: 1;
+}
+
+.button22_1 {
+  position: absolute;
+  left: 207px;
+  bottom: 600px;
+  z-index: 2;
+}
+
+.button22_2 {
+  position: absolute;
+  left: 207px;
+  bottom: 300px;
+  z-index: 2;
+}
+
+.button23_1 {
+  position: absolute;
+  left: 207px;
+  bottom: 600px;
+  z-index: 2;
+}
+
+.button23_2 {
+  position: absolute;
+  left: 207px;
+  bottom: 300px;
+  z-index: 2;
+}
+
+.button24_1 {
+  position: absolute;
+  left: 207px;
+  bottom: 540px;
+  z-index: 2;
+}
+
+.button24_2 {
+  position: absolute;
+  left: 207px;
+  bottom: 250px;
+  z-index: 2;
+}
+
+.button25_1 {
+  position: absolute;
+  left: 207px;
+  bottom: 540px;
+  z-index: 2;
+}
+
+.button25_2 {
+  position: absolute;
+  left: 207px;
+  bottom: 250px;
+  z-index: 2;
+}
+
+.button26_0 {
+  position: absolute;
+  left: 207px;
+  bottom: 800px;
+  z-index: 2;
+}
+
+.button26_1 {
+  position: absolute;
+  left: 800px;
+  bottom: 530px;
+  z-index: 2;
+}
+
+.button26_2 {
+  position: absolute;
+  left: 437px;
+  bottom: 530px;
+  z-index: 2;
+}
+
+.button26_3 {
+  position: absolute;
+  left: 107px;
+  bottom: 530px;
+  z-index: 2;
+}
+
+.button26_4 {
+  position: absolute;
+  left: 207px;
+  bottom: 250px;
+  z-index: 2;
+}
+
+/*# sourceMappingURL=L4.css.map */
