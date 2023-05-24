@@ -73,6 +73,21 @@ var background_23 = document.querySelector(".background_image23");
 var buttonGroup23_1 = document.querySelector(".button23_1");
 var buttonGroup23_2 = document.querySelector(".button23_2");
 
+var background_24 = document.querySelector(".background_image24");
+var buttonGroup24_1 = document.querySelector(".button24_1");
+var buttonGroup24_2 = document.querySelector(".button24_2");
+
+var background_25 = document.querySelector(".background_image25");
+var buttonGroup25_1 = document.querySelector(".button25_1");
+var buttonGroup25_2 = document.querySelector(".button25_2");
+
+var background_26 = document.querySelector(".background_image26");
+var buttonGroup26_0 = document.querySelector(".button26_0");
+var buttonGroup26_1 = document.querySelector(".button26_1");
+var buttonGroup26_2 = document.querySelector(".button26_2");
+var buttonGroup26_3 = document.querySelector(".button26_3");
+var buttonGroup26_4 = document.querySelector(".button26_4");
+
 function clickBG22_1(){
     background_22.setAttribute('style','visibility:hidden');
     buttonGroup22_1.setAttribute('style','visibility:hidden');
@@ -81,6 +96,39 @@ function clickBG22_1(){
     background_23.setAttribute('style','none');
     buttonGroup23_1.setAttribute('style','none');
     buttonGroup23_2.setAttribute('style','none');
+}
+
+function clickBG23_1(){
+    background_23.setAttribute('style','visibility:hidden');
+    buttonGroup23_1.setAttribute('style','visibility:hidden');
+    buttonGroup23_2.setAttribute('style','visibility:hidden');
+
+    background_24.setAttribute('style','none');
+    buttonGroup24_1.setAttribute('style','none');
+    buttonGroup24_2.setAttribute('style','none');
+}
+
+function clickBG24_1(){
+    background_24.setAttribute('style','visibility:hidden');
+    buttonGroup24_1.setAttribute('style','visibility:hidden');
+    buttonGroup24_2.setAttribute('style','visibility:hidden');
+
+    background_25.setAttribute('style','none');
+    buttonGroup25_1.setAttribute('style','none');
+    buttonGroup25_2.setAttribute('style','none');
+}
+
+function clickBG25_1(){
+    background_25.setAttribute('style','visibility:hidden');
+    buttonGroup25_1.setAttribute('style','visibility:hidden');
+    buttonGroup25_2.setAttribute('style','visibility:hidden');
+
+    background_26.setAttribute('style','none');
+    buttonGroup26_0.setAttribute('style','none');
+    buttonGroup26_1.setAttribute('style','none');
+    buttonGroup26_2.setAttribute('style','none');
+    buttonGroup26_3.setAttribute('style','none');
+    buttonGroup26_4.setAttribute('style','none');
 }
 
 // function click1(){
@@ -357,6 +405,12 @@ function clickBG22_1(){
 
 buttonGroup22_1.addEventListener('click',clickBG22_1);
 buttonGroup22_2.addEventListener('click',clickBG22_1);
+buttonGroup23_1.addEventListener('click',clickBG23_1);
+buttonGroup23_2.addEventListener('click',clickBG23_1);
+buttonGroup24_1.addEventListener('click',clickBG24_1);
+buttonGroup24_2.addEventListener('click',clickBG24_1);
+buttonGroup25_1.addEventListener('click',clickBG25_1);
+buttonGroup25_2.addEventListener('click',clickBG25_1);
 
 // slider_1.oninput = function() {
 //     output1.innerHTML = this.value;
