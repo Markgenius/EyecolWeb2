@@ -1,0 +1,47 @@
+body {
+  margin: 0px;
+}
+
+.background_image22 {
+  position: absolute;
+  height: 100%;
+  left: 0px;
+  z-index: 1;
+}
+
+.background_image23 {
+  position: absolute;
+  height: 100%;
+  left: 0px;
+  z-index: 1;
+}
+
+.button22_1 {
+  position: absolute;
+  left: 207px;
+  bottom: 600px;
+  z-index: 3;
+}
+
+.button22_2 {
+  position: absolute;
+  left: 207px;
+  bottom: 300px;
+  z-index: 3;
+}
+
+.button23_1 {
+  position: absolute;
+  left: 207px;
+  bottom: 600px;
+  z-index: 2;
+}
+
+.button23_2 {
+  position: absolute;
+  left: 207px;
+  bottom: 300px;
+  z-index: 2;
+}
+
+/*# sourceMappingURL=L4.css.map */
