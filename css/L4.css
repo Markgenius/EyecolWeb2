@@ -4,8 +4,8 @@ body {
 
 .background_image22 {
   position: absolute;
-  height: 100%;
-  left: 0px;
+  width: 100%;
+  left: 0%;
   z-index: 1;
 }
 
@@ -39,57 +39,65 @@ body {
 
 .button22_1 {
   position: absolute;
-  left: 207px;
-  bottom: 600px;
+  width: 252px;
+  left: 69px;
+  bottom: 200px;
   z-index: 2;
 }
 
 .button22_2 {
   position: absolute;
-  left: 207px;
-  bottom: 300px;
+  width: 252px;
+  left: 69px;
+  bottom: 100px;
   z-index: 2;
 }
 
 .button23_1 {
   position: absolute;
-  left: 207px;
-  bottom: 600px;
+  width: 252px;
+  left: 69px;
+  bottom: 200px;
   z-index: 2;
 }
 
 .button23_2 {
   position: absolute;
-  left: 207px;
-  bottom: 300px;
+  width: 252px;
+  left: 69px;
+  bottom: 100px;
   z-index: 2;
 }
 
 .button24_1 {
   position: absolute;
-  left: 207px;
-  bottom: 540px;
+  width: 252px;
+  left: 69px;
+  bottom: 180px;
   z-index: 2;
 }
 
 .button24_2 {
   position: absolute;
-  left: 207px;
-  bottom: 250px;
+  width: 252px;
+  left: 69px;
+  bottom: 80px;
   z-index: 2;
 }
 
 .button25_1 {
   position: absolute;
-  left: 207px;
-  bottom: 540px;
+  width: 252px;
+  left: 69px;
+  bottom: 180px;
   z-index: 2;
 }
 
 .button25_2 {
   position: absolute;
-  left: 207px;
-  bottom: 250px;
+  width: 252px;
+  left: 69px;
+  bottom: 80px;
   z-index: 2;
 }
 
