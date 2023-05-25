@@ -4,6 +4,7 @@ body {
 
 .background_image22 {
   position: absolute;
+  height: 100%;
   left: 0px;
   z-index: 1;
 }
