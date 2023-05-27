@@ -53,17 +53,17 @@ body {
 
 .button22_1 {
   position: absolute;
-  width: 252px;
-  left: 69px;
-  bottom: 200px;
+  width: 65%;
+  left: 17.5%;
+  bottom: 24%;
   z-index: 2;
 }
 
 .button22_2 {
   position: absolute;
-  width: 252px;
-  left: 69px;
-  bottom: 100px;
+  width: 65%;
+  left: 17.5%;
+  bottom: 12%;
   z-index: 2;
 }
 
