@@ -1,0 +1,32 @@
+body {
+    margin: 0px;
+  }
+  
+  .background_image1 {
+    position: absolute;
+    width: 100%;
+    left: 0%;
+    z-index: 1;
+  }
+  .start{
+    position: absolute;
+    width: 147px;
+    height: 60px;
+    left: calc(50% - 147px/2 + 0.5px);
+    top: 365px;
+    z-index:2;
+  }
+  .background_image2{
+    position: absolute;
+    width: 100%;
+    left: 0%;
+    z-index:1;
+  }
+.what_happened{
+    position: absolute;
+    width: 252px;
+    height: 61px;
+    left: calc(50% - 252px/2);
+    top: 307px;
+    z-index:2;
+}
