@@ -170,7 +170,13 @@ function clickBG32_1(){
     buttonGroup33_5.setAttribute('style','none');
 }
 
-buttonGroup22_1.addEventListener('touchstart',clickBG22_1);
+function clickBG22_1_(){
+    buttonGroup22_1.setAttribute('style','opacity: 0.5');
+}
+
+buttonGroup22_1.addEventListener('touchstart',clickBG22_1_);
+buttonGroup22_1.addEventListener('touchend',clickBG22_1);
+
 buttonGroup22_2.addEventListener('touchend',clickBG22_1);
 buttonGroup23_1.addEventListener('touchstart',clickBG23_1);
 buttonGroup23_2.addEventListener('touchend',clickBG23_1);
