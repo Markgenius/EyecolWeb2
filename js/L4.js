@@ -235,7 +235,6 @@ buttonGroup23_2.addEventListener('touchend',clickBG23_1);
 buttonGroup24_1.addEventListener('touchstart',clickBG24_1_);
 buttonGroup24_1.addEventListener('touchend',clickBG24_1);
 
-
 buttonGroup24_2.addEventListener('touchstart',clickBG24_2_);
 buttonGroup24_2.addEventListener('touchend',clickBG24_1);
 

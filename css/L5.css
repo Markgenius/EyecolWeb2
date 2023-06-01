@@ -2,109 +2,48 @@ body {
   margin: 0px;
 }
 
-.background_image34 {
+.background_image34, .background_image35, .background_image36, .background_image37, .background_image38, .background_image40 {
   position: absolute;
+  max-width: 390px;
+  max-height: 844px;
   width: 100%;
-  left: 0%;
+  left: 0px;
   z-index: 1;
 }
 
-.background_image35 {
+.button34_1, .button35_1, .button37_1, .button40_1 {
   position: absolute;
-  width: 100%;
-  left: 0%;
-  z-index: 1;
-}
-
-.background_image36 {
-  position: absolute;
-  width: 100%;
-  left: 0%;
-  z-index: 1;
-}
-
-.background_image37 {
-  position: absolute;
-  width: 100%;
-  left: 0%;
-  z-index: 1;
-}
-
-.background_image38 {
-  position: absolute;
-  width: 100%;
-  left: 0%;
-  z-index: 1;
-}
-
-.background_image40 {
-  position: absolute;
-  width: 100%;
-  left: 0%;
-  z-index: 1;
-}
-
-.button34_1 {
-  position: absolute;
-  width: 65%;
-  left: 17.5%;
-  bottom: 24%;
+  max-width: 250px;
+  max-height: 756px;
+  left: 19%;
+  top: 500px;
   z-index: 2;
 }
 
-.button34_2 {
+.button34_2, .button35_2, .button37_2, .button40_2 {
   position: absolute;
-  width: 65%;
-  left: 17.5%;
-  bottom: 12%;
-  z-index: 2;
-}
-
-.button35_1 {
-  position: absolute;
-  width: 65%;
-  left: 17.5%;
-  bottom: 24%;
-  z-index: 2;
-}
-
-.button35_2 {
-  position: absolute;
-  width: 65%;
-  left: 17.5%;
-  bottom: 12%;
+  max-width: 250px;
+  max-height: 756px;
+  left: 19%;
+  top: 580px;
   z-index: 2;
 }
 
 .button36_1 {
   position: absolute;
-  width: 65%;
-  left: 17.5%;
-  bottom: 24%;
+  max-width: 250px;
+  max-height: 756px;
+  left: 19%;
+  top: 550px;
   z-index: 2;
 }
 
 .button36_2 {
   position: absolute;
-  width: 65%;
-  left: 17.5%;
-  bottom: 12%;
-  z-index: 2;
-}
-
-.button37_1 {
-  position: absolute;
-  width: 65%;
-  left: 17.5%;
-  bottom: 24%;
-  z-index: 2;
-}
-
-.button37_2 {
-  position: absolute;
-  width: 65%;
-  left: 17.5%;
-  bottom: 12%;
+  max-width: 250px;
+  max-height: 756px;
+  left: 19%;
+  top: 630px;
   z-index: 2;
 }
 
@@ -112,7 +51,7 @@ body {
   position: absolute;
   width: 77%;
   left: 11.8%;
-  bottom: 30%;
+  top: 250px;
   z-index: 2;
 }
 
@@ -121,32 +60,17 @@ body {
   width: 26%;
   height: 6%;
   left: 35%;
-  top: 68%;
+  top: 530px;
   outline: none;
   z-index: 2;
 }
 
 .button38_2 {
   position: absolute;
-  width: 65%;
-  left: 17.5%;
-  bottom: 12%;
-  z-index: 2;
-}
-
-.button40_1 {
-  position: absolute;
-  width: 65%;
-  left: 17.5%;
-  bottom: 24%;
-  z-index: 2;
-}
-
-.button40_2 {
-  position: absolute;
-  width: 65%;
-  left: 17.5%;
-  bottom: 12%;
+  max-width: 250px;
+  max-height: 756px;
+  left: 19%;
+  top: 600px;
   z-index: 2;
 }
 

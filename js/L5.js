@@ -74,17 +74,66 @@ function clickBG38_1(){
 }
 
 
+function clickBG34_1_(){
+    buttonGroup34_1.setAttribute('style','opacity: 0.5');
+}
+function clickBG34_2_(){
+    buttonGroup34_2.setAttribute('style','opacity: 0.5');
+}
+function clickBG35_1_(){
+    buttonGroup35_1.setAttribute('style','opacity: 0.5');
+}
+function clickBG35_2_(){
+    buttonGroup35_2.setAttribute('style','opacity: 0.5');
+}
+function clickBG36_1_(){
+    buttonGroup36_1.setAttribute('style','opacity: 0.5');
+}
+function clickBG36_2_(){
+    buttonGroup36_2.setAttribute('style','opacity: 0.5');
+}
+function clickBG37_1_(){
+    buttonGroup37_1.setAttribute('style','opacity: 0.5');
+}
+function clickBG37_2_(){
+    buttonGroup37_2.setAttribute('style','opacity: 0.5');
+}
+function clickBG38_1_(){
+    buttonGroup38_1.setAttribute('style','opacity: 0.5');
+}
+function clickBG38_2_(){
+    buttonGroup38_2.setAttribute('style','opacity: 0.5');
+}
 
-buttonGroup34_1.addEventListener('click',clickBG34_1);
-buttonGroup34_2.addEventListener('click',clickBG34_1);
-buttonGroup35_1.addEventListener('click',clickBG35_1);
-buttonGroup35_2.addEventListener('click',clickBG35_1);
-buttonGroup36_1.addEventListener('click',clickBG36_1);
-buttonGroup36_2.addEventListener('click',clickBG36_1);
-buttonGroup37_1.addEventListener('click',clickBG37_1);
-buttonGroup37_2.addEventListener('click',clickBG37_1);
-buttonGroup38_1.addEventListener('click',clickBG38_1);
-buttonGroup38_2.addEventListener('click',clickBG38_1);
+buttonGroup34_1.addEventListener('touchstart',clickBG34_1_);
+buttonGroup34_1.addEventListener('touchend',clickBG34_1);
+
+buttonGroup34_2.addEventListener('touchstart',clickBG34_2_);
+buttonGroup34_2.addEventListener('touchend',clickBG34_1);
+
+buttonGroup35_1.addEventListener('touchstart',clickBG35_1_);
+buttonGroup35_1.addEventListener('touchend',clickBG35_1);
+
+buttonGroup35_2.addEventListener('touchstart',clickBG35_2_);
+buttonGroup35_2.addEventListener('touchend',clickBG35_1);
+
+buttonGroup36_1.addEventListener('touchstart',clickBG36_1_);
+buttonGroup36_1.addEventListener('touchend',clickBG36_1);
+
+buttonGroup36_2.addEventListener('touchstart',clickBG36_2_);
+buttonGroup36_2.addEventListener('touchend',clickBG36_1);
+
+buttonGroup37_1.addEventListener('touchstart',clickBG37_1_);
+buttonGroup37_1.addEventListener('touchend',clickBG37_1);
+
+buttonGroup37_2.addEventListener('touchstart',clickBG37_2_);
+buttonGroup37_2.addEventListener('touchend',clickBG37_1);
+
+buttonGroup38_1.addEventListener('touchstart',clickBG38_1_);
+buttonGroup38_1.addEventListener('touchend',clickBG38_1);
+
+buttonGroup38_2.addEventListener('touchstart',clickBG38_2_);
+buttonGroup38_2.addEventListener('touchend',clickBG38_1);
 
 // slider_1.oninput = function() {
 //     output1.innerHTML = this.value;
