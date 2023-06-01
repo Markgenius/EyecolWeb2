@@ -170,8 +170,8 @@ function clickBG32_1(){
     buttonGroup33_5.setAttribute('style','none');
 }
 
-buttonGroup22_1.addEventListener('click',clickBG22_1);
-buttonGroup22_2.addEventListener('click',clickBG22_1);
+buttonGroup22_1.addEventListener('mouseup',clickBG22_1);
+buttonGroup22_2.addEventListener('mousedown',clickBG22_1);
 buttonGroup23_1.addEventListener('click',clickBG23_1);
 buttonGroup23_2.addEventListener('click',clickBG23_1);
 buttonGroup24_1.addEventListener('click',clickBG24_1);
