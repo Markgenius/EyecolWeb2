@@ -172,8 +172,8 @@ function clickBG32_1(){
 
 buttonGroup22_1.addEventListener('touchstart',clickBG22_1);
 buttonGroup22_2.addEventListener('touchend',clickBG22_1);
-buttonGroup23_1.addEventListener('click',clickBG23_1);
-buttonGroup23_2.addEventListener('click',clickBG23_1);
+buttonGroup23_1.addEventListener('touchstart',clickBG23_1);
+buttonGroup23_2.addEventListener('touchend',clickBG23_1);
 buttonGroup24_1.addEventListener('click',clickBG24_1);
 buttonGroup24_2.addEventListener('click',clickBG24_1);
 buttonGroup25_1.addEventListener('click',clickBG25_1);
