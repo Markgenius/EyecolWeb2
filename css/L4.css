@@ -4,8 +4,10 @@ body {
 
 .background_image22 {
   position: absolute;
+  max-width: 390px;
+  max-height: 844px;
   width: 100%;
-  left: 0%;
+  left: 0px;
   z-index: 1;
 }
 
@@ -81,25 +83,19 @@ body {
 
 .button22_1 {
   position: absolute;
-  width: 65%;
-  left: 17.5%;
-  bottom: 24%;
-  z-index: 2;
-}
-
-.button22_1:active {
-  position: absolute;
-  width: 40%;
-  left: 17.5%;
-  bottom: 24%;
+  max-width: 250px;
+  max-height: 756px;
+  left: 19%;
+  top: 500px;
   z-index: 2;
 }
 
 .button22_2 {
   position: absolute;
-  width: 65%;
-  left: 17.5%;
-  bottom: 12%;
+  max-width: 250px;
+  max-height: 756px;
+  left: 19%;
+  top: 580px;
   z-index: 2;
 }
 
