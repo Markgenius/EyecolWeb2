@@ -173,25 +173,102 @@ function clickBG32_1(){
 function clickBG22_1_(){
     buttonGroup22_1.setAttribute('style','opacity: 0.5');
 }
+function clickBG22_2_(){
+    buttonGroup22_2.setAttribute('style','opacity: 0.5');
+}
+function clickBG23_1_(){
+    buttonGroup23_1.setAttribute('style','opacity: 0.5');
+}
+function clickBG23_2_(){
+    buttonGroup23_2.setAttribute('style','opacity: 0.5');
+}
+function clickBG24_1_(){
+    buttonGroup24_1.setAttribute('style','opacity: 0.5');
+}
+function clickBG24_2_(){
+    buttonGroup24_2.setAttribute('style','opacity: 0.5');
+}
+function clickBG25_1_(){
+    buttonGroup25_1.setAttribute('style','opacity: 0.5');
+}
+function clickBG25_2_(){
+    buttonGroup25_2.setAttribute('style','opacity: 0.5');
+}
+function clickBG26_4_(){
+    buttonGroup26_4.setAttribute('style','opacity: 0.5');
+}
+function clickBG28_1_(){
+    buttonGroup28_1.setAttribute('style','opacity: 0.5');
+}
+function clickBG28_2_(){
+    buttonGroup28_2.setAttribute('style','opacity: 0.5');
+}
+function clickBG29_7_(){
+    buttonGroup29_7.setAttribute('style','opacity: 0.5');
+}
+function clickBG30_1_(){
+    buttonGroup30_1.setAttribute('style','opacity: 0.5');
+}
+function clickBG31_1_(){
+    buttonGroup31_1.setAttribute('style','opacity: 0.5');
+}
+function clickBG31_2_(){
+    buttonGroup31_2.setAttribute('style','opacity: 0.5');
+}
+function clickBG32_1_(){
+    buttonGroup32_1.setAttribute('style','opacity: 0.5');
+}
+
 
 buttonGroup22_1.addEventListener('touchstart',clickBG22_1_);
 buttonGroup22_1.addEventListener('touchend',clickBG22_1);
 
+buttonGroup22_2.addEventListener('touchstart',clickBG22_2_);
 buttonGroup22_2.addEventListener('touchend',clickBG22_1);
-buttonGroup23_1.addEventListener('touchstart',clickBG23_1);
+
+buttonGroup23_1.addEventListener('touchstart',clickBG23_1_);
+buttonGroup23_1.addEventListener('touchend',clickBG23_1);
+
+buttonGroup23_2.addEventListener('touchstart',clickBG23_2_);
 buttonGroup23_2.addEventListener('touchend',clickBG23_1);
-buttonGroup24_1.addEventListener('click',clickBG24_1);
-buttonGroup24_2.addEventListener('click',clickBG24_1);
-buttonGroup25_1.addEventListener('click',clickBG25_1);
-buttonGroup25_2.addEventListener('click',clickBG25_1);
-buttonGroup26_4.addEventListener('click',clickBG26_4);
-buttonGroup28_1.addEventListener('click',clickBG28_1);
-buttonGroup28_2.addEventListener('click',clickBG28_1);
-buttonGroup29_7.addEventListener('click',clickBG29_7);
-buttonGroup30_1.addEventListener('click',clickBG30_1);
-buttonGroup31_1.addEventListener('click',clickBG31_1);
-buttonGroup31_2.addEventListener('click',clickBG31_1);
-buttonGroup32_1.addEventListener('click',clickBG32_1);
+
+buttonGroup24_1.addEventListener('touchstart',clickBG24_1_);
+buttonGroup24_1.addEventListener('touchend',clickBG24_1);
+
+
+buttonGroup24_2.addEventListener('touchstart',clickBG24_2_);
+buttonGroup24_2.addEventListener('touchend',clickBG24_1);
+
+buttonGroup25_1.addEventListener('touchstart',clickBG25_1_);
+buttonGroup25_1.addEventListener('touchend',clickBG25_1);
+
+buttonGroup25_2.addEventListener('touchstart',clickBG25_2_);
+buttonGroup25_2.addEventListener('touchend',clickBG25_1);
+
+buttonGroup26_4.addEventListener('touchstart',clickBG26_4_);
+buttonGroup26_4.addEventListener('touchend',clickBG26_4);
+
+buttonGroup28_1.addEventListener('touchstart',clickBG28_1_);
+buttonGroup28_1.addEventListener('touchend',clickBG28_1);
+
+buttonGroup28_2.addEventListener('touchstart',clickBG28_2_);
+buttonGroup28_2.addEventListener('touchend',clickBG28_1);
+
+buttonGroup29_7.addEventListener('touchstart',clickBG29_7_);
+buttonGroup29_7.addEventListener('touchend',clickBG29_7);
+
+buttonGroup30_1.addEventListener('touchstart',clickBG30_1_);
+buttonGroup30_1.addEventListener('touchend',clickBG30_1);
+
+buttonGroup31_1.addEventListener('touchstart',clickBG31_1_);
+buttonGroup31_1.addEventListener('touchend',clickBG31_1);
+
+buttonGroup31_2.addEventListener('touchstart',clickBG31_2_);
+buttonGroup31_2.addEventListener('touchend',clickBG31_1);
+
+buttonGroup32_1.addEventListener('touchstart',clickBG32_1_);
+buttonGroup32_1.addEventListener('touchend',clickBG32_1);
+
 
 // slider_1.oninput = function() {
 //     output1.innerHTML = this.value;
