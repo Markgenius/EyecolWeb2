@@ -10,12 +10,13 @@ body {
   }
   .start{
     position: absolute;
-    width: 147px;
-    height: 60px;
-    left: calc(50% - 147px/2 + 0.5px);
-    top: 365px;
+    width: 37.7%;
+    height: calc(60%/844%);
+    left: calc(50% - 37.7%);
+    top: calc(365%/844%);
     z-index:2;
   }
+
   .background_image2{
     position: absolute;
     width: 100%;
@@ -24,9 +25,66 @@ body {
   }
 .what_happened{
     position: absolute;
-    width: 252px;
-    height: 61px;
-    left: calc(50% - 252px/2);
-    top: 307px;
+    width: 64.6%;
+    height: 15.6%;
+    left: calc(50% - 64.6%/2);
+    top: 307/844%;
     z-index:2;
+}
+
+.background_image3{
+  position: absolute;
+  width: 100%;
+  left: 0%;
+  z-index:1;
+}
+.botton3_1{
+    position: absolute;
+    width: 64.6%;
+    height: 15.6%;
+    left: calc(50% - 64.6%/2);
+    top: calc(578%/844%);
+    z-index:2;
+}
+.botton3_2{
+    position: absolute;
+    width: 64.6%;
+    height: 15.6%;
+    left: calc(50% - 64.6%/2);
+    top: calc(677%/844%);
+    z-index: 2;
+}
+.background_image4{
+  position: absolute;
+  width: 100%;
+  left: 0%;
+  z-index: 1;
+}
+Name.input{
+  position: absolute;
+  width: calc(253%/390%);
+  height: calc(45%/844%);
+  left: calc(69%/390%);
+  top: 523px;
+}
+Ages.input{
+  position: absolute;
+  width: 253px;
+  height: 45px;
+  left: calc(69%/390%);
+  top: 587px;
+}
+Emal.input{
+  position: absolute;
+  width: 253px;
+  height: 45px;
+  left: calc(69%/390%);
+  top: 655px;
+}
+.botton4_2{
+  position: absolute;
+  width: 252px;
+  height: 61px;
+  left: calc(50% - 252px/2);
+  top: 731px;
 }
