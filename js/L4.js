@@ -55,6 +55,7 @@ var buttonGroup33_5 = document.querySelector(".button33_5");
 var x = document.getElementById("myAudio");
 var playState = 0;
 x.autoplay = true;
+
 function music(){
     if(playState ===  0) {
         x.autoplay = true;
