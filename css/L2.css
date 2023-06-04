@@ -1,0 +1,131 @@
+body {
+    margin: 0px;
+  }
+  .background_image1 {
+    position: absolute;
+    max-width: 390px;
+    max-height: 844px;
+    width: 100%;
+    left: 0%;
+    z-index: 1;
+  }
+  .start{
+    position: absolute;
+    width: 37.7%;
+    left: calc(50% - 37.7%/2);
+    top: calc(365/844*100%);
+    z-index:2;
+  }
+
+  .background_image2{
+    position: absolute;
+    width: 100%;
+    left: 0%;
+    z-index:1;
+  }
+.what_happened{
+    position: absolute;
+    width: 64.6%;
+    left: calc(50% - 64.6%/2);
+    top: calc(307/844*100%);
+    z-index:2;
+}
+
+.background_image3{
+  position: absolute;
+  width: 100%;
+  left: 0%;
+  z-index:1;
+}
+.botton3_1{
+    position: absolute;
+    width: 64.6%;
+    left: calc(50% - 64.6%/2);
+    top: calc(578/844*100%);
+    z-index:2;
+}
+.botton3_2{
+    position: absolute;
+    width: 64.6%;
+    left: calc(50% - 64.6%/2);
+    top: calc(677/844*100%);
+    z-index: 2;
+}
+.background_image4{
+  position: absolute;
+  width: 100%;
+  left: 0%;
+  z-index: 1;
+}
+Name.input{
+  position: absolute;
+  width: calc(253/390*100%);
+  height: calc(45/844*100%);
+  left: calc(69/390*100%);
+  top: calc(523/844%);
+}
+Ages.input{
+  position: absolute;
+  width: calc(253/390*100%);
+  height: calc(45/844*100%);
+  left: calc(69/390*100%);
+  top: calc(587/844*100%);
+  z-index: 2;
+}
+Emal.input{
+  position: absolute;
+  width: calc(253/390*100%);
+  height: calc(45/844*100%);
+  left: calc(69/390*100%);
+  top: calc(655/844*100%);
+  z-index: 2;
+}
+.botton4_2{
+  position: absolute;
+  width: calc(252/390*100%);
+  left: calc(50% - 126/390*100%);
+  top: calc(731/844*100%);
+  z-index: 2;
+}
+
+.background_image5{
+  position: absolute;
+  width: 100%;
+  left: 0%;
+  z-index:1;
+}
+.botton5_1{
+    position: absolute;
+    width: 64.6%;
+    left: calc(50% - 64.6%/2);
+    top: calc(578/844*100%);
+    z-index:2;
+}
+.botton5_2{
+    position: absolute;
+    width: 64.6%;
+    left: calc(50% - 64.6%/2);
+    top: calc(677/844*100%);
+    z-index: 2;
+}
+
+.background_image6{
+  position: absolute;
+  width: 100%;
+  left: 0%;
+  z-index:1;
+}
+.botton6_1{
+    position: absolute;
+    width: 64.6%;
+    left: calc(50% - 64.6%/2);
+    top: calc(578/844*100%);
+    z-index:2;
+}
+.botton6_2{
+    position: absolute;
+    width: 64.6%;
+    left: calc(50% - 64.6%/2);
+    top: calc(677/844*100%);
+    z-index: 2;
+}
