@@ -2,7 +2,7 @@ body {
     margin: 0px;
   }
   
-  .background_image1 {
+  .background_image12 {
     position: absolute;
     max-width: 390px;
     max-height: 844px;
@@ -12,7 +12,7 @@ body {
   }
   
   
-  .background_image2 {
+  .background_image13 {
     position: absolute;
     max-width: 390px;
     max-height: 844px;
@@ -21,7 +21,7 @@ body {
     z-index: 1;
   }
   
-  .background_image3 {
+  .background_image14 {
     position: absolute;
     max-width: 390px;
     max-height: 844px;
@@ -30,7 +30,7 @@ body {
     z-index: 1;
   }
   
-  .background_image25 {
+  .background_image15 {
     position: absolute;
     max-width: 390px;
     max-height: 844px;
@@ -39,7 +39,7 @@ body {
     z-index: 1;
   }
   
-  .background_image26 {
+  .background_image17 {
     position: absolute;
     max-width: 390px;
     max-height: 844px;
@@ -48,7 +48,7 @@ body {
     z-index: 1;
   }
   
-  .background_image28 {
+  .background_image18 {
     position: absolute;
     max-width: 390px;
     max-height: 844px;
@@ -57,7 +57,7 @@ body {
     z-index: 1;
   }
   
-  .background_image29 {
+  .background_image19 {
     position: absolute;
     max-width: 390px;
     max-height: 844px;
@@ -66,16 +66,7 @@ body {
     z-index: 1;
   }
   
-  .background_image30 {
-    position: absolute;
-    max-width: 390px;
-    max-height: 844px;
-    width: 100%;
-    left: 0px;
-    z-index: 1;
-  }
-  
-  .background_image31 {
+  .background_image20 {
     position: absolute;
     max-width: 390px;
     max-height: 844px;
@@ -155,26 +146,8 @@ body {
     top: 650px;
     z-index: 2;
   }
-  
-  .button25_1 {
-    position: absolute;
-    max-width: 250px;
-    max-height: 756px;
-    left: 19%;
-    top: 620px;
-    z-index: 2;
-  }
-  
-  .button25_2 {
-    position: absolute;
-    max-width: 250px;
-    max-height: 756px;
-    left: 19%;
-    top: 700px;
-    z-index: 2;
-  }
-  
-  .button26_0 {
+
+  .glass {
     position: absolute;
     max-width: 250px;
     max-height: 756px;
@@ -183,7 +156,7 @@ body {
     z-index: 2;
   }
   
-  .button26_1 {
+  .option7 {
     position: absolute;
     max-width: 250px;
     max-height: 756px;
@@ -193,7 +166,7 @@ body {
     z-index: 2;
   }
   
-  .button26_2 {
+  .option8 {
     position: absolute;
     max-width: 250px;
     max-height: 756px;
@@ -203,7 +176,7 @@ body {
     z-index: 2;
   }
   
-  .button26_3 {
+  .option9 {
     position: absolute;
     max-width: 250px;
     max-height: 756px;
@@ -213,7 +186,7 @@ body {
     z-index: 2;
   }
   
-  .button26_4 {
+  .option10 {
     position: absolute;
     max-width: 250px;
     max-height: 756px;
@@ -222,25 +195,25 @@ body {
     z-index: 2;
   }
   
-  .button28_1 {
+  .option11 {
     position: absolute;
     max-width: 250px;
     max-height: 756px;
     left: 19%;
-    top: 550px;
+    top: 600px;
     z-index: 2;
   }
   
-  .button28_2 {
+  .option12 {
     position: absolute;
     max-width: 250px;
     max-height: 756px;
     left: 19%;
-    top: 630px;
+    top: 670px;
     z-index: 2;
   }
   
-  .button29_1 {
+  .option18_1 {
     position: absolute;
     max-width: 250px;
     max-height: 756px;
@@ -250,7 +223,7 @@ body {
     z-index: 2;
   }
   
-  .button29_2 {
+  .option18_2 {
     position: absolute;
     max-width: 250px;
     max-height: 756px;
@@ -260,7 +233,7 @@ body {
     z-index: 2;
   }
   
-  .button29_3 {
+  .option18_3 {
     position: absolute;
     max-width: 250px;
     max-height: 756px;
@@ -270,7 +243,7 @@ body {
     z-index: 2;
   }
   
-  .button29_4 {
+  .option18_4 {
     position: absolute;
     max-width: 250px;
     max-height: 756px;
@@ -280,7 +253,7 @@ body {
     z-index: 2;
   }
   
-  .button29_5 {
+  .option18_5 {
     position: absolute;
     max-width: 250px;
     max-height: 756px;
@@ -290,7 +263,7 @@ body {
     z-index: 2;
   }
   
-  .button29_6 {
+  .option18_6 {
     position: absolute;
     max-width: 250px;
     max-height: 756px;
@@ -300,7 +273,7 @@ body {
     z-index: 2;
   }
   
-  .button29_7 {
+  .option18_7 {
     position: absolute;
     max-width: 250px;
     max-height: 756px;
@@ -309,25 +282,16 @@ body {
     z-index: 2;
   }
   
-  .input30 {
+  /* .input30 {
     position: absolute;
     max-width: 250px;
     max-height: 756px;
     left: 23%;
     top: 550px;
     z-index: 2;
-  }
+  } */
   
-  .button30_1 {
-    position: absolute;
-    max-width: 250px;
-    max-height: 756px;
-    left: 19%;
-    top: 650px;
-    z-index: 2;
-  }
-  
-  .button31_1 {
+  .option19_1 {
     position: absolute;
     max-width: 250px;
     max-height: 756px;
@@ -336,21 +300,39 @@ body {
     z-index: 2;
   }
   
-  .button31_2 {
+  .option19_2 {
+    position: absolute;
+    max-width: 250px;
+    max-height: 756px;
+    left: 19%;
+    top: 670px;
+    z-index: 2;
+  }
+  
+  /* .button31_2 {
     position: absolute;
     max-width: 250px;
     max-height: 756px;
     left: 19%;
     top: 680px;
     z-index: 2;
+  } */
+  .magichat{
+    position: absolute;
+    max-width: 250px;
+    max-height: 756px;
+    left:19%;
+    top: 170px;
+    z-index: 2;
+
   }
   
-  .button32_1 {
+  .option20 {
     position: absolute;
     max-width: 250px;
     max-height: 756px;
     left: 19%;
-    top: 600px;
+    top: 700px;
     z-index: 2;
   }
   
