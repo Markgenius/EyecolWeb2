@@ -12,7 +12,7 @@ body {
   }
   
   
-  .background_image23 {
+  .background_image2 {
     position: absolute;
     max-width: 390px;
     max-height: 844px;
@@ -21,7 +21,7 @@ body {
     z-index: 1;
   }
   
-  .background_image24 {
+  .background_image3 {
     position: absolute;
     max-width: 390px;
     max-height: 844px;
@@ -107,7 +107,7 @@ body {
     max-width: 250px;
     max-height: 756px;
     left: 19%;
-    top: 500px;
+    top: 580px;
     z-index: 2;
   }
   
@@ -116,20 +116,11 @@ body {
     max-width: 250px;
     max-height: 756px;
     left: 19%;
-    top: 580px;
+    top: 650px;
     z-index: 2;
   }
   
-  .button23_1 {
-    position: absolute;
-    max-width: 250px;
-    max-height: 756px;
-    left: 19%;
-    top: 500px;
-    z-index: 2;
-  }
-  
-  .button23_2 {
+  .option3 {
     position: absolute;
     max-width: 250px;
     max-height: 756px;
@@ -138,21 +129,30 @@ body {
     z-index: 2;
   }
   
-  .button24_1 {
+  .option4 {
     position: absolute;
     max-width: 250px;
     max-height: 756px;
     left: 19%;
-    top: 620px;
+    top: 650px;
     z-index: 2;
   }
   
-  .button24_2 {
+  .option5 {
     position: absolute;
     max-width: 250px;
     max-height: 756px;
     left: 19%;
-    top: 700px;
+    top: 580px;
+    z-index: 2;
+  }
+  
+  .option6 {
+    position: absolute;
+    max-width: 250px;
+    max-height: 756px;
+    left: 19%;
+    top: 650px;
     z-index: 2;
   }
   
