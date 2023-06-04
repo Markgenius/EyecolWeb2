@@ -6,7 +6,7 @@ body {
     position: absolute;
     max-width: 390px;
     max-height: 844px;
-    width: 50%;
+    width: 100%;
     left: 0px;
     z-index: 0;
   }
