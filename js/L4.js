@@ -52,6 +52,18 @@ var buttonGroup33_3 = document.querySelector(".button33_3");
 var buttonGroup33_4 = document.querySelector(".button33_4");
 var buttonGroup33_5 = document.querySelector(".button33_5");
 
+var x = document.getElementById("myAudio");
+var playState = 0;
+x.autoplay = true;
+
+function music(){
+    if(playState ===  0) {
+        x.autoplay = true;
+        x.load();
+        playState = 1;
+    }
+}
+document.addEventListener('click', music); 
 
 function clickBG22_1(){
     background_22.setAttribute('style','visibility:hidden');
@@ -220,6 +232,7 @@ function clickBG32_1_(){
 }
 
 
+
 buttonGroup22_1.addEventListener('touchstart',clickBG22_1_);
 buttonGroup22_1.addEventListener('touchend',clickBG22_1);
 
@@ -267,7 +280,6 @@ buttonGroup31_2.addEventListener('touchend',clickBG31_1);
 
 buttonGroup32_1.addEventListener('touchstart',clickBG32_1_);
 buttonGroup32_1.addEventListener('touchend',clickBG32_1);
-
 
 // slider_1.oninput = function() {
 //     output1.innerHTML = this.value;

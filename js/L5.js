@@ -23,7 +23,18 @@ var background_40 = document.querySelector(".background_image40");
 var buttonGroup40_1 = document.querySelector(".button40_1");
 var buttonGroup40_2 = document.querySelector(".button40_2");
 
+var x = document.getElementById("myAudio");
+var playState = 0;
+x.autoplay = true;
 
+function music(){
+    if(playState ===  0) {
+        x.autoplay = true;
+        x.load();
+        playState = 1;
+    }
+}
+document.addEventListener('click', music); 
 
 function clickBG34_1(){
     background_34.setAttribute('style','visibility:hidden');
