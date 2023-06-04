@@ -38,12 +38,12 @@ var background_20 = document.querySelector(".background_image20");
 var magichat = document.querySelector(".magichat");
 var option20 = document.querySelector(".option20");
 
-var background_33 = document.querySelector(".background_image33");
-var buttonGroup33_1 = document.querySelector(".button33_1");
-var buttonGroup33_2 = document.querySelector(".button33_2");
-var buttonGroup33_3 = document.querySelector(".button33_3");
-var buttonGroup33_4 = document.querySelector(".button33_4");
-var buttonGroup33_5 = document.querySelector(".button33_5");
+var background_21 = document.querySelector(".background_image21");
+var start = document.querySelector(".start");
+var magichat_1 = document.querySelector(".magichat_1");
+var unknown = document.querySelector(".unknown_1");
+var cloth = document.querySelector(".cloth");
+var end = document.querySelector(".end");
 
 
 function clickBG22_1(){
@@ -145,25 +145,17 @@ function clickBG30_1(){
     magichat.setAttribute('style','none');
 }
 
-function clickBG31_1(){
-    background_31.setAttribute('style','visibility:hidden');
-    buttonGroup31_1.setAttribute('style','visibility:hidden');
-    buttonGroup31_2.setAttribute('style','visibility:hidden');
-
-    background_32.setAttribute('style','none');
-    buttonGroup32_1.setAttribute('style','none');
-}
-
 function clickBG32_1(){
-    background_32.setAttribute('style','visibility:hidden');
-    buttonGroup32_1.setAttribute('style','visibility:hidden');
+    background_20.setAttribute('style','visibility:hidden');
+    option20.setAttribute('style','visibility:hidden');
+    magichat.setAttribute('style','visibility:hidden');
 
-    background_33.setAttribute('style','none');
-    buttonGroup33_1.setAttribute('style','none');
-    buttonGroup33_2.setAttribute('style','none');
-    buttonGroup33_3.setAttribute('style','none');
-    buttonGroup33_4.setAttribute('style','none');
-    buttonGroup33_5.setAttribute('style','none');
+    background_21.setAttribute('style','none');
+    start.setAttribute('style','none');
+    cloth.setAttribute('style','none');
+    unknown.setAttribute('style','none');
+    magichat_1.setAttribute('style','none');
+    end.setAttribute('style','none');
 }
 
 function clickBG22_1_(){
@@ -258,14 +250,9 @@ option19_1.addEventListener('touchend',clickBG30_1);
 option19_2.addEventListener('touchstart',clickBG31_1_);
 option19_2.addEventListener('touchend',clickBG30_1);
 
-buttonGroup31_1.addEventListener('touchstart',clickBG31_1_);
-buttonGroup31_1.addEventListener('touchend',clickBG31_1);
 
-buttonGroup31_2.addEventListener('touchstart',clickBG31_2_);
-buttonGroup31_2.addEventListener('touchend',clickBG31_1);
-
-buttonGroup32_1.addEventListener('touchstart',clickBG32_1_);
-buttonGroup32_1.addEventListener('touchend',clickBG32_1);
+option20.addEventListener('touchstart',clickBG32_1_);
+option20.addEventListener('touchend',clickBG32_1);
 
 
 // slider_1.oninput = function() {
