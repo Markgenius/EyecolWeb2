@@ -13,9 +13,8 @@
 
 <script>
 var x = document.getElementById("myAudio");
-x.autoplay = true;
 
-window.onload = function enableAutoplay() { 
+function enableAutoplay() { 
   x.autoplay = true;
   x.load();
 }
@@ -28,6 +27,12 @@ function disableAutoplay() {
 function checkAutoplay() { 
   alert(x.autoplay);
 } 
+
+window.onload=function enableAutoplay() { 
+  x.autoplay = true;
+  x.load();
+}
+
 </script> 
 
 </body>

@@ -11,7 +11,7 @@ body {
   z-index: 0;
 }
 
-.video1 {
+#myAudio {
   position: absolute;
   max-width: 390px;
   max-height: 844px;
