@@ -12,10 +12,10 @@ html
   body 
     .container 
 
-      //- embed(src='../picture/1.mp4', loop='true', autostart='true', width='2', height='0')
+      audio#myAudio(controls='', hidden, autoplay, loop)
+        source(src='../bgm/witch.mp3', type='audio/mpeg')
+
       img.background_image22(src='../picture/try3.gif')
-      audio#myAudio(controls='', hidden, autoplay)
-        source(src='../picture/3.mp3', type='audio/mpeg')
       img.button22_1(src='../picture/page22/Group 100.png')
       img.button22_2(src='../picture/page22/Group 101.png')
       

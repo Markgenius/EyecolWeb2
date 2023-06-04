@@ -2,6 +2,11 @@ body {
   margin: 0px;
 }
 
+#myAudio {
+  position: absolute;
+  z-index: 0;
+}
+
 .background_image34, .background_image35, .background_image36, .background_image37, .background_image38, .background_image40 {
   position: absolute;
   max-width: 390px;
