@@ -52,30 +52,9 @@ var buttonGroup33_3 = document.querySelector(".button33_3");
 var buttonGroup33_4 = document.querySelector(".button33_4");
 var buttonGroup33_5 = document.querySelector(".button33_5");
 
-
-// window.onload=function enableAutoplay() { 
-//     x.autoplay = true;
-//     x.load();
-//   }
-
-// setInterval(function(){
-//     if(playState ==  0) {
-//         x.autoplay = true;
-//         x.load();
-//         playState = 1;
-//     }
-// },1000);
-
-// setInterval(function(){
-//     if(playState ===  0) {
-//         x.autoplay = true;
-//         x.load();
-//         playState = 1;
-//     }
-// },1000);
-
 var x = document.getElementById("myAudio");
 var playState = 0;
+x.autoplay = true;
 function music(){
     if(playState ===  0) {
         x.autoplay = true;
@@ -83,7 +62,7 @@ function music(){
         playState = 1;
     }
 }
-document.body.addEventListener('click', music); 
+document.addEventListener('click', music); 
 
 function clickBG22_1(){
     background_22.setAttribute('style','visibility:hidden');
