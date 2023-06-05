@@ -75,16 +75,7 @@ body {
     z-index: 1;
   }
   
-  .background_image32 {
-    position: absolute;
-    max-width: 390px;
-    max-height: 844px;
-    width: 100%;
-    left: 0px;
-    z-index: 1;
-  }
-  
-  .background_image33 {
+  .background_image21 {
     position: absolute;
     max-width: 390px;
     max-height: 844px;
@@ -282,14 +273,6 @@ body {
     z-index: 2;
   }
   
-  /* .input30 {
-    position: absolute;
-    max-width: 250px;
-    max-height: 756px;
-    left: 23%;
-    top: 550px;
-    z-index: 2;
-  } */
   
   .option19_1 {
     position: absolute;
@@ -309,14 +292,6 @@ body {
     z-index: 2;
   }
   
-  /* .button31_2 {
-    position: absolute;
-    max-width: 250px;
-    max-height: 756px;
-    left: 19%;
-    top: 680px;
-    z-index: 2;
-  } */
   .magichat{
     position: absolute;
     max-width: 250px;
@@ -336,7 +311,7 @@ body {
     z-index: 2;
   }
   
-  .button33_1 {
+  .start {
     position: absolute;
     width: 35%;
     left: 13%;
@@ -344,7 +319,7 @@ body {
     z-index: 2;
   }
   
-  .button33_2 {
+  .cloth {
     position: absolute;
     width: 35%;
     right: 13%;
@@ -352,7 +327,7 @@ body {
     z-index: 2;
   }
   
-  .button33_3 {
+  .magichat_1 {
     position: absolute;
     width: 35%;
     left: 13%;
@@ -360,21 +335,21 @@ body {
     z-index: 2;
   }
   
-  .button33_4 {
+  .unknown_1{
     position: absolute;
-    width: 35%;
+    width: 100px;
+    height: 120px;
     right: 13%;
     top: 60%;
     z-index: 2;
   }
   
-  .button33_5 {
+  .end {
     position: absolute;
     width: 35%;
     left: 13%;
     top: 75%;
     z-index: 2;
   }
-  
   /*# sourceMappingURL=L4.css.map */
   
