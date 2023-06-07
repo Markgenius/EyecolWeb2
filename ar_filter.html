@@ -34,35 +34,23 @@
             embedded
             gesture-detector
         >
-            <a-assets>
-                <a-asset-item
-                    id="animated-asset"
-                    src="assets/eyefilter.png"
-                ></a-asset-item>
-            </a-assets>
-
             <a-marker
-                type="pattern"
-                preset="custom"
-                url="assets/pattern-game3.patt"
-                videohandler
-                smooth="true"
-                smoothCount="10"
-                smoothTolerance="0.01"
-                smoothThreshold="5"
-                raycaster="objects: .clickable"
-                emitevents="true"
-                cursor="fuse: false; rayOrigin: mouse;"
-                id="markerA"
-            >
-                <a-video
-                    src="#vid"
-                    scale="1 1 1"
-                    position="0 0.1 0"
-                    rotation="-90 0 0"
-                    class="clickable"
-                    gesture-handler
-                ></a-video>
+            id="animated-marker"
+            type="pattern"
+            preset="custom"
+            url="assets/pattern-game3.patt"
+            raycaster="objects: .clickable"
+            emitevents="true"
+            cursor="fuse: false; rayOrigin: mouse;"
+            id="markerA"
+        >
+            <a-image
+            src="assets/eyefilter.png"
+            scale="0.5 0.25 0.5"
+            class="clickable"
+            rotation="-90 0 0"
+            gesture-handler
+            ></a-image>   
             </a-marker>
 
             <a-entity camera></a-entity>
