@@ -44,6 +44,18 @@ var magichat_1 = document.querySelector(".magichat_1");
 var unknown = document.querySelector(".unknown_1");
 var cloth = document.querySelector(".cloth");
 var end = document.querySelector(".end");
+var x = document.getElementById("myAudio");
+var playState = 0;
+x.autoplay = true;
+
+function music(){
+    if(playState ===  0) {
+        x.autoplay = true;
+        x.load();
+        playState = 1;
+    }
+}
+document.addEventListener('click', music); 
 
 
 function clickBG22_1(){
