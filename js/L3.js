@@ -45,11 +45,7 @@ var magichat = document.querySelector(".magichat");
 var option20 = document.querySelector(".option20");
 
 var background_21 = document.querySelector(".background_image21");
-var start = document.querySelector(".start");
 var magichat_1 = document.querySelector(".magichat_1");
-var unknown = document.querySelector(".unknown_1");
-var cloth = document.querySelector(".cloth");
-var end = document.querySelector(".end");
 var x = document.getElementById("myAudio");
 var playState = 0;
 x.autoplay = true;
@@ -180,11 +176,7 @@ function clickBG32_1(){
     magichat.setAttribute('style','visibility:hidden');
 
     background_21.setAttribute('style','none');
-    start.setAttribute('style','none');
-    cloth.setAttribute('style','none');
-    unknown.setAttribute('style','none');
     magichat_1.setAttribute('style','none');
-    end.setAttribute('style','none');
 }
 
 function clickBG22_1_(){

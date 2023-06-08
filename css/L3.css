@@ -366,45 +366,15 @@ body {
     z-index: 2;
   }
   
-  .start {
+  
+  .magichat_1 {
     position: absolute;
-    width: 35%;
-    left: 13%;
+    width: 75%;
+    left: 3%;
     top: 15%;
     z-index: 2;
   }
   
-  .cloth {
-    position: absolute;
-    width: 35%;
-    right: 13%;
-    top: 30%;
-    z-index: 2;
-  }
   
-  .magichat_1 {
-    position: absolute;
-    width: 35%;
-    left: 13%;
-    top: 45%;
-    z-index: 2;
-  }
-  
-  .unknown_1{
-    position: absolute;
-    width: 100px;
-    height: 120px;
-    right: 13%;
-    top: 60%;
-    z-index: 2;
-  }
-  
-  .end {
-    position: absolute;
-    width: 35%;
-    left: 13%;
-    top: 75%;
-    z-index: 2;
-  }
   /*# sourceMappingURL=L4.css.map */
   
