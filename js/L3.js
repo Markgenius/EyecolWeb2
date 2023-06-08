@@ -1,12 +1,15 @@
 var background_12 = document.querySelector(".background_image12");
+var talk12 = document.querySelector('.talk12');
 var option1 = document.querySelector(".option1");
 var option2 = document.querySelector(".option2");
 
 var background_13 = document.querySelector(".background_image13");
+var talk13 = document.querySelector('.talk13');
 var option3 = document.querySelector(".option3");
 var option4 = document.querySelector(".option4");
 
 var background_14 = document.querySelector(".background_image14");
+var talk14 = document.querySelector('.talk14');
 var option5 = document.querySelector(".option5");
 var option6 = document.querySelector(".option6");
 
@@ -18,10 +21,12 @@ var option9 = document.querySelector(".option9");
 var option10 = document.querySelector(".option10");
 
 var background_17 = document.querySelector(".background_image17");
+var talk17 = document.querySelector('.talk17');
 var option11 = document.querySelector(".option11");
 var option12 = document.querySelector(".option12");
 
 var background_18 = document.querySelector(".background_image18");
+var talk18 = document.querySelector('.talk18');
 var option18_1 = document.querySelector(".option18_1");
 var option18_2 = document.querySelector(".option18_2");
 var option18_3 = document.querySelector(".option18_3");
@@ -31,6 +36,7 @@ var option18_6 = document.querySelector(".option18_6");
 var option18_7 = document.querySelector(".option18_7");
 
 var background_19 = document.querySelector(".background_image19");
+var talk19 = document.querySelector('.talk19');
 var option19_1 = document.querySelector(".option19_1");
 var option19_2 = document.querySelector(".option19_2");
 
@@ -60,26 +66,31 @@ document.addEventListener('click', music);
 
 function clickBG22_1(){
     background_12.setAttribute('style','visibility:hidden');
+    talk12.setAttribute('style','visibility:hidden');
     option1.setAttribute('style','visibility:hidden');
     option2.setAttribute('style','visibility:hidden');
 
     background_13.setAttribute('style','none');
+    talk13.setAttribute('style','none');
     option3.setAttribute('style','none');
     option4.setAttribute('style','none');
 }
 
 function clickBG23_1(){
     background_13.setAttribute('style','visibility:hidden');
+    talk13.setAttribute('style','visibility:hidden');
     option3.setAttribute('style','visibility:hidden');
     option4.setAttribute('style','visibility:hidden');
 
     background_14.setAttribute('style','none');
+    talk14.setAttribute('style','none');
     option5.setAttribute('style','none');
     option6.setAttribute('style','none');
 }
 
 function clickBG24_1(){
     background_14.setAttribute('style','visibility:hidden');
+    talk14.setAttribute('style','visibility:hidden');
     option5.setAttribute('style','visibility:hidden');
     option6.setAttribute('style','visibility:hidden');
 
@@ -113,16 +124,19 @@ function clickBG26_4(){
     option10.setAttribute('style','visibility:hidden');
 
     background_17.setAttribute('style','none');
+    talk17.setAttribute('style','none');
     option11.setAttribute('style','none');
     option12.setAttribute('style','none');
 }
 
 function clickBG28_1(){
     background_17.setAttribute('style','visibility:hidden');
+    talk17.setAttribute('style','visibility:hidden');
     option11.setAttribute('style','visibility:hidden');
     option12.setAttribute('style','visibility:hidden');
 
     background_18.setAttribute('style','none');
+    talk18.setAttribute('style','none');
     option18_1.setAttribute('style','none');
     option18_2.setAttribute('style','none');
     option18_3.setAttribute('style','none');
@@ -134,6 +148,7 @@ function clickBG28_1(){
 
 function clickBG29_7(){
     background_18.setAttribute('style','visibility:hidden');
+    talk18.setAttribute('style','visibility:hidden');
     option18_1.setAttribute('style','visibility:hidden');
     option18_2.setAttribute('style','visibility:hidden');
     option18_3.setAttribute('style','visibility:hidden');
@@ -143,12 +158,14 @@ function clickBG29_7(){
     option18_7.setAttribute('style','visibility:hidden');
 
     background_19.setAttribute('style','none');
+    talk19.setAttribute('style','none');
     option19_1.setAttribute('style','none');
     option19_2.setAttribute('style','none');
 }
 
 function clickBG30_1(){
     background_19.setAttribute('style','visibility:hidden');
+    talk19.setAttribute('style','visibility:hidden');
     option19_1.setAttribute('style','visibility:hidden');
     option19_2.setAttribute('style','visibility:hidden');
 

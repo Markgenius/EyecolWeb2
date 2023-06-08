@@ -83,6 +83,61 @@ body {
     left: 0px;
     z-index: 1;
   }
+  .talk12{
+    position: absolute;
+    max-width: 390px;
+    max-width: 844px;
+    width: 80%;
+    left: 10%;
+    top: 400px;
+    z-index: 2;
+  }
+  .talk13{
+    position: absolute;
+    max-width: 390px;
+    max-width: 844px;
+    width: 80%;
+    left: 10%;
+    top: 400px;
+    z-index: 2;
+  }
+  .talk14{
+    position: absolute;
+    max-width: 390px;
+    max-width: 844px;
+    width: 80%;
+    left: 10%;
+    top: 400px;
+    z-index: 2;
+  }
+  .talk17{
+    position: absolute;
+    max-width: 390px;
+    max-width: 844px;
+    width: 80%;
+    left: 10%;
+    top: 400px;
+    z-index: 2;
+  }
+  .talk18{
+    position: absolute;
+    max-width: 390px;
+    max-width: 844px;
+    width: 80%;
+    left: 10%;
+    top: 400px;
+    z-index: 2;
+  }
+  .talk19{
+    position: absolute;
+    max-width: 390px;
+    max-width: 844px;
+    width: 80%;
+    left: 10%;
+    top: 400px;
+    z-index: 2;
+  }
+  
   
   .option1 {
     position: absolute;
@@ -107,7 +162,7 @@ body {
     max-width: 250px;
     max-height: 756px;
     left: 19%;
-    top: 580px;
+    top: 600px;
     z-index: 2;
   }
   
@@ -116,7 +171,7 @@ body {
     max-width: 250px;
     max-height: 756px;
     left: 19%;
-    top: 650px;
+    top: 670px;
     z-index: 2;
   }
   
@@ -209,8 +264,8 @@ body {
     max-width: 250px;
     max-height: 756px;
     width: 34.3%;
-    left: 5.1%;
-    top: 500px;
+    left: 12.1%;
+    top: 530px;
     z-index: 2;
   }
   
@@ -219,8 +274,8 @@ body {
     max-width: 250px;
     max-height: 756px;
     width: 34.3%;
-    left: 5.1%;
-    top: 570px;
+    left: 12.1%;
+    top: 600px;
     z-index: 2;
   }
   
@@ -229,8 +284,8 @@ body {
     max-width: 250px;
     max-height: 756px;
     width: 34.3%;
-    left: 5.1%;
-    top: 640px;
+    left: 12.1%;
+    top: 670px;
     z-index: 2;
   }
   
@@ -239,8 +294,8 @@ body {
     max-width: 250px;
     max-height: 756px;
     width: 34.3%;
-    left: 56%;
-    top: 500px;
+    left: 49%;
+    top: 530px;
     z-index: 2;
   }
   
@@ -249,8 +304,8 @@ body {
     max-width: 250px;
     max-height: 756px;
     width: 34.3%;
-    left: 56%;
-    top: 570px;
+    left: 49%;
+    top: 600px;
     z-index: 2;
   }
   
@@ -259,8 +314,8 @@ body {
     max-width: 250px;
     max-height: 756px;
     width: 34.3%;
-    left: 56%;
-    top: 640px;
+    left: 49%;
+    top: 670px;
     z-index: 2;
   }
   
@@ -268,8 +323,8 @@ body {
     position: absolute;
     max-width: 250px;
     max-height: 756px;
-    left: 19%;
-    top: 720px;
+    left: 15%;
+    top: 750px;
     z-index: 2;
   }
   
