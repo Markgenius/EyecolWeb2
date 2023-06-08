@@ -63,7 +63,7 @@ function music(){
         playState = 1;
     }
 }
-// document.addEventListener('click', music); 
+document.addEventListener('click', music); 
 
 function clickBG22_1(){
     background_22.setAttribute('style','visibility:hidden');
