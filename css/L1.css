@@ -3,7 +3,6 @@ body {
   }
   .background_image1 {
     position: absolute;
-    max-width: 390px;
     max-height: 844px;
     width: 100%;
     left: 0%;
@@ -11,10 +10,10 @@ body {
   }
   .start{
     position: absolute;
-    width: 37.7%;
-    left: calc(50% - 37.7%/2);
-    top: calc(365/844*100%);
-    z-index:2;
+    width: 188px;
+    height: 61px;
+    left: 89px;
+    top: 306px;
   }
 
   .background_image2{
@@ -38,18 +37,19 @@ body {
   z-index:1;
 }
 .botton3_1{
-    position: absolute;
-    width: 64.6%;
-    left: calc(50% - 64.6%/2);
-    top: calc(578/844*100%);
-    z-index:2;
+  position: absolute;
+  width: 252px;
+  height: 61px;
+  left: 69px;
+  top: 578px;
+  z-index:2;
 }
 .botton3_2{
-    position: absolute;
-    width: 64.6%;
-    left: calc(50% - 64.6%/2);
-    top: calc(677/844*100%);
-    z-index: 2;
+  position: absolute;
+  width: 252px;
+  height: 61px;
+  left: 69px;
+  top: 677px;
 }
 .background_image4{
   position: absolute;
@@ -138,29 +138,29 @@ Emal.input{
 }
 .botton7_1{
     position: absolute;
-    width: calc(237.5/390*100%);
+    width: 237.5px;
     left: calc(50% - 237.5/780*100%);
     top: calc(292/844*100%);
     z-index:2;
 }
 .botton7_2{
     position: absolute;
-    width: calc(114/390*100%);
-    left: calc(50% - 114/390*100%);
-    top: calc(565/844*100%);
+    width: 114px;
+    left: 114px;
+    top: 565px;
     z-index: 2;
 }
 .botton7_3{
   position: absolute;
-  width: calc(114/390*100%);
+  width: 114px;
   left: calc(50% + 24/390*100%);
-  top: calc(565/844*100%);
+  top: 565px;
   z-index: 2;
 }
 .botton7_4{
   position: absolute;
   width: 64.6%;
   left: calc(50% - 64.6%/2);
-  top: calc(682/844*100%);
+  top: 682px;
   z-index: 2;
 }
