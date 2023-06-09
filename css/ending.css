@@ -1,0 +1,113 @@
+.body{
+    margin: 0px;
+}
+
+.background_image43{
+    position: absolute;
+    width: 100%;
+    left: 0px;
+
+}
+.background_image45{
+    position: absolute;
+    width: 100%;
+    left: 0px;
+
+}
+.background_image46{
+    position: absolute;
+    width: 100%;
+    left: 0px;
+
+}
+.background_image47{
+    position: absolute;
+    width: 100%;
+    left: 0px;
+}
+
+.option_43{
+    position: absolute;
+    width: 60%;
+    left: 19%;
+    top: 85%;
+    z-index: 1;
+}
+
+.talk45{
+    position: absolute;
+    max-width: 390px;
+    max-width: 844px;
+    width: 80%;
+    left: 10%;
+    top: 43%;
+    z-index: 2;
+  }
+
+.option45_1 {
+    position: absolute;
+    width: 60%;
+    left: 19%;
+    top: 70%;
+    z-index: 2;
+  }
+  
+.option45_2 {
+    position: absolute;
+    width: 60%;
+    left: 19%;
+    top: 78%;
+    z-index: 2;
+  }
+
+  .talk46{
+    position: absolute;
+    max-width: 390px;
+    max-width: 844px;
+    width: 80%;
+    left: 10%;
+    top: 43%;
+    z-index: 2;
+  }
+
+.option46_1 {
+    position: absolute;
+    width: 60%;
+    left: 19%;
+    top: 70%;
+    z-index: 2;
+  }
+  
+.option46_2 {
+    position: absolute;
+    width: 60%;
+    left: 19%;
+    top: 78%;
+    z-index: 2;
+  }
+
+  .talk47{
+    position: absolute;
+    max-width: 390px;
+    max-width: 844px;
+    width: 80%;
+    left: 10%;
+    top: 43%;
+    z-index: 2;
+  }
+
+.option47_1 {
+    position: absolute;
+    width: 60%;
+    left: 19%;
+    top: 70%;
+    z-index: 2;
+  }
+  
+.option47_2 {
+    position: absolute;
+    width: 60%;
+    left: 19%;
+    top: 78%;
+    z-index: 2;
+  }
