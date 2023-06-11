@@ -12,19 +12,19 @@ function music(){
 document.addEventListener('click', music); 
 
 $(".bt1").click(function(){
-    $('bg1').Attr('style','visibility:hidden');
-    $("bt1").Attr('style','visibility:hidden');
-    $("bg2").Attr('style','none');
-    $("bt2").Attr('style','none');
+    $(".bg1").Attr('style','visibility:hidden');
+    $(".bt1").Attr('style','visibility:hidden');
+    $(".bg2").Attr('style','none');
+    $(".bt2").Attr('style','none');
 });
-$("bt2").click(function(){
-    $("bg2").Attr('style','visibility:hidden');
-    $("bt2").Attr('style','visibility:hidden');
+$(".bt2").click(function(){
+    $(".bg2").Attr('style','visibility:hidden');
+    $(".bt2").Attr('style','visibility:hidden');
 
-    $("bg3").setAttribute('style','none');
-    $("dl3").setAttribute('style','none');
-    $("bt3_1").setAttribute('style','none');
-    $("bt3_2").setAttribute('style','none');
+    $(".bg3").setAttribute('style','none');
+    $(".dl3").setAttribute('style','none');
+    $(".bt3_1").setAttribute('style','none');
+    $(".bt3_2").setAttribute('style','none');
 });
 $(".bt3").click(function(){
     $("bg3").setAttribute('style','visibility:hidden');
