@@ -456,7 +456,7 @@ body {
   width: 50%;
   right: 13%;
   top: 40%;
-  animation: shake 1.5s;
+  animation: shinning 1.5s;
   animation-iteration-count: infinite;
   z-index: 2;
 }
@@ -494,6 +494,41 @@ body {
   }
   100% {
     transform: translate(1px, -2px) rotate(-1deg);
+  }
+}
+@keyframes shinning {
+  0% {
+    opacity: 0.1;
+  }
+  10% {
+    opacity: 0.2;
+  }
+  20% {
+    opacity: 0.4;
+  }
+  30% {
+    opacity: 0.6;
+  }
+  40% {
+    opacity: 0.8;
+  }
+  50% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 0.8;
+  }
+  70% {
+    opacity: 0.6;
+  }
+  80% {
+    opacity: 0.4;
+  }
+  90% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 0.1;
   }
 }
 
