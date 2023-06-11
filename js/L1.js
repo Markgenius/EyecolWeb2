@@ -12,14 +12,14 @@ function music(){
 document.addEventListener('click', music); 
 
 $(".bt1").click(function(){
-    $(".bg1").Attr('style','visibility:hidden');
-    $(".bt1").Attr('style','visibility:hidden');
-    $(".bg2").Attr('style','none');
-    $(".bt2").Attr('style','none');
+    $(".bg1").attr('style','visibility:hidden');
+    $(".bt1").attr('style','visibility:hidden');
+    $(".bg2").attr('style','none');
+    $(".bt2").attr('style','none');
 });
 $(".bt2").click(function(){
-    $(".bg2").Attr('style','visibility:hidden');
-    $(".bt2").Attr('style','visibility:hidden');
+    $(".bg2").attr('style','visibility:hidden');
+    $(".bt2").attr('style','visibility:hidden');
 
     $(".bg3").setAttribute('style','none');
     $(".dl3").setAttribute('style','none');
