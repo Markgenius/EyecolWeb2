@@ -105,9 +105,8 @@ body {
 
 .button22_2 {
   position: absolute;
-  max-width: 250px;
-  max-height: 756px;
-  left: 19%;
+  width: 64%;
+  left: 17%;
   top: 680px;
   z-index: 2;
 }
@@ -155,7 +154,7 @@ body {
   max-width: 250px;
   max-height: 756px;
   left: 19%;
-  top: 670px;
+  top: 640px;
   z-index: 2;
 }
 
@@ -164,7 +163,7 @@ body {
   max-width: 250px;
   max-height: 756px;
   left: 19%;
-  top: 750px;
+  top: 720px;
   z-index: 2;
 }
 
@@ -198,12 +197,12 @@ body {
 
 .button26_0 {
   position: absolute;
-  animation: shake 0.5s;
+  animation: shake 2s;
   animation-iteration-count: infinite;
   max-width: 250px;
   max-height: 756px;
   left: 19%;
-  top: 240px;
+  top: 260px;
   z-index: 2;
 }
 
@@ -272,7 +271,17 @@ body {
   max-width: 250px;
   max-height: 756px;
   left: 19%;
-  top: 640px;
+  top: 660px;
+  z-index: 2;
+}
+
+.button28_0 {
+  position: absolute;
+  max-width: 444px;
+  max-height: 1036px;
+  width: 90%;
+  left: 5%;
+  top: 370px;
   z-index: 2;
 }
 
@@ -294,7 +303,17 @@ body {
   z-index: 2;
 }
 
-.button29_1 {
+.button29_0 {
+  position: absolute;
+  max-width: 444px;
+  max-height: 1036px;
+  width: 90%;
+  left: 5%;
+  top: 370px;
+  z-index: 2;
+}
+
+.button29_1, .button29_1_ {
   position: absolute;
   max-width: 250px;
   max-height: 756px;
@@ -304,7 +323,7 @@ body {
   z-index: 2;
 }
 
-.button29_2 {
+.button29_2, .button29_2_ {
   position: absolute;
   max-width: 250px;
   max-height: 756px;
@@ -314,7 +333,7 @@ body {
   z-index: 2;
 }
 
-.button29_3 {
+.button29_3, .button29_3_ {
   position: absolute;
   max-width: 250px;
   max-height: 756px;
@@ -324,7 +343,7 @@ body {
   z-index: 2;
 }
 
-.button29_4 {
+.button29_4, .button29_4_ {
   position: absolute;
   max-width: 250px;
   max-height: 756px;
@@ -334,7 +353,7 @@ body {
   z-index: 2;
 }
 
-.button29_5 {
+.button29_5, .button29_5_ {
   position: absolute;
   max-width: 250px;
   max-height: 756px;
@@ -344,7 +363,7 @@ body {
   z-index: 2;
 }
 
-.button29_6 {
+.button29_6, .button29_6_ {
   position: absolute;
   max-width: 250px;
   max-height: 756px;
@@ -359,7 +378,17 @@ body {
   max-width: 250px;
   max-height: 756px;
   left: 19%;
-  top: 780px;
+  top: 790px;
+  z-index: 2;
+}
+
+.button30_0 {
+  position: absolute;
+  max-width: 444px;
+  max-height: 1036px;
+  width: 90%;
+  left: 5%;
+  top: 370px;
   z-index: 2;
 }
 
@@ -367,8 +396,10 @@ body {
   position: absolute;
   max-width: 250px;
   max-height: 756px;
-  left: 23%;
-  top: 550px;
+  border-radius: 25px;
+  height: 7%;
+  left: 27%;
+  top: 600px;
   z-index: 2;
 }
 
@@ -377,7 +408,17 @@ body {
   max-width: 250px;
   max-height: 756px;
   left: 19%;
-  top: 650px;
+  top: 750px;
+  z-index: 2;
+}
+
+.button31_0 {
+  position: absolute;
+  max-width: 444px;
+  max-height: 1036px;
+  width: 90%;
+  left: 5%;
+  top: 370px;
   z-index: 2;
 }
 
@@ -386,7 +427,7 @@ body {
   max-width: 250px;
   max-height: 756px;
   left: 19%;
-  top: 680px;
+  top: 630px;
   z-index: 2;
 }
 
@@ -395,7 +436,7 @@ body {
   max-width: 250px;
   max-height: 756px;
   left: 19%;
-  top: 760px;
+  top: 720px;
   z-index: 2;
 }
 
@@ -404,47 +445,30 @@ body {
   max-width: 250px;
   max-height: 756px;
   left: 19%;
-  top: 650px;
+  top: 700px;
+  z-index: 2;
+}
+
+.button33_0 {
+  position: absolute;
+  max-width: 352px;
+  max-height: 453px;
+  width: 50%;
+  right: 13%;
+  top: 40%;
   z-index: 2;
 }
 
 .button33_1 {
   position: absolute;
-  width: 35%;
-  left: 13%;
-  top: 15%;
-  z-index: 2;
-}
-
-.button33_2 {
-  position: absolute;
-  width: 35%;
-  right: 13%;
-  top: 30%;
-  z-index: 2;
-}
-
-.button33_3 {
-  position: absolute;
-  width: 35%;
-  left: 13%;
-  top: 45%;
-  z-index: 2;
-}
-
-.button33_4 {
-  position: absolute;
-  width: 35%;
-  right: 13%;
-  top: 60%;
-  z-index: 2;
-}
-
-.button33_5 {
-  position: absolute;
-  width: 35%;
-  left: 13%;
-  top: 75%;
+  max-width: 120px;
+  max-height: 120px;
+  opacity: 0.5;
+  width: 40%;
+  left: 30%;
+  top: 77%;
+  animation: shake 2s;
+  animation-iteration-count: infinite;
   z-index: 2;
 }
 
