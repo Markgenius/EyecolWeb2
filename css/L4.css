@@ -99,15 +99,15 @@ body {
   max-width: 250px;
   max-height: 756px;
   left: 19%;
-  top: 600px;
+  top: 580px;
   z-index: 2;
 }
 
 .button22_2 {
   position: absolute;
-  width: 64%;
   left: 17%;
-  top: 680px;
+  width: 68%;
+  top: 650px;
   z-index: 2;
 }
 
