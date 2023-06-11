@@ -24,7 +24,6 @@ var input_38 = document.querySelector(".input38");
 var buttonGroup38_2 = document.querySelector(".button38_2");
 
 var background_40 = document.querySelector(".background_image40");
-var talk40 = document.querySelector(".talk40");
 var buttonGroup40_1 = document.querySelector(".button40_1");
 var buttonGroup40_2 = document.querySelector(".button40_2");
 
@@ -92,7 +91,6 @@ function clickBG38_1(){
     buttonGroup38_2.setAttribute('style','visibility:hidden');
 
     background_40.setAttribute('style','none');
-    talk40.setAttribute('style','none');
     buttonGroup40_1.setAttribute('style','none');
     buttonGroup40_2.setAttribute('style','none');
 }
