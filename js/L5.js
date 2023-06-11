@@ -21,6 +21,7 @@ var buttonGroup37_2 = document.querySelector(".button37_2");
 var background_38 = document.querySelector(".background_image38");
 var buttonGroup38_1 = document.querySelector(".button38_1");
 var input_38 = document.querySelector(".input38");
+var input_38_value = document.querySelector(".input38").value;
 var buttonGroup38_2 = document.querySelector(".button38_2");
 
 var background_40 = document.querySelector(".background_image40");
@@ -84,15 +85,21 @@ function clickBG37_1(){
     input_38.setAttribute('style','none');
     buttonGroup38_2.setAttribute('style','none');
 }
-function clickBG38_1(){
-    background_38.setAttribute('style','visibility:hidden');
-    buttonGroup38_1.setAttribute('style','visibility:hidden');
-    input_38.setAttribute('style','visibility:hidden');
-    buttonGroup38_2.setAttribute('style','visibility:hidden');
+function clickBG38_2(){
+    input_38_value = document.querySelector(".input38").value;
+    if(input_38_value != 0){
+        background_38.setAttribute('style','visibility:hidden');
+        buttonGroup38_1.setAttribute('style','visibility:hidden');
+        input_38.setAttribute('style','visibility:hidden');
+        buttonGroup38_2.setAttribute('style','visibility:hidden');
 
-    background_40.setAttribute('style','none');
-    buttonGroup40_1.setAttribute('style','none');
-    buttonGroup40_2.setAttribute('style','none');
+        background_40.setAttribute('style','none');
+        buttonGroup40_1.setAttribute('style','none');
+        buttonGroup40_2.setAttribute('style','none');
+    }
+    else{
+        buttonGroup38_2.setAttribute('style','none');
+    }
 }
 
 
@@ -127,6 +134,10 @@ function clickBG38_2_(){
     buttonGroup38_2.setAttribute('style','opacity: 0.5');
 }
 
+function clickBG38_1(){
+    window.location = ('../html/ar_filter.html');
+}
+
 buttonGroup34_1.addEventListener('touchstart',clickBG34_1_);
 buttonGroup34_1.addEventListener('touchend',clickBG34_1);
 
@@ -155,7 +166,7 @@ buttonGroup38_1.addEventListener('touchstart',clickBG38_1_);
 buttonGroup38_1.addEventListener('touchend',clickBG38_1);
 
 buttonGroup38_2.addEventListener('touchstart',clickBG38_2_);
-buttonGroup38_2.addEventListener('touchend',clickBG38_1);
+buttonGroup38_2.addEventListener('touchend',clickBG38_2);
 
 // slider_1.oninput = function() {
 //     output1.innerHTML = this.value;
