@@ -2,15 +2,29 @@ body{
     margin: 0px;
 }
 
-#my_video{
-    position:absolute;
-    width: 1100px;
-    height: 2000px;
-    left: 0px;
-    
-}
+/* #my_video{
+    box-sizing: border-box;
+    height: 100%;
+    overflow: hidden;
+    width:  500px;;
+   
+} */
 #open_webcam{
     position: absolute;
     left: 19%;
     top: 85%;
 }
+
+
+/* @media screen and (max-width: 1200px){
+#my_video{
+    
+    max-width: 500px;
+      height: auto;
+
+}
+} */
+/* #cameraView {
+    width: 100%;
+    height: auto;
+  } */
