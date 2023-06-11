@@ -14,6 +14,14 @@ body {
   z-index: 1;
 }
 
+.talk34, .talk35, .talk36, .talk37, .talk38, .talk40 {
+  position: absolute;
+  width: 80%;
+  left: 10%;
+  top: 400px;
+  z-index: 2;
+}
+
 .button34_1, .button35_1, .button37_1, .button40_1 {
   position: absolute;
   max-width: 250px;

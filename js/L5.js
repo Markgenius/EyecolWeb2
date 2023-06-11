@@ -1,16 +1,20 @@
 var background_34 = document.querySelector(".background_image34");
+var talk34 = document.querySelector(".talk34");
 var buttonGroup34_1 = document.querySelector(".button34_1");
 var buttonGroup34_2 = document.querySelector(".button34_2");
 
 var background_35 = document.querySelector(".background_image35");
+var talk35 = document.querySelector(".talk35");
 var buttonGroup35_1 = document.querySelector(".button35_1");
 var buttonGroup35_2 = document.querySelector(".button35_2");
 
 var background_36 = document.querySelector(".background_image36");
+var talk36 = document.querySelector(".talk36");
 var buttonGroup36_1 = document.querySelector(".button36_1");
 var buttonGroup36_2 = document.querySelector(".button36_2");
 
 var background_37 = document.querySelector(".background_image37");
+var talk37 = document.querySelector(".talk37");
 var buttonGroup37_1 = document.querySelector(".button37_1");
 var buttonGroup37_2 = document.querySelector(".button37_2");
 
@@ -20,6 +24,7 @@ var input_38 = document.querySelector(".input38");
 var buttonGroup38_2 = document.querySelector(".button38_2");
 
 var background_40 = document.querySelector(".background_image40");
+var talk40 = document.querySelector(".talk40");
 var buttonGroup40_1 = document.querySelector(".button40_1");
 var buttonGroup40_2 = document.querySelector(".button40_2");
 
@@ -38,33 +43,40 @@ document.addEventListener('click', music);
 
 function clickBG34_1(){
     background_34.setAttribute('style','visibility:hidden');
+    talk34.setAttribute('style','visibility:hidden');
     buttonGroup34_1.setAttribute('style','visibility:hidden');
     buttonGroup34_2.setAttribute('style','visibility:hidden');
 
     background_35.setAttribute('style','none');
+    talk35.setAttribute('style','none');
     buttonGroup35_1.setAttribute('style','none');
     buttonGroup35_2.setAttribute('style','none');
 }
 function clickBG35_1(){
     background_35.setAttribute('style','visibility:hidden');
+    talk35.setAttribute('style','visibility:hidden');
     buttonGroup35_1.setAttribute('style','visibility:hidden');
     buttonGroup35_2.setAttribute('style','visibility:hidden');
 
     background_36.setAttribute('style','none');
+    talk36.setAttribute('style','none');
     buttonGroup36_1.setAttribute('style','none');
     buttonGroup36_2.setAttribute('style','none');
 }
 function clickBG36_1(){
     background_36.setAttribute('style','visibility:hidden');
+    talk36.setAttribute('style','visibility:hidden');
     buttonGroup36_1.setAttribute('style','visibility:hidden');
     buttonGroup36_2.setAttribute('style','visibility:hidden');
 
     background_37.setAttribute('style','none');
+    talk37.setAttribute('style','none');
     buttonGroup37_1.setAttribute('style','none');
     buttonGroup37_2.setAttribute('style','none');
 }
 function clickBG37_1(){
     background_37.setAttribute('style','visibility:hidden');
+    talk37.setAttribute('style','visibility:hidden');
     buttonGroup37_1.setAttribute('style','visibility:hidden');
     buttonGroup37_2.setAttribute('style','visibility:hidden');
 
@@ -80,6 +92,7 @@ function clickBG38_1(){
     buttonGroup38_2.setAttribute('style','visibility:hidden');
 
     background_40.setAttribute('style','none');
+    talk40.setAttribute('style','none');
     buttonGroup40_1.setAttribute('style','none');
     buttonGroup40_2.setAttribute('style','none');
 }
