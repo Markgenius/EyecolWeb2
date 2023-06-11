@@ -1,166 +1,164 @@
 body {
     margin: 0px;
   }
-  .background_image1 {
+  .bg1 {
     position: absolute;
     max-height: 844px;
     width: 100%;
     left: 0%;
     z-index: 1;
   }
-  .start{
+  .bt1{
     position: absolute;
     width: 188px;
     height: 61px;
     left: 89px;
     top: 306px;
+    z-index: 2;
   }
 
-  .background_image2{
+  .bg2{
     position: absolute;
+    max-height: 844px;
     width: 100%;
     left: 0%;
-    z-index:1;
+    z-index: 1;
   }
-.what_happened{
-    position: absolute;
-    width: 64.6%;
-    left: calc(50% - 64.6%/2);
-    top: calc(307/844*100%);
-    z-index:2;
-}
-
-.background_image3{
-  position: absolute;
-  width: 100%;
-  left: 0%;
-  z-index:1;
-}
-.botton3_1{
+.bt2{
   position: absolute;
   width: 252px;
   height: 61px;
-  left: 69px;
-  top: 578px;
+  left: 70px;
+  top: 301px;
   z-index:2;
 }
-.botton3_2{
+.dl3{
   position: absolute;
-  width: 252px;
-  height: 61px;
-  left: 69px;
-  top: 677px;
+  width: 338px;
+  height: 184px;
+  left: 26px;
+  top: 329px;
+  z-index:2;
 }
-.background_image4{
+.bg3{
   position: absolute;
+  max-height: 844px;
   width: 100%;
   left: 0%;
   z-index: 1;
 }
-Name.input{
+.bt3#a{
   position: absolute;
-  width: calc(253/390*100%);
-  height: calc(45/844*100%);
-  left: calc(69/390*100%);
-  top: calc(523/844%);
+  width: 252px;
+  height: 61px;
+  left: calc(50% - 252px/2);
+  top: 578px;
+  z-index:2;
 }
-Ages.input{
+.bt3#b{
   position: absolute;
-  width: calc(253/390*100%);
-  height: calc(45/844*100%);
-  left: calc(69/390*100%);
-  top: calc(587/844*100%);
+  width: 252px;
+  height: 61px;
+  left: calc(50% - 252px/2);
+  top: 677px;
+  z-index:2;
+}
+.bg6{
+  position: absolute;
+  max-height: 844px;
+  width: 100%;
+  left: 0%;
+  z-index: 1;
+}
+#Name.input4{
+  position: absolute;
+  width: 253px;
+  height: 45px;
+  left: 69px;
+  top: 523px;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 15px;
   z-index: 2;
 }
-Emal.input{
+#Ages.input4{
   position: absolute;
-  width: calc(253/390*100%);
-  height: calc(45/844*100%);
-  left: calc(69/390*100%);
-  top: calc(655/844*100%);
+  width: 253px;
+  height: 45px;
+  left: 69px;
+  top: 587px;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 15px;
   z-index: 2;
 }
-.botton4_2{
+#Emal.input4{
   position: absolute;
-  width: calc(252/390*100%);
-  left: calc(50% - 126/390*100%);
-  top: calc(731/844*100%);
+  width: 253px;
+  height: 45px;
+  left: 69px;
+  top: 655px;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 15px;
+  z-index: 2;
+}
+.dl4{
+  position: absolute;
+  width: 338px;
+  height: 184px;
+  left: 26px;
+  top: 329px;
+  z-index:2;
+}
+.bt4{
+  position: absolute;
+  width: 252px;
+  height: 61px;
+  left: 69px;
+  top: 731px;
   z-index: 2;
 }
 
-.background_image5{
+.dl5{
+  position: absolute;
+  width: 338px;
+  height: 184px;
+  left: 26px;
+  top: 329px;
+  z-index:2;
+}
+.bt5#a{
+  position: absolute;
+  width: 252px;
+height: 61px;
+left: 69px;
+top: 588px;
+  z-index:2;
+}
+.bt5#b{
+  position: absolute;
+  width: 252px;
+height: 61px;
+left: 69px;
+top: 692px;
+  z-index: 2;
+}
+
+.bg6{
   position: absolute;
   width: 100%;
   left: 0%;
   z-index:1;
 }
-.botton5_1{
+.bt6#a{
     position: absolute;
     width: 64.6%;
     left: calc(50% - 64.6%/2);
     top: calc(578/844*100%);
     z-index:2;
 }
-.botton5_2{
+.bt6#b{
     position: absolute;
     width: 64.6%;
     left: calc(50% - 64.6%/2);
     top: calc(677/844*100%);
     z-index: 2;
-}
-
-.background_image6{
-  position: absolute;
-  width: 100%;
-  left: 0%;
-  z-index:1;
-}
-.botton6_1{
-    position: absolute;
-    width: 64.6%;
-    left: calc(50% - 64.6%/2);
-    top: calc(578/844*100%);
-    z-index:2;
-}
-.botton6_2{
-    position: absolute;
-    width: 64.6%;
-    left: calc(50% - 64.6%/2);
-    top: calc(677/844*100%);
-    z-index: 2;
-}
-
-.background_image7{
-  position: absolute;
-  width: 100%;
-  left: 0%;
-  z-index:1;
-}
-.botton7_1{
-    position: absolute;
-    width: 237.5px;
-    left: calc(50% - 237.5/780*100%);
-    top: calc(292/844*100%);
-    z-index:2;
-}
-.botton7_2{
-    position: absolute;
-    width: 114px;
-    left: 114px;
-    top: 565px;
-    z-index: 2;
-}
-.botton7_3{
-  position: absolute;
-  width: 114px;
-  left: calc(50% + 24/390*100%);
-  top: 565px;
-  z-index: 2;
-}
-.botton7_4{
-  position: absolute;
-  width: 64.6%;
-  left: calc(50% - 64.6%/2);
-  top: 682px;
-  z-index: 2;
 }

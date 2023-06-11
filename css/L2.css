@@ -1,6 +1,53 @@
 body {
     margin: 0px;
   }
+
+.background_image7{
+  position: absolute;
+  width: 100%;
+  left: 0%;
+  z-index:1;
+}.button26_0 {
+  position: absolute;
+  animation: shake 2s;
+  animation-iteration-count: infinite;
+  max-width: 250px;
+  max-height: 756px;
+  left: 19%;
+  top: 260px;
+  z-index: 2;
+}
+
+.button26_1 {
+  position: absolute;
+  max-width: 250px;
+  max-height: 756px;
+  width: 28.5%;
+  left: 67.7%;
+  top: 510px;
+  z-index: 2;
+}
+
+.button26_2 {
+  position: absolute;
+  max-width: 250px;
+  max-height: 756px;
+  width: 29%;
+  left: 36%;
+  top: 510px;
+  z-index: 2;
+}
+
+.button26_3 {
+  position: absolute;
+  max-width: 250px;
+  max-height: 756px;
+  width: 28.5%;
+  left: 5.1%;
+  top: 510px;
+  z-index: 2;
+}
+
   .background_image1 {
     position: absolute;
     max-width: 390px;
