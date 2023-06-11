@@ -253,7 +253,7 @@ function clickBG32_1(){
 }
 
 function clickBG33_0(){
-    window.location = ('../html/L5.html');
+    window.location = ('../html/L5_1.html');
 }
 
 function clickBG22_1_(){

@@ -56,6 +56,8 @@ var playState = 0;
 x.autoplay = true;
 function music(){
     if(playState ===  0) {
+        x2.pause();
+        x3.pause();
         x.autoplay = true;
         x.load();
         playState = 1;
@@ -68,6 +70,7 @@ var playState2 = 0;
 function music2(){
     if(playState2 ===  0) {
         x.pause();
+        x3.pause();
         x2.autoplay = true;
         x2.load();
         playState2 = 1;
@@ -78,6 +81,7 @@ var x3 = document.getElementById("myAudio_laugh");
 var playState3 = 0;
 function music3(){
     if(playState3 ===  0) {
+        x.pause();
         x2.pause();
         x3.autoplay = true;
         x3.load();
