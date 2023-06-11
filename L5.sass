@@ -5,7 +5,7 @@ body
     position: absolute
     z-index: 0
 
-.background_image34, .background_image35, .background_image36, .background_image37, .background_image38, .background_image40
+.background_image34, .background_image35, .background_image36, .background_image37, .background_image38, .background_image40, .background_image41, .background_image42, , .background_image43, .background_image45, , .background_image46, .background_image47
     position: absolute
     // max-width: 390px
     // max-height: 844px
@@ -25,16 +25,22 @@ body
     left: 10%
     top: 350px
     z-index: 2
+.button45_0, .button46_0, .button47_0
+    position: absolute
+    width: 90%
+    left: 5%
+    top: 330px
+    z-index: 2
 
 
-.button34_1, .button35_1, .button37_1, .button40_1
+.button34_1, .button35_1, .button37_1, .button40_1, .button45_1, .button46_1, .button47_1
     position: absolute
     max-width: 250px
     max-height: 756px
     left: 19%
     top: 550px
     z-index: 2
-.button34_2, .button35_2, .button37_2, .button40_2
+.button34_2, .button35_2, .button37_2, .button40_2, .button41_1, .button45_2, .button46_2, .button47_2
     position: absolute
     max-width: 250px
     max-height: 756px
@@ -87,6 +93,17 @@ body
     top: 630px
     z-index: 2
 
+.button42_1
+    position: absolute
+    max-width: 352px
+    max-height: 453px
+    width: 78%
+    right: 16%
+    top: 550px
+    animation: shinning 1.5s
+    animation-iteration-count: infinite
+    z-index: 2
+
     
     
 
@@ -128,3 +145,28 @@ body
 
   100%
     transform: translate(1px, -2px) rotate(-1deg)
+
+
+@keyframes shinning
+    0%
+        opacity: 0.1
+    10%
+        opacity: 0.2
+    20%
+        opacity: 0.4
+    30%
+        opacity: 0.6
+    40%
+        opacity: 0.8
+    50%
+        opacity: 1
+    60%
+        opacity: 0.8
+    70%
+        opacity: 0.6
+    80%
+        opacity: 0.4
+    90%
+        opacity: 0.2
+    100%
+        opacity: 0.1

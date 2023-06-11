@@ -28,10 +28,32 @@ var background_40 = document.querySelector(".background_image40");
 var buttonGroup40_1 = document.querySelector(".button40_1");
 var buttonGroup40_2 = document.querySelector(".button40_2");
 
+var background_41 = document.querySelector(".background_image41");
+var buttonGroup41_1 = document.querySelector(".button41_1");
+
+var background_42 = document.querySelector(".background_image42");
+var buttonGroup42_1 = document.querySelector(".button42_1");
+
+var background_43 = document.querySelector(".background_image43");
+
+var background_45 = document.querySelector(".background_image45");
+var buttonGroup45_0 = document.querySelector(".button45_0");
+var buttonGroup45_1 = document.querySelector(".button45_1");
+var buttonGroup45_2 = document.querySelector(".button45_2");
+
+var background_46 = document.querySelector(".background_image46");
+var buttonGroup46_0 = document.querySelector(".button46_0");
+var buttonGroup46_1 = document.querySelector(".button46_1");
+var buttonGroup46_2 = document.querySelector(".button46_2");
+
+var background_47 = document.querySelector(".background_image47");
+var buttonGroup47_0 = document.querySelector(".button47_0");
+var buttonGroup47_1 = document.querySelector(".button47_1");
+var buttonGroup47_2 = document.querySelector(".button47_2");
+
 var x = document.getElementById("myAudio");
 var playState = 0;
 x.autoplay = true;
-
 function music(){
     if(playState ===  0) {
         x.autoplay = true;
@@ -40,6 +62,29 @@ function music(){
     }
 }
 document.addEventListener('click', music); 
+
+var x2 = document.getElementById("myAudio_no");
+var playState2 = 0;
+function music2(){
+    if(playState2 ===  0) {
+        x.pause();
+        x2.autoplay = true;
+        x2.load();
+        playState2 = 1;
+    }
+}
+
+var x3 = document.getElementById("myAudio_laugh");
+var playState3 = 0;
+function music3(){
+    if(playState3 ===  0) {
+        x2.pause();
+        x3.autoplay = true;
+        x3.load();
+        playState3 = 1;
+    }
+}
+
 
 function clickBG34_1(){
     background_34.setAttribute('style','visibility:hidden');
@@ -75,15 +120,20 @@ function clickBG36_1(){
     buttonGroup37_2.setAttribute('style','none');
 }
 function clickBG37_1(){
-    background_37.setAttribute('style','visibility:hidden');
-    talk37.setAttribute('style','visibility:hidden');
-    buttonGroup37_1.setAttribute('style','visibility:hidden');
-    buttonGroup37_2.setAttribute('style','visibility:hidden');
+    // background_37.setAttribute('style','visibility:hidden');
+    // talk37.setAttribute('style','visibility:hidden');
+    // buttonGroup37_1.setAttribute('style','visibility:hidden');
+    // buttonGroup37_2.setAttribute('style','visibility:hidden');
 
-    background_38.setAttribute('style','none');
-    buttonGroup38_1.setAttribute('style','none');
-    input_38.setAttribute('style','none');
-    buttonGroup38_2.setAttribute('style','none');
+    // background_38.setAttribute('style','none');
+    // buttonGroup38_1.setAttribute('style','none');
+    // input_38.setAttribute('style','none');
+    // buttonGroup38_2.setAttribute('style','none');
+    window.location = ('../html/L5_2.html');
+}
+
+function clickBG38_1(){
+    window.location = ('../html/ar_filter.html');
 }
 function clickBG38_2(){
     input_38_value = document.querySelector(".input38").value;
@@ -100,6 +150,68 @@ function clickBG38_2(){
     else{
         buttonGroup38_2.setAttribute('style','none');
     }
+}
+
+function clickBG40_1(){
+    background_40.setAttribute('style','visibility:hidden');
+    buttonGroup40_1.setAttribute('style','visibility:hidden');
+    buttonGroup40_2.setAttribute('style','visibility:hidden');
+
+    background_41.setAttribute('style','none');
+    buttonGroup41_1.setAttribute('style','none');
+}
+
+function clickBG41_1(){
+    background_41.setAttribute('style','visibility:hidden');
+    buttonGroup41_1.setAttribute('style','visibility:hidden');
+
+    background_42.setAttribute('style','none');
+    buttonGroup42_1.setAttribute('style','none');
+}
+
+function clickBG42_1(){
+    background_42.setAttribute('style','visibility:hidden');
+    buttonGroup42_1.setAttribute('style','visibility:hidden');
+
+    background_43.setAttribute('style','none');
+    setTimeout(function(){
+        clickBG43_1();
+        music2();
+    },8400); //8400
+}
+
+function clickBG43_1(){
+    background_43.setAttribute('style','visibility:hidden');
+
+    background_45.setAttribute('style','none');
+    buttonGroup45_0.setAttribute('style','none');
+    buttonGroup45_1.setAttribute('style','none');
+    buttonGroup45_2.setAttribute('style','none');
+}
+
+function clickBG45_1(){
+    background_45.setAttribute('style','visibility:hidden');
+    buttonGroup45_0.setAttribute('style','visibility:hidden');
+    buttonGroup45_1.setAttribute('style','visibility:hidden');
+    buttonGroup45_2.setAttribute('style','visibility:hidden');
+
+    background_46.setAttribute('style','none');
+    buttonGroup46_0.setAttribute('style','none');
+    buttonGroup46_1.setAttribute('style','none');
+    buttonGroup46_2.setAttribute('style','none');
+    music3();
+}
+
+function clickBG46_1(){
+    background_46.setAttribute('style','visibility:hidden');
+    buttonGroup46_0.setAttribute('style','visibility:hidden');
+    buttonGroup46_1.setAttribute('style','visibility:hidden');
+    buttonGroup46_2.setAttribute('style','visibility:hidden');
+
+    background_47.setAttribute('style','none');
+    buttonGroup47_0.setAttribute('style','none');
+    buttonGroup47_1.setAttribute('style','none');
+    buttonGroup47_2.setAttribute('style','none');
 }
 
 
@@ -133,10 +245,32 @@ function clickBG38_1_(){
 function clickBG38_2_(){
     buttonGroup38_2.setAttribute('style','opacity: 0.5');
 }
-
-function clickBG38_1(){
-    window.location = ('../html/ar_filter.html');
+function clickBG40_1_(){
+    buttonGroup40_1.setAttribute('style','opacity: 0.5');
 }
+function clickBG40_2_(){
+    buttonGroup40_2.setAttribute('style','opacity: 0.5');
+}
+function clickBG41_1_(){
+    buttonGroup41_1.setAttribute('style','opacity: 0.5');
+}
+function clickBG42_1_(){
+    buttonGroup42_1.setAttribute('style','opacity: 0.5');
+}
+function clickBG45_1_(){
+    buttonGroup45_1.setAttribute('style','opacity: 0.5');
+}
+function clickBG45_2_(){
+    buttonGroup45_2.setAttribute('style','opacity: 0.5');
+}
+function clickBG46_1_(){
+    buttonGroup46_1.setAttribute('style','opacity: 0.5');
+}
+function clickBG46_2_(){
+    buttonGroup46_2.setAttribute('style','opacity: 0.5');
+}
+
+
 
 buttonGroup34_1.addEventListener('touchstart',clickBG34_1_);
 buttonGroup34_1.addEventListener('touchend',clickBG34_1);
@@ -167,6 +301,31 @@ buttonGroup38_1.addEventListener('touchend',clickBG38_1);
 
 buttonGroup38_2.addEventListener('touchstart',clickBG38_2_);
 buttonGroup38_2.addEventListener('touchend',clickBG38_2);
+
+buttonGroup40_1.addEventListener('touchstart',clickBG40_1_);
+buttonGroup40_1.addEventListener('touchend',clickBG40_1);
+
+buttonGroup40_2.addEventListener('touchstart',clickBG40_2_);
+buttonGroup40_2.addEventListener('touchend',clickBG40_1);
+
+buttonGroup41_1.addEventListener('touchstart',clickBG41_1_);
+buttonGroup41_1.addEventListener('touchend',clickBG41_1);
+
+buttonGroup42_1.addEventListener('touchstart',clickBG42_1_);
+buttonGroup42_1.addEventListener('touchend',clickBG42_1);
+
+buttonGroup45_1.addEventListener('touchstart',clickBG45_1_);
+buttonGroup45_1.addEventListener('touchend',clickBG45_1);
+
+buttonGroup45_2.addEventListener('touchstart',clickBG45_2_);
+buttonGroup45_2.addEventListener('touchend',clickBG45_1);
+
+buttonGroup46_1.addEventListener('touchstart',clickBG46_1_);
+buttonGroup46_1.addEventListener('touchend',clickBG46_1);
+
+buttonGroup46_2.addEventListener('touchstart',clickBG46_2_);
+buttonGroup46_2.addEventListener('touchend',clickBG46_1);
+
 
 // slider_1.oninput = function() {
 //     output1.innerHTML = this.value;
