@@ -3,27 +3,45 @@
     <link rel="stylesheet" href="../css/camera.css" type="text/css"/>
 </head>
 <body>
-    <div class="camera">
-    <video id="my_video"   poster="https://alldata.sgp1.digitaloceanspaces.com/images%2Fwebcam_hint.png" playsinline autoplay muted></video>
-    </div>
-    <img id="open_webcam" src="../picture/page48/Group 186.png">
+  <!-- <div id="cameraView"></div> -->
+    <video id="my_video" autoplay >
+    </video>
+    
+   
+    
+    <img id="open_webcam" src="../picture/page45/Group 146.png">
 </body>
 <script>
-    const video_el = document.getElementById("my_video");
-    // const canvas_el = document.getElementById("my_canvas");
-    // var image1 = document.getElementById('teacher');
+    //  Webcam.set({
+    //   width: 320,
+    //   height: 240,
+    //   dest_width: 640,
+    //   dest_height: 480,
+    //   image_format: 'jpeg',
+    //   jpeg_quality: 90
+    // });
+    // Webcam.attach('#cameraView');
 
-    var stream_obj; // 預計用來存放 串流相關的物件(MediaStream)
+    const video_el = document.getElementById("my_video");
+      // const canvas_el = document.getElementById("my_canvas");
+      // var image1 = document.getElementById('teacher');
+      var constrain ={audio:false,
+                      video:{
+                        width: { ideal:  1080 },//this.height,
+                        height: { ideal:  1920 },
+                        facingMode:"user" //this.width    
+                         }}
+      var stream_obj; // 預計用來存放 串流相關的物件(MediaStream)
 
       
       
       
       // 開啟 webcam
-    const open_webcam_el = document.getElementById("open_webcam");
-    open_webcam_el.addEventListener("click", function(){
+      const open_webcam_el = document.getElementById("open_webcam");
+      open_webcam_el.addEventListener("click", function(){
         
         // 開啟視訊鏡頭，瀏覽器會跳詢問視窗
-        navigator.mediaDevices.getUserMedia({video: true}).then(function(stream){
+        navigator.mediaDevices.getUserMedia(constrain).then(function(stream){
           stream_obj = stream;         // 將串流物件放在 stream_obj 全域變數，方便後面關閉 webcam 時會用到
           video_el.srcObject = stream; // video 標籤顯示 webcam 畫面
         }).catch(function(error){      // 若無法取得畫面，執行 catch
@@ -31,5 +49,6 @@
         });
 
       });
+
 </script>
 </html>
