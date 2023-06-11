@@ -5,8 +5,8 @@ $(".myAudio").autoplay = true;
 
 function music(){
     if(playState ===  0) {
-        x.autoplay = true;
-        x.load();
+        $(".myAudio").autoplay = true;
+        $(".myAudio").load();
         playState = 1;
     }
 }
