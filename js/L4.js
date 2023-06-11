@@ -54,6 +54,8 @@ var clickBG29_state = 0;
 var background_30 = document.querySelector(".background_image30");
 var buttonGroup30_0 = document.querySelector(".button30_0");
 var input_30 = document.querySelector(".input30");
+var input_30_value = document.querySelector(".input30").value;
+var buttonGroup30_finger = document.querySelector(".button30_finger");
 var buttonGroup30_1 = document.querySelector(".button30_1");
 
 var background_31 = document.querySelector(".background_image31");
@@ -210,15 +212,23 @@ function clickBG29_7(){
 }
 
 function clickBG30_1(){
-    background_30.setAttribute('style','visibility:hidden');
-    buttonGroup30_0.setAttribute('style','visibility:hidden');
-    input_30.setAttribute('style','visibility:hidden');
-    buttonGroup30_1.setAttribute('style','visibility:hidden');
+    input_30_value = document.querySelector(".input30").value;
+    if(input_30_value != 0){
+        background_30.setAttribute('style','visibility:hidden');
+        buttonGroup30_0.setAttribute('style','visibility:hidden');
+        input_30.setAttribute('style','visibility:hidden');
+        buttonGroup30_1.setAttribute('style','visibility:hidden');
+        buttonGroup30_finger.setAttribute('style','visibility:hidden');
 
-    background_31.setAttribute('style','none');
-    buttonGroup31_0.setAttribute('style','none');
-    buttonGroup31_1.setAttribute('style','none');
-    buttonGroup31_2.setAttribute('style','none');
+        background_31.setAttribute('style','none');
+        buttonGroup31_0.setAttribute('style','none');
+        buttonGroup31_1.setAttribute('style','none');
+        buttonGroup31_2.setAttribute('style','none');
+    }
+    else{
+        buttonGroup30_finger.setAttribute('style','none');
+        buttonGroup30_1.setAttribute('style','none');
+    }
 }
 
 function clickBG31_1(){
