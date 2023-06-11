@@ -9,7 +9,7 @@
     </head>
 
     <body style="margin: 0; overflow: hidden;">
-        <button id="back2">返回作答</button>
+        <button id="back2" onclick="location.href='../html/L4_2.html'">返回作答</button>
         <a-scene
             vr-mode-ui="enabled: false;"
             loading-screen="enabled: false;"
@@ -40,10 +40,4 @@
             <a-entity camera></a-entity>
         </a-scene>
     </body>
-    <script>
-        var button = document.querySelector('#back2');
-        button.addEventListener('click',function(){
-            window.location=("../L4_2.html")
-        })
-    </script>
 </html>

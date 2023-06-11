@@ -14,10 +14,23 @@ body{
 }
 #open_webcam{
     position: absolute;
-    left: 19%;
-    top: 85%;
+    left: 45%;
+    top: 95%;
 }
-
+#black_rect{
+    position: absolute;
+    min-width: 1080px;
+    top: 95%;
+    left: 0%;
+    width: 110%;
+}
+#picture{
+    position: absolute;
+    left: 0%;
+    top:0%;
+    width: 1080px;
+    height: 2000px;
+}
 
 /* @media screen and (max-width: 1200px){
 #my_video{
