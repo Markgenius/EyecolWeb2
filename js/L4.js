@@ -132,7 +132,9 @@ function clickBG25_1(){
 
     window.location = ('../html/L4_2.html');
 }
-
+function click26_0(){
+    window.location = ('../html/ar_filter.html');
+}
 function clickBG26_4(){
     if(clickBG26_state === 2){
         background_26.setAttribute('style','visibility:hidden');
@@ -419,6 +421,7 @@ buttonGroup25_1.addEventListener('touchend',clickBG25_1);
 buttonGroup25_2.addEventListener('touchstart',clickBG25_2_);
 buttonGroup25_2.addEventListener('touchend',clickBG25_1);
 
+buttonGroup26_0.addEventListener('click', click26_0);
 buttonGroup26_1.addEventListener('touchstart',clickBG26_1);
 buttonGroup26_2.addEventListener('touchstart',clickBG26_2);
 buttonGroup26_3.addEventListener('touchstart',clickBG26_3);
