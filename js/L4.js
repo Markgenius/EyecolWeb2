@@ -118,17 +118,19 @@ function clickBG24_1(){
 }
 
 function clickBG25_1(){
-    background_25.setAttribute('style','visibility:hidden');
-    buttonGroup25_0.setAttribute('style','visibility:hidden');
-    buttonGroup25_1.setAttribute('style','visibility:hidden');
-    buttonGroup25_2.setAttribute('style','visibility:hidden');
+    // background_25.setAttribute('style','visibility:hidden');
+    // buttonGroup25_0.setAttribute('style','visibility:hidden');
+    // buttonGroup25_1.setAttribute('style','visibility:hidden');
+    // buttonGroup25_2.setAttribute('style','visibility:hidden');
 
-    background_26.setAttribute('style','none');
-    buttonGroup26_0.setAttribute('style','none');
-    buttonGroup26_1.setAttribute('style','none');
-    buttonGroup26_2.setAttribute('style','none');
-    buttonGroup26_3.setAttribute('style','none');
-    buttonGroup26_4.setAttribute('style','none');
+    // background_26.setAttribute('style','none');
+    // buttonGroup26_0.setAttribute('style','none');
+    // buttonGroup26_1.setAttribute('style','none');
+    // buttonGroup26_2.setAttribute('style','none');
+    // buttonGroup26_3.setAttribute('style','none');
+    // buttonGroup26_4.setAttribute('style','none');
+
+    window.location = ('../html/L4_2.html');
 }
 
 function clickBG26_4(){
