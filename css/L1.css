@@ -59,7 +59,7 @@ body {
   position: absolute;
   width: 252px;
   height: 61px;
-  left: 69px;
+  left: calc(50% - 252px/2);
   top: 677px;
   z-index:2;
 }
