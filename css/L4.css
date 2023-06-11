@@ -397,9 +397,12 @@ body {
   max-width: 250px;
   max-height: 756px;
   border-radius: 25px;
+  font-size: 22px;
+  text-align: center;
   height: 7%;
+  width: 40%;
   left: 27%;
-  top: 600px;
+  top: 580px;
   z-index: 2;
 }
 
@@ -407,10 +410,9 @@ body {
   position: absolute;
   max-width: 389px;
   max-height: 348px;
-  border-radius: 25px;
-  height: 10%;
+  height: 7%;
   left: 30%;
-  top: 650px;
+  top: 630px;
   animation: shake 1s;
   animation-iteration-count: infinite;
   z-index: 2;
