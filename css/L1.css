@@ -47,7 +47,7 @@ body {
   left: 0%;
   z-index: 1;
 }
-.bt3_1{
+.bt3#a{
   position: absolute;
   width: 252px;
   height: 61px;
@@ -55,7 +55,7 @@ body {
   top: 578px;
   z-index:2;
 }
-.bt3_2{
+.bt3#b{
   position: absolute;
   width: 252px;
   height: 61px;
@@ -69,7 +69,7 @@ body {
   left: 0%;
   z-index: 1;
 }
-Name.input{
+#Name.input4{
   position: absolute;
   width: 253px;
   height: 45px;
@@ -79,7 +79,7 @@ Name.input{
   border-radius: 15px;
   z-index: 2;
 }
-Ages.input{
+#Ages.input4{
   position: absolute;
   width: 253px;
   height: 45px;
@@ -89,7 +89,7 @@ Ages.input{
   border-radius: 15px;
   z-index: 2;
 }
-Emal.input{
+#Emal.input4{
   position: absolute;
   width: 253px;
   height: 45px;
@@ -107,7 +107,7 @@ Emal.input{
   top: 329px;
   z-index:2;
 }
-.bt4_1{
+.bt4{
   position: absolute;
   width: 252px;
   height: 61px;
@@ -124,7 +124,7 @@ Emal.input{
   top: 329px;
   z-index:2;
 }
-.bt5_1{
+.bt5#a{
   position: absolute;
   width: 338px;
   height: 184px;
@@ -132,7 +132,7 @@ Emal.input{
   top: 329px;
   z-index:2;
 }
-.bt5_2{
+.bt5#b{
   position: absolute;
   width: 338px;
   height: 184px;
@@ -147,14 +147,14 @@ Emal.input{
   left: 0%;
   z-index:1;
 }
-.bt6_1{
+.bt6#a{
     position: absolute;
     width: 64.6%;
     left: calc(50% - 64.6%/2);
     top: calc(578/844*100%);
     z-index:2;
 }
-.bt6_2{
+.bt6#b{
     position: absolute;
     width: 64.6%;
     left: calc(50% - 64.6%/2);
