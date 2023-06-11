@@ -1,12 +1,15 @@
 body{
     margin: 0px;
+    height: 2100px;
 }
 
 #my_video{
     box-sizing: border-box;
     height: 100%;
     overflow: hidden;
-    width:  auto;
+    /* width:  100%; */
+    /* object-fit: none;
+    overflow-clip-margin: 0; */
    
 }
 #open_webcam{
