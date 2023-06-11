@@ -66,7 +66,6 @@ var buttonGroup32_1 = document.querySelector(".button32_1");
 
 var background_33 = document.querySelector(".background_image33");
 var buttonGroup33_0 = document.querySelector(".button33_0");
-var buttonGroup33_1 = document.querySelector(".button33_1");
 
 
 var x = document.getElementById("myAudio");
@@ -119,17 +118,19 @@ function clickBG24_1(){
 }
 
 function clickBG25_1(){
-    background_25.setAttribute('style','visibility:hidden');
-    buttonGroup25_0.setAttribute('style','visibility:hidden');
-    buttonGroup25_1.setAttribute('style','visibility:hidden');
-    buttonGroup25_2.setAttribute('style','visibility:hidden');
+    // background_25.setAttribute('style','visibility:hidden');
+    // buttonGroup25_0.setAttribute('style','visibility:hidden');
+    // buttonGroup25_1.setAttribute('style','visibility:hidden');
+    // buttonGroup25_2.setAttribute('style','visibility:hidden');
 
-    background_26.setAttribute('style','none');
-    buttonGroup26_0.setAttribute('style','none');
-    buttonGroup26_1.setAttribute('style','none');
-    buttonGroup26_2.setAttribute('style','none');
-    buttonGroup26_3.setAttribute('style','none');
-    buttonGroup26_4.setAttribute('style','none');
+    // background_26.setAttribute('style','none');
+    // buttonGroup26_0.setAttribute('style','none');
+    // buttonGroup26_1.setAttribute('style','none');
+    // buttonGroup26_2.setAttribute('style','none');
+    // buttonGroup26_3.setAttribute('style','none');
+    // buttonGroup26_4.setAttribute('style','none');
+
+    window.location = ('../html/L4_2.html');
 }
 
 function clickBG26_4(){
@@ -236,10 +237,9 @@ function clickBG32_1(){
 
     background_33.setAttribute('style','none');
     buttonGroup33_0.setAttribute('style','none');
-    buttonGroup33_1.setAttribute('style','none');
 }
 
-function clickBG33_1(){
+function clickBG33_0(){
     window.location = ('../html/L5.html');
 }
 
@@ -461,5 +461,5 @@ buttonGroup31_2.addEventListener('touchend',clickBG31_1);
 buttonGroup32_1.addEventListener('touchstart',clickBG32_1_);
 buttonGroup32_1.addEventListener('touchend',clickBG32_1);
 
-buttonGroup33_1.addEventListener('touchend',clickBG33_1);
+buttonGroup33_0.addEventListener('touchend',clickBG33_0);
 
