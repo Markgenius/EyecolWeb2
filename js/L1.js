@@ -26,7 +26,6 @@ $(".bt2").click(function(){
     $(".bt3").attr('style','none');
 });
 $(".bt3").click(function(){
-    $(".bg3").attr('style','visibility:hidden');
     $(".dl3").attr('style','visibility:hidden');
     $(".bt3").attr('style','visibility:hidden');
 
@@ -43,6 +42,7 @@ $(".bt4").click(function(){
     $(".bt5").attr('style','none');
 });
 $(".bt5").click(function(){
+    $(".bg3").attr('style','visibility:hidden');
     $(".dl5").attr('style','visibility:hidden');
     $(".bt5").attr('style','visibility:hidden');
 
