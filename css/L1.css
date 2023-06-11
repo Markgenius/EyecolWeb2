@@ -1,14 +1,14 @@
 body {
     margin: 0px;
   }
-  .background_image1 {
+  .bg1 {
     position: absolute;
     max-height: 844px;
     width: 100%;
     left: 0%;
     z-index: 1;
   }
-  .start{
+  .bt1{
     position: absolute;
     width: 188px;
     height: 61px;
@@ -17,14 +17,14 @@ body {
     z-index: 2;
   }
 
-  .background_image2{
+  .bg2{
     position: absolute;
     max-height: 844px;
     width: 100%;
     left: 0%;
     z-index: 1;
   }
-.what_happened{
+.bt2{
   position: absolute;
   width: 252px;
   height: 61px;
@@ -32,15 +32,22 @@ body {
   top: 301px;
   z-index:2;
 }
-
-.background_image3{
+.dl3{
+  position: absolute;
+  width: 338px;
+  height: 184px;
+  left: 26px;
+  top: 329px;
+  z-index:1;
+}
+.bg3{
   position: absolute;
   max-height: 844px;
   width: 100%;
   left: 0%;
   z-index: 1;
 }
-.botton3_1{
+.bt3_1{
   position: absolute;
   width: 252px;
   height: 61px;
@@ -48,14 +55,14 @@ body {
   top: 578px;
   z-index:2;
 }
-.botton3_2{
+.bt3_2{
   position: absolute;
   width: 252px;
   height: 61px;
   left: 69px;
   top: 677px;
 }
-.background_image6{
+.bg6{
   position: absolute;
   max-height: 844px;
   width: 100%;
@@ -92,7 +99,15 @@ Emal.input{
   border-radius: 15px;
   z-index: 2;
 }
-.botton4_1{
+.dl4{
+  position: absolute;
+  width: 338px;
+  height: 184px;
+  left: 26px;
+  top: 329px;
+  z-index:1;
+}
+.bt4_1{
   position: absolute;
   width: 252px;
   height: 61px;
@@ -101,7 +116,7 @@ Emal.input{
   z-index: 2;
 }
 
-.dialogue5{
+.dl5{
   position: absolute;
   width: 338px;
   height: 184px;
@@ -109,7 +124,7 @@ Emal.input{
   top: 329px;
   z-index:1;
 }
-.botton5_1{
+.bt5_1{
   position: absolute;
   width: 338px;
   height: 184px;
@@ -117,7 +132,7 @@ Emal.input{
   top: 329px;
   z-index:2;
 }
-.botton5_2{
+.bt5_2{
   position: absolute;
   width: 338px;
   height: 184px;
@@ -126,20 +141,20 @@ Emal.input{
   z-index: 2;
 }
 
-.background_image6{
+.bg6{
   position: absolute;
   width: 100%;
   left: 0%;
   z-index:1;
 }
-.botton6_1{
+.bt6_1{
     position: absolute;
     width: 64.6%;
     left: calc(50% - 64.6%/2);
     top: calc(578/844*100%);
     z-index:2;
 }
-.botton6_2{
+.bt6_2{
     position: absolute;
     width: 64.6%;
     left: calc(50% - 64.6%/2);
