@@ -46,6 +46,6 @@ $(".bt5").click(function(){
     $(".dl5").attr('style','visibility:hidden');
     $(".bt5").attr('style','visibility:hidden');
 
-    $(".dg6").attr('style','none');
+    $(".bg6").attr('style','none');
     $(".bt6").attr('style','none');
 });
