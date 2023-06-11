@@ -12,6 +12,15 @@ body{
     overflow-clip-margin: 0; */
    
 }
+#sharebackground{
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    width: 1080px;
+    height: 2300px;
+    /* z-index: 2; */
+
+}
 #open_webcam{
     position: absolute;
     left: 45%;
