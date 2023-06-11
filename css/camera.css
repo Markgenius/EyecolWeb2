@@ -2,13 +2,13 @@ body{
     margin: 0px;
 }
 
-/* #my_video{
+#my_video{
     box-sizing: border-box;
     height: 100%;
     overflow: hidden;
-    width:  500px;;
+    width:  auto;
    
-} */
+}
 #open_webcam{
     position: absolute;
     left: 19%;
