@@ -61,6 +61,7 @@ body {
   height: 61px;
   left: 69px;
   top: 677px;
+  z-index:2;
 }
 .bg6{
   position: absolute;
