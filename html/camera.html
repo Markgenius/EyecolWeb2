@@ -4,12 +4,15 @@
 </head>
 <body>
   <!-- <div id="cameraView"></div> -->
+     
     <video id="my_video" autoplay >
     </video>
+    <canvas id="picture"></canvas>
     
-   
-    
-    <img id="open_webcam" src="../picture/page45/Group 146.png">
+    <img id="black_rect" src="../picture/page48/Rectangle 185.png">
+    <img id="open_webcam" src="../picture/page48/Group 186.png">
+    <img id="photo" src="../picture/page48/Mask group.png" >
+    <img id="sharebackground" src="../picture/page48/13 Pro - 31.png" style="visibility: hidden;">
 </body>
 <script>
     //  Webcam.set({
@@ -23,12 +26,16 @@
     // Webcam.attach('#cameraView');
 
     const video_el = document.getElementById("my_video");
+    var  canvas_el = document.getElementById("picture");
+    var photo = document.getElementById("photo");
+    var black = document.getElementById("black_rect");
+    var share = document.getElementById("sharebackground");
       // const canvas_el = document.getElementById("my_canvas");
       // var image1 = document.getElementById('teacher');
       var constrain ={audio:false,
                       video:{
-                        width: { ideal:  1080 },//this.height,
-                        height: { ideal:  1920 },
+                        width: { ideal:  390 },//this.height,
+                        height: { ideal:  844 },
                         facingMode:"user" //this.width    
                          }}
       var stream_obj; // 預計用來存放 串流相關的物件(MediaStream)
@@ -38,7 +45,7 @@
       
       // 開啟 webcam
       const open_webcam_el = document.getElementById("open_webcam");
-      open_webcam_el.addEventListener("click", function(){
+      
         
         // 開啟視訊鏡頭，瀏覽器會跳詢問視窗
         navigator.mediaDevices.getUserMedia(constrain).then(function(stream){
@@ -47,7 +54,24 @@
         }).catch(function(error){      // 若無法取得畫面，執行 catch
           console.log('navigator.MediaDevices.getUserMedia Error: ', error.message, error.name);
         });
+        
+      open_webcam_el.addEventListener("click", function(){
+        stream_obj.getTracks().forEach(function(track) {
+          track.stop();
+        });
 
+        stream_obj = undefined;    // 回到該變數原來預設(即 undefined)
+        // video_el.srcObject = null; // 將 video 標籤上的 srcObject 清空
+        canvas_el.width = video_el.videoWidth;
+        canvas_el.height = video_el.videoHeight;
+        canvas_el.getContext('2d').drawImage(video_el, 0, 0, canvas_el.width, canvas_el.height);
+        canvas_el.getContext('2d').drawImage(photo, 0, 0, canvas_el.width, canvas_el.height);
+        
+        black.setAttribute('style','visibility:hidden');
+        open_webcam_el.setAttribute('style','visibility:hidden');
+        photo.setAttribute('style','visibility:hidden');
+        // share.setAttribute('style','none');
+        
       });
 
 </script>
