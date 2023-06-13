@@ -137,7 +137,7 @@ function clickBG37_1(){
 }
 
 function clickBG38_1(){
-    window.location = ('../html/ar_filter.html');
+    window.location = ('../html/ar_password.html');
 }
 function clickBG38_2(){
     input_38_value = document.querySelector(".input38").value;
