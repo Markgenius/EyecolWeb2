@@ -1,25 +1,14 @@
-var background_12 = document.querySelector(".background_image12");
-var talk12 = document.querySelector('.talk12');
-var option1 = document.querySelector(".option1");
-var option2 = document.querySelector(".option2");
-
-var background_13 = document.querySelector(".background_image13");
-var talk13 = document.querySelector('.talk13');
-var option3 = document.querySelector(".option3");
-var option4 = document.querySelector(".option4");
-
-var background_14 = document.querySelector(".background_image14");
-var talk14 = document.querySelector('.talk14');
-var option5 = document.querySelector(".option5");
-var option6 = document.querySelector(".option6");
-
 var background_15 = document.querySelector(".background_image15");
 var glass = document.querySelector(".glass");
 var option7 = document.querySelector(".option7");
 var option8 = document.querySelector(".option8");
 var option9 = document.querySelector(".option9");
 var option10 = document.querySelector(".option10");
-
+var optiona1_t=document.getElementById("a1-t");
+var optiona2_t=document.getElementById("a2-t");
+var optiona3_t=document.getElementById("a3-t")
+var correct = 0;
+var select = 0;
 var background_17 = document.querySelector(".background_image17");
 var talk17 = document.querySelector('.talk17');
 var option11 = document.querySelector(".option11");
@@ -34,6 +23,12 @@ var option18_4 = document.querySelector(".option18_4");
 var option18_5 = document.querySelector(".option18_5");
 var option18_6 = document.querySelector(".option18_6");
 var option18_7 = document.querySelector(".option18_7");
+var optionb1_t = document.getElementById("b1-t");
+var optionb2_t = document.getElementById("b2-t");
+var optionb3_t = document.getElementById("b3-t");
+var optionb4_t = document.getElementById("b4-t");
+var optionb5_t = document.getElementById("b5-t");
+var optionb6_t = document.getElementById("b6-t");
 
 var background_19 = document.querySelector(".background_image19");
 var talk19 = document.querySelector('.talk19');
@@ -59,70 +54,137 @@ function music(){
 }
 document.addEventListener('click', music); 
 
-
-function clickBG22_1(){
-    background_12.setAttribute('style','visibility:hidden');
-    talk12.setAttribute('style','visibility:hidden');
-    option1.setAttribute('style','visibility:hidden');
-    option2.setAttribute('style','visibility:hidden');
-
-    background_13.setAttribute('style','none');
-    talk13.setAttribute('style','none');
-    option3.setAttribute('style','none');
-    option4.setAttribute('style','none');
-}
-
-function clickBG23_1(){
-    background_13.setAttribute('style','visibility:hidden');
-    talk13.setAttribute('style','visibility:hidden');
-    option3.setAttribute('style','visibility:hidden');
-    option4.setAttribute('style','visibility:hidden');
-
-    background_14.setAttribute('style','none');
-    talk14.setAttribute('style','none');
-    option5.setAttribute('style','none');
-    option6.setAttribute('style','none');
-}
-
-function clickBG24_1(){
-    background_14.setAttribute('style','visibility:hidden');
-    talk14.setAttribute('style','visibility:hidden');
-    option5.setAttribute('style','visibility:hidden');
-    option6.setAttribute('style','visibility:hidden');
-
-    background_15.setAttribute('style','none');
-    glass.setAttribute('style','none');
-    option7.setAttribute('style','none');
+function clickoption7(){
+    option7.setAttribute('style','visibility:hidden');
+    optiona2_t.setAttribute('style','visibility:hidden');
+    optiona3_t.setAttribute('style','visibility:hidden');
+    optiona1_t.setAttribute('style','none');
     option8.setAttribute('style','none');
     option9.setAttribute('style','none');
-    option10.setAttribute('style','none');
+    correct=0;
+}
+function clickoption8(){
+    option8.setAttribute('style','visibility:hidden');
+    optiona1_t.setAttribute('style','visibility:hidden');
+    optiona3_t.setAttribute('style','visibility:hidden');
+    optiona2_t.setAttribute('style','none');
+    option7.setAttribute('style','none');
+    option9.setAttribute('style','none');
+    correct=1;
+}
+function clickoption9(){
+    option9.setAttribute('style','visibility:hidden');
+    optiona1_t.setAttribute('style','visibility:hidden');
+    optiona2_t.setAttribute('style','visibility:hidden');
+    optiona3_t.setAttribute('style','none');
+    option7.setAttribute('style','none');
+    option8.setAttribute('style','none');
+    correct=0;
+}
+function clickoptiona1_t(){
+    optiona1_t.setAttribute('style','visibility:hidden');
+    option7.setAttribute('style','none');
+    correct=0;
+}
+function clickoptiona2_t(){
+    optiona2_t.setAttribute('style','visibility:hidden');
+    option8.setAttribute('style','none');
+    correct=0;
+}
+function clickoptiona3_t(){
+    optiona3_t.setAttribute('style','visibility:hidden');
+    option9.setAttribute('style','none');
+    correct=0;
 }
 
-// function clickBG25_1(){
-//     background_25.setAttribute('style','visibility:hidden');
-//     buttonGroup25_1.setAttribute('style','visibility:hidden');
-//     buttonGroup25_2.setAttribute('style','visibility:hidden');
+function clickoption18_1(){
+    option18_1.setAttribute('style','visibility:hidden');
+    optionb1_t.setAttribute('style','none');
+    select+=1;
+}
+function clickoption18_2(){
+    option18_2.setAttribute('style','visibility:hidden');
+    optionb2_t.setAttribute('style','none');
+    select+=1;
+}
+function clickoption18_3(){
+    option18_3.setAttribute('style','visibility:hidden');
+    optionb3_t.setAttribute('style','none');
+    select+=1;
+}
+function clickoption18_4(){
+    option18_4.setAttribute('style','visibility:hidden');
+    optionb4_t.setAttribute('style','none');
+    select+=1;
+}
+function clickoption18_5(){
+    option18_5.setAttribute('style','visibility:hidden');
+    optionb5_t.setAttribute('style','none');
+    select+=1;
+}
+function clickoption18_6(){
+    option18_6.setAttribute('style','visibility:hidden');
+    optionb6_t.setAttribute('style','none');
+    select+=1;
+}
+function clickoptionb1_t(){
+    optionb1_t.setAttribute('style','visibility:hidden');
+    option18_1.setAttribute('style','none');
+    select-=1;
+}
+function clickoptionb2_t(){
+    optionb2_t.setAttribute('style','visibility:hidden');
+    option18_2.setAttribute('style','none');
+    select-=1;
+}
+function clickoptionb3_t(){
+    optionb3_t.setAttribute('style','visibility:hidden');
+    option18_3.setAttribute('style','none');
+    select-=1;
+}
+function clickoptionb4_t(){
+    optionb4_t.setAttribute('style','visibility:hidden');
+    option18_4.setAttribute('style','none');
+    select-=1;
+}
+function clickoptionb5_t(){
+    optionb5_t.setAttribute('style','visibility:hidden');
+    option18_5.setAttribute('style','none');
+    select-=1;
+}
+function clickoptionb6_t(){
+    optionb6_t.setAttribute('style','visibility:hidden');
+    option18_6.setAttribute('style','none');
+    select-=1;
+}
 
-//     background_26.setAttribute('style','none');
-//     buttonGroup26_0.setAttribute('style','none');
-//     buttonGroup26_1.setAttribute('style','none');
-//     buttonGroup26_2.setAttribute('style','none');
-//     buttonGroup26_3.setAttribute('style','none');
-//     buttonGroup26_4.setAttribute('style','none');
-// }
+
 
 function clickBG26_4(){
+    if(correct==1){
     background_15.setAttribute('style','visibility:hidden');
     glass.setAttribute('style','visibility:hidden');
     option7.setAttribute('style','visibility:hidden');
     option8.setAttribute('style','visibility:hidden');
     option9.setAttribute('style','visibility:hidden');
     option10.setAttribute('style','visibility:hidden');
+    optiona2_t.setAttribute('style','visibility:hidden');
 
     background_17.setAttribute('style','none');
     talk17.setAttribute('style','none');
     option11.setAttribute('style','none');
     option12.setAttribute('style','none');
+    }
+    else{
+    optiona1_t.setAttribute('style','visibility:hidden');
+    optiona2_t.setAttribute('style','visibility:hidden');
+    optiona3_t.setAttribute('style','visibility:hidden');
+  
+    option7.setAttribute('style','none');
+    option8.setAttribute('style','none');
+    option9.setAttribute('style','none');
+    option10.setAttribute('style','none')
+    }
 }
 
 function clickBG28_1(){
@@ -143,6 +205,7 @@ function clickBG28_1(){
 }
 
 function clickBG29_7(){
+    if(select !=0){
     background_18.setAttribute('style','visibility:hidden');
     talk18.setAttribute('style','visibility:hidden');
     option18_1.setAttribute('style','visibility:hidden');
@@ -152,11 +215,22 @@ function clickBG29_7(){
     option18_5.setAttribute('style','visibility:hidden');
     option18_6.setAttribute('style','visibility:hidden');
     option18_7.setAttribute('style','visibility:hidden');
-
+    optionb1_t.setAttribute('style','visibility:hidden');
+    optionb2_t.setAttribute('style','visibility:hidden');
+    optionb3_t.setAttribute('style','visibility:hidden');
+    optionb4_t.setAttribute('style','visibility:hidden');
+    optionb5_t.setAttribute('style','visibility:hidden');
+    optionb6_t.setAttribute('style','visibility:hidden');
+    
     background_19.setAttribute('style','none');
     talk19.setAttribute('style','none');
     option19_1.setAttribute('style','none');
-    option19_2.setAttribute('style','none');
+    option19_2.setAttribute('style','none');}
+
+    else{
+        option18_7.setAttribute('style','none');
+    }
+
 }
 
 function clickBG30_1(){
@@ -179,30 +253,7 @@ function clickBG32_1(){
     magichat_1.setAttribute('style','none');
 }
 
-function clickBG22_1_(){
-    option1.setAttribute('style','opacity: 0.5');
-}
-function clickBG22_2_(){
-    option2.setAttribute('style','opacity: 0.5');
-}
-function clickBG23_1_(){
-   option3.setAttribute('style','opacity: 0.5');
-}
-function clickBG23_2_(){
-    option4.setAttribute('style','opacity: 0.5');
-}
-function clickBG24_1_(){
-    option5.setAttribute('style','opacity: 0.5');
-}
-function clickBG24_2_(){
-    option6.setAttribute('style','opacity: 0.5');
-}
-// function clickBG25_1_(){
-//     buttonGroup25_1.setAttribute('style','opacity: 0.5');
-// }
-// function clickBG25_2_(){
-//     buttonGroup25_2.setAttribute('style','opacity: 0.5');
-// }
+
 function clickBG26_4_(){
     option10.setAttribute('style','opacity: 0.5');
 }
@@ -229,29 +280,13 @@ function clickBG32_1_(){
 }
 
 
-option1.addEventListener('touchstart',clickBG22_1_);
-option1.addEventListener('touchend',clickBG22_1);
+option7.addEventListener('click',clickoption7);
+option8.addEventListener('click',clickoption8);
+option9.addEventListener('click',clickoption9);
+optiona1_t.addEventListener('click',clickoptiona1_t);
+optiona2_t.addEventListener('click',clickoptiona2_t);
+optiona3_t.addEventListener('click',clickoptiona3_t);
 
-option2.addEventListener('touchstart',clickBG22_2_);
-option2.addEventListener('touchend',clickBG22_1);
-
-option3.addEventListener('touchstart',clickBG23_1_);
-option3.addEventListener('touchend',clickBG23_1);
-
-option4.addEventListener('touchstart',clickBG23_2_);
-option4.addEventListener('touchend',clickBG23_1);
-
-option5.addEventListener('touchstart',clickBG24_1_);
-option5.addEventListener('touchend',clickBG24_1);
-
-option6.addEventListener('touchstart',clickBG24_2_);
-option6.addEventListener('touchend',clickBG24_1);
-
-// buttonGroup25_1.addEventListener('touchstart',clickBG25_1_);
-// buttonGroup25_1.addEventListener('touchend',clickBG25_1);
-
-// buttonGroup25_2.addEventListener('touchstart',clickBG25_2_);
-// buttonGroup25_2.addEventListener('touchend',clickBG25_1);
 
 option10.addEventListener('touchstart',clickBG26_4_);
 option10.addEventListener('touchend',clickBG26_4);
@@ -261,6 +296,22 @@ option11.addEventListener('touchend',clickBG28_1);
 
 option12.addEventListener('touchstart',clickBG28_2_);
 option12.addEventListener('touchend',clickBG28_1);
+
+option18_1.addEventListener('click',clickoption18_1);
+option18_2.addEventListener('click',clickoption18_2);
+option18_3.addEventListener('click',clickoption18_3);
+option18_4.addEventListener('click',clickoption18_4);
+option18_5.addEventListener('click',clickoption18_5);
+option18_6.addEventListener('click',clickoption18_6);
+optionb1_t.addEventListener('click', clickoptionb1_t);
+optionb2_t.addEventListener('click', clickoptionb2_t);
+optionb3_t.addEventListener('click', clickoptionb3_t);
+optionb4_t.addEventListener('click', clickoptionb4_t);
+optionb5_t.addEventListener('click', clickoptionb5_t);
+optionb6_t.addEventListener('click', clickoptionb6_t);
+
+
+
 
 option18_7.addEventListener('touchstart',clickBG29_7_);
 option18_7.addEventListener('touchend',clickBG29_7);
