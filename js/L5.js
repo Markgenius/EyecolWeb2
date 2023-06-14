@@ -58,6 +58,7 @@ function music(){
     if(playState ===  0) {
         x2.pause();
         x3.pause();
+        x4.pause();
         x.autoplay = true;
         x.load();
         playState = 1;
@@ -71,6 +72,7 @@ function music2(){
     if(playState2 ===  0) {
         x.pause();
         x3.pause();
+        x4.pause();
         x2.autoplay = true;
         x2.load();
         playState2 = 1;
@@ -83,9 +85,23 @@ function music3(){
     if(playState3 ===  0) {
         x.pause();
         x2.pause();
+        x4.pause();
         x3.autoplay = true;
         x3.load();
         playState3 = 1;
+    }
+}
+
+var x4 = document.getElementById("treasure");
+var playState4 = 0;
+function music4(){
+    if(playState4 ===  0) {
+        x.pause();
+        x2.pause();
+        x3.pause();
+        x4.autoplay = true;
+        x4.load();
+        playState4 = 1;
     }
 }
 
@@ -182,6 +198,7 @@ function clickBG42_1(){
         clickBG43_1();
         music2();
     },8400); //8400
+    music4();
 }
 
 function clickBG43_1(){

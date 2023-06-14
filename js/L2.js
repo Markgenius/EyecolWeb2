@@ -47,8 +47,8 @@ $("#b").click(function(){
     
 });
 $("#a-t").click(function(){
-    $("#a1-t").attr('style','visibility:hidden');
-    $("#a1").attr('style','none');
+    $("#a-t").attr('style','visibility:hidden');
+    $("#a").attr('style','none');
     correct=0; 
 });
 $("#b-t").click(function(){
