@@ -1,17 +1,17 @@
-var background_12 = document.querySelector(".background_image12");
-var talk12 = document.querySelector('.talk12');
-var option1 = document.querySelector(".option1");
-var option2 = document.querySelector(".option2");
+// var background_12 = document.querySelector(".background_image12");
+// var talk12 = document.querySelector('.talk12');
+// var option1 = document.querySelector(".option1");
+// var option2 = document.querySelector(".option2");
 
-var background_13 = document.querySelector(".background_image13");
-var talk13 = document.querySelector('.talk13');
-var option3 = document.querySelector(".option3");
-var option4 = document.querySelector(".option4");
+// var background_13 = document.querySelector(".background_image13");
+// var talk13 = document.querySelector('.talk13');
+// var option3 = document.querySelector(".option3");
+// var option4 = document.querySelector(".option4");
 
-var background_14 = document.querySelector(".background_image14");
-var talk14 = document.querySelector('.talk14');
-var option5 = document.querySelector(".option5");
-var option6 = document.querySelector(".option6");
+// var background_14 = document.querySelector(".background_image14");
+// var talk14 = document.querySelector('.talk14');
+// var option5 = document.querySelector(".option5");
+// var option6 = document.querySelector(".option6");
 
 var background_15 = document.querySelector(".background_image15");
 var glass = document.querySelector(".glass");
@@ -60,43 +60,43 @@ function music(){
 document.addEventListener('click', music); 
 
 
-function clickBG22_1(){
-    background_12.setAttribute('style','visibility:hidden');
-    talk12.setAttribute('style','visibility:hidden');
-    option1.setAttribute('style','visibility:hidden');
-    option2.setAttribute('style','visibility:hidden');
+// function clickBG22_1(){
+//     background_12.setAttribute('style','visibility:hidden');
+//     talk12.setAttribute('style','visibility:hidden');
+//     option1.setAttribute('style','visibility:hidden');
+//     option2.setAttribute('style','visibility:hidden');
 
-    background_13.setAttribute('style','none');
-    talk13.setAttribute('style','none');
-    option3.setAttribute('style','none');
-    option4.setAttribute('style','none');
-}
+//     background_13.setAttribute('style','none');
+//     talk13.setAttribute('style','none');
+//     option3.setAttribute('style','none');
+//     option4.setAttribute('style','none');
+// }
 
-function clickBG23_1(){
-    background_13.setAttribute('style','visibility:hidden');
-    talk13.setAttribute('style','visibility:hidden');
-    option3.setAttribute('style','visibility:hidden');
-    option4.setAttribute('style','visibility:hidden');
+// function clickBG23_1(){
+//     background_13.setAttribute('style','visibility:hidden');
+//     talk13.setAttribute('style','visibility:hidden');
+//     option3.setAttribute('style','visibility:hidden');
+//     option4.setAttribute('style','visibility:hidden');
 
-    background_14.setAttribute('style','none');
-    talk14.setAttribute('style','none');
-    option5.setAttribute('style','none');
-    option6.setAttribute('style','none');
-}
+//     background_14.setAttribute('style','none');
+//     talk14.setAttribute('style','none');
+//     option5.setAttribute('style','none');
+//     option6.setAttribute('style','none');
+// }
 
-function clickBG24_1(){
-    background_14.setAttribute('style','visibility:hidden');
-    talk14.setAttribute('style','visibility:hidden');
-    option5.setAttribute('style','visibility:hidden');
-    option6.setAttribute('style','visibility:hidden');
+// function clickBG24_1(){
+//     background_14.setAttribute('style','visibility:hidden');
+//     talk14.setAttribute('style','visibility:hidden');
+//     option5.setAttribute('style','visibility:hidden');
+//     option6.setAttribute('style','visibility:hidden');
 
-    background_15.setAttribute('style','none');
-    glass.setAttribute('style','none');
-    option7.setAttribute('style','none');
-    option8.setAttribute('style','none');
-    option9.setAttribute('style','none');
-    option10.setAttribute('style','none');
-}
+//     background_15.setAttribute('style','none');
+//     glass.setAttribute('style','none');
+//     option7.setAttribute('style','none');
+//     option8.setAttribute('style','none');
+//     option9.setAttribute('style','none');
+//     option10.setAttribute('style','none');
+// }
 
 // function clickBG25_1(){
 //     background_25.setAttribute('style','visibility:hidden');
@@ -179,24 +179,24 @@ function clickBG32_1(){
     magichat_1.setAttribute('style','none');
 }
 
-function clickBG22_1_(){
-    option1.setAttribute('style','opacity: 0.5');
-}
-function clickBG22_2_(){
-    option2.setAttribute('style','opacity: 0.5');
-}
-function clickBG23_1_(){
-   option3.setAttribute('style','opacity: 0.5');
-}
-function clickBG23_2_(){
-    option4.setAttribute('style','opacity: 0.5');
-}
-function clickBG24_1_(){
-    option5.setAttribute('style','opacity: 0.5');
-}
-function clickBG24_2_(){
-    option6.setAttribute('style','opacity: 0.5');
-}
+// function clickBG22_1_(){
+//     option1.setAttribute('style','opacity: 0.5');
+// }
+// function clickBG22_2_(){
+//     option2.setAttribute('style','opacity: 0.5');
+// }
+// function clickBG23_1_(){
+//    option3.setAttribute('style','opacity: 0.5');
+// }
+// function clickBG23_2_(){
+//     option4.setAttribute('style','opacity: 0.5');
+// }
+// function clickBG24_1_(){
+//     option5.setAttribute('style','opacity: 0.5');
+// }
+// function clickBG24_2_(){
+//     option6.setAttribute('style','opacity: 0.5');
+// }
 // function clickBG25_1_(){
 //     buttonGroup25_1.setAttribute('style','opacity: 0.5');
 // }
@@ -229,23 +229,23 @@ function clickBG32_1_(){
 }
 
 
-option1.addEventListener('touchstart',clickBG22_1_);
-option1.addEventListener('touchend',clickBG22_1);
+// option1.addEventListener('touchstart',clickBG22_1_);
+// option1.addEventListener('touchend',clickBG22_1);
 
-option2.addEventListener('touchstart',clickBG22_2_);
-option2.addEventListener('touchend',clickBG22_1);
+// option2.addEventListener('touchstart',clickBG22_2_);
+// option2.addEventListener('touchend',clickBG22_1);
 
-option3.addEventListener('touchstart',clickBG23_1_);
-option3.addEventListener('touchend',clickBG23_1);
+// option3.addEventListener('touchstart',clickBG23_1_);
+// option3.addEventListener('touchend',clickBG23_1);
 
-option4.addEventListener('touchstart',clickBG23_2_);
-option4.addEventListener('touchend',clickBG23_1);
+// option4.addEventListener('touchstart',clickBG23_2_);
+// option4.addEventListener('touchend',clickBG23_1);
 
-option5.addEventListener('touchstart',clickBG24_1_);
-option5.addEventListener('touchend',clickBG24_1);
+// option5.addEventListener('touchstart',clickBG24_1_);
+// option5.addEventListener('touchend',clickBG24_1);
 
-option6.addEventListener('touchstart',clickBG24_2_);
-option6.addEventListener('touchend',clickBG24_1);
+// option6.addEventListener('touchstart',clickBG24_2_);
+// option6.addEventListener('touchend',clickBG24_1);
 
 // buttonGroup25_1.addEventListener('touchstart',clickBG25_1_);
 // buttonGroup25_1.addEventListener('touchend',clickBG25_1);
