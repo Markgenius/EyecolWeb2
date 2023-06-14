@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 var correct = 0
 $(".op7").click(function(){
     window.location=('../html/ar_cloth.html')
@@ -12,22 +11,12 @@ function music(){
         x3.pause();
         x.autoplay = true;
         x.load();
-=======
-$(document).ready()
-
-var playState = 0;
-$(".myAudio").autoplay = true;
-
-function music(){
-    if(playState ===  0) {
-        $(".myAudio").autoplay = true;
->>>>>>> Stashed changes
         playState = 1;
     }
 }
 document.addEventListener('click', music); 
 
-<<<<<<< Updated upstream
+
 var x2 = document.getElementById("myAudio_no");
 var playState2 = 0;
 function music2(){
@@ -39,57 +28,46 @@ function music2(){
         playState2 = 1;
     }
 }
-$("#a1").click(function(){
-    $("#a1").attr('style','visibility:hidden');
-    $("#b1-t").attr('style','visibility:hidden');
+$("#a").click(function(){
+    $("#a").attr('style','visibility:hidden');
+    $("#b-t").attr('style','visibility:hidden');
 
-    $("#a1-t").attr('style','none');
+    $("#a-t").attr('style','none');
     $("#b1").attr('style','none');
     correct=0;
     
 });
-$("#b1").click(function(){
-    $("#b1").attr('style','visibility:hidden');
-    $("#a1-t").attr('style','visibility:hidden');
+$("#b").click(function(){
+    $("#b").attr('style','visibility:hidden');
+    $("#a-t").attr('style','visibility:hidden');
 
-    $("#b1-t").attr('style','none');
-    $("#a1").attr('style','none');
+    $("#b-t").attr('style','none');
+    $("#a").attr('style','none');
     correct=1;
     
 });
-$("#a1-t").click(function(){
+$("#a-t").click(function(){
     $("#a1-t").attr('style','visibility:hidden');
     $("#a1").attr('style','none');
     correct=0; 
 });
-$("#b1-t").click(function(){
-    $("#b1-t").attr('style','visibility:hidden');
-    $("#b1").attr('style','none');
+$("#b-t").click(function(){
+    $("#b-t").attr('style','visibility:hidden');
+    $("#b").attr('style','none');
     correct=0; 
 });
 
 
-$("#a").on('touchstart',function(){
-    $("#a").attr('style','opacity: 0.5');
-}); 
-$("#b").on('touchstart',function(){
-    $("#b").attr('style','opacity: 0.5');
-}); 
+// $("#a").on('touchstart',function(){
+//     $("#a").attr('style','opacity: 0.5');
+// }); 
+// $("#b").on('touchstart',function(){
+//     $("#b").attr('style','opacity: 0.5');
+// }); 
 $("#c").on('touchstart',function(){
     $("#c").attr('style','opacity: 0.5');
 }); 
-// $(".bt11").on('touchstart',function(){
-//     $(".bt11").attr('style','opacity: 0.5');
-// }); 
-// $(".bt12").on('touchstart',function(){
-//     $(".bt12").attr('style','opacity: 0.5');
-// }); 
-// $(".bt13").on('touchstart click',function(){
-//     $(".bt13").attr('style','opacity: 0.5');
-// }); 
-// $(".bt14").on('touchstart click',function(){
-//     $(".bt14").attr('style','opacity: 0.5');
-// }); 
+
 
 
 $("#c").on('touchend',function(){
@@ -102,10 +80,10 @@ $("#c").on('touchend',function(){
     $(".dl9").attr('style','none');
     $(".bt9").attr('style','none');}
     else{
-    $("#a1-t").attr('style','visibility:hidden');
-    $("#b1-t").attr('style','visibility:hidden');
-    $("#a1").attr('style','none');
-    $("#b1").attr('style','none');
+    $("#a-t").attr('style','visibility:hidden');
+    $("#b-t").attr('style','visibility:hidden');
+    $("#a").attr('style','none');
+    $("#b").attr('style','none');
     $("#c").attr('style','none');
 
     }
@@ -140,8 +118,7 @@ $(".bt11").on('touchend',function(){
     $(".bt12").attr('style','none');
     music2()
 });
-$(".bt12").on('touchend',function(){
-=======
+
 var answer7 = 0; 
 $(".bt7#a").click(function(){
     $(".bg7#a").attr('style','visibility:hidden');
@@ -188,27 +165,21 @@ $(".bt10").click(function(){
     $(".bt12").attr('style','none');
 });
 $(".bt12").click(function(){
->>>>>>> Stashed changes
     $(".dl12").attr('style','visibility:hidden');
     $(".bt12").attr('style','visibility:hidden');
 
     $(".dl13").attr('style','none');
     $(".bt13").attr('style','none');
 });
-<<<<<<< Updated upstream
-$(".bt13").on('touchend',function(){
-=======
+
 $(".bt13").click(function(){
->>>>>>> Stashed changes
     $(".dl13").attr('style','visibility:hidden');
     $(".bt13").attr('style','visibility:hidden');
 
     $(".dl14").attr('style','none');
     $(".bt14").attr('style','none');
-<<<<<<< Updated upstream
 });
+
 $(".bt14").on('touchend',function(){
     window.location=("../html/L3.html")
-=======
->>>>>>> Stashed changes
-});
+})

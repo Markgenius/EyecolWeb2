@@ -18,7 +18,7 @@ body {
   top: 292px;
   z-index: 2;
 }
-.bt7#a1{
+.bt7#a{
   position: absolute;
   width: 114px;
   height: 96px;
@@ -26,7 +26,7 @@ body {
   top: 565px;
   z-index: 2;
 }
-.bt7#a1-t{
+.bt7#a-t{
   position: absolute;
   width: 114px;
   height: 96px;
@@ -34,7 +34,7 @@ body {
   top: 565px;
   z-index: 2;
 }
-.bt7#b1{
+.bt7#b{
   position: absolute;
   width: 114px;
   height: 96px;
@@ -42,7 +42,7 @@ body {
   top: 565px;
   z-index: 2;
 }
-.bt7#b1-t{
+.bt7#b-t{
   position: absolute;
   width: 114px;
   height: 96px;
@@ -50,21 +50,12 @@ body {
   top: 565px;
   z-index: 2;
 }
-<<<<<<< Updated upstream
-.bt7#c{
-  position: absolute;
-  width: 200px;
-  height: 50px;
-  left: 100px;
-  top: 700px;
-=======
 .bt7#sub{
   position: absolute;
   width: 252px;
   height: 61px;
   left: calc(50% - 252px/2);
   top: 706px;
->>>>>>> Stashed changes
   z-index: 2;
 }
 
