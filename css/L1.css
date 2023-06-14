@@ -29,7 +29,7 @@ body {
   width: 252px;
   height: 61px;
   left: 70px;
-  top: 301px;
+  top: 350px;
   z-index:2;
 }
 .dl3{
@@ -148,14 +148,14 @@ top: 692px;
   left: 0%;
   z-index:1;
 }
-.bt6#a{
+.bt6#c{
     position: absolute;
     width: 64.6%;
     left: calc(50% - 64.6%/2);
     top: calc(578/844*100%);
     z-index:2;
 }
-.bt6#b{
+.bt6#d{
     position: absolute;
     width: 64.6%;
     left: calc(50% - 64.6%/2);
