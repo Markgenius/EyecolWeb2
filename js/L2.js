@@ -69,7 +69,7 @@ $("#c").on('touchend',function(){
     $("#b1-t").attr('style','visibility:hidden');
     $("#a1").attr('style','none');
     $("#b1").attr('style','none');
-    $("#c").attr('style','opacity:0');
+    $("#c").attr('style','none');
 
     }
 

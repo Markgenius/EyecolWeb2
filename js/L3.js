@@ -1,24 +1,13 @@
-// var background_12 = document.querySelector(".background_image12");
-// var talk12 = document.querySelector('.talk12');
-// var option1 = document.querySelector(".option1");
-// var option2 = document.querySelector(".option2");
-
-// var background_13 = document.querySelector(".background_image13");
-// var talk13 = document.querySelector('.talk13');
-// var option3 = document.querySelector(".option3");
-// var option4 = document.querySelector(".option4");
-
-// var background_14 = document.querySelector(".background_image14");
-// var talk14 = document.querySelector('.talk14');
-// var option5 = document.querySelector(".option5");
-// var option6 = document.querySelector(".option6");
-
 var background_15 = document.querySelector(".background_image15");
 var glass = document.querySelector(".glass");
 var option7 = document.querySelector(".option7");
 var option8 = document.querySelector(".option8");
 var option9 = document.querySelector(".option9");
 var option10 = document.querySelector(".option10");
+var optiona1_t=document.getElementById("a1-t");
+var optiona2_t=document.getElementById("a2-t");
+var optiona3_t=document.getElementById("a3-t")
+var correct = 0;
 
 var background_17 = document.querySelector(".background_image17");
 var talk17 = document.querySelector('.talk17');
@@ -59,70 +48,76 @@ function music(){
 }
 document.addEventListener('click', music); 
 
+function clickoption7(){
+    option7.setAttribute('style','visibility:hidden');
+    optiona2_t.setAttribute('style','visibility:hidden');
+    optiona3_t.setAttribute('style','visibility:hidden');
+    optiona1_t.setAttribute('style','none');
+    option8.setAttribute('style','none');
+    option9.setAttribute('style','none');
+    correct=0;
+}
+function clickoption8(){
+    option8.setAttribute('style','visibility:hidden');
+    optiona1_t.setAttribute('style','visibility:hidden');
+    optiona3_t.setAttribute('style','visibility:hidden');
+    optiona2_t.setAttribute('style','none');
+    option7.setAttribute('style','none');
+    option9.setAttribute('style','none');
+    correct=1;
+}
+function clickoption9(){
+    option9.setAttribute('style','visibility:hidden');
+    optiona1_t.setAttribute('style','visibility:hidden');
+    optiona2_t.setAttribute('style','visibility:hidden');
+    optiona3_t.setAttribute('style','none');
+    option7.setAttribute('style','none');
+    option8.setAttribute('style','none');
+    correct=0;
+}
+function clickoptiona1_t(){
+    optiona1_t.setAttribute('style','visibility:hidden');
+    option7.setAttribute('style','none');
+    correct=0;
+}
+function clickoptiona2_t(){
+    optiona2_t.setAttribute('style','visibility:hidden');
+    option8.setAttribute('style','none');
+    correct=0;
+}
+function clickoptiona3_t(){
+    optiona3_t.setAttribute('style','visibility:hidden');
+    option9.setAttribute('style','none');
+    correct=0;
+}
 
-// function clickBG22_1(){
-//     background_12.setAttribute('style','visibility:hidden');
-//     talk12.setAttribute('style','visibility:hidden');
-//     option1.setAttribute('style','visibility:hidden');
-//     option2.setAttribute('style','visibility:hidden');
 
-//     background_13.setAttribute('style','none');
-//     talk13.setAttribute('style','none');
-//     option3.setAttribute('style','none');
-//     option4.setAttribute('style','none');
-// }
-
-// function clickBG23_1(){
-//     background_13.setAttribute('style','visibility:hidden');
-//     talk13.setAttribute('style','visibility:hidden');
-//     option3.setAttribute('style','visibility:hidden');
-//     option4.setAttribute('style','visibility:hidden');
-
-//     background_14.setAttribute('style','none');
-//     talk14.setAttribute('style','none');
-//     option5.setAttribute('style','none');
-//     option6.setAttribute('style','none');
-// }
-
-// function clickBG24_1(){
-//     background_14.setAttribute('style','visibility:hidden');
-//     talk14.setAttribute('style','visibility:hidden');
-//     option5.setAttribute('style','visibility:hidden');
-//     option6.setAttribute('style','visibility:hidden');
-
-//     background_15.setAttribute('style','none');
-//     glass.setAttribute('style','none');
-//     option7.setAttribute('style','none');
-//     option8.setAttribute('style','none');
-//     option9.setAttribute('style','none');
-//     option10.setAttribute('style','none');
-// }
-
-// function clickBG25_1(){
-//     background_25.setAttribute('style','visibility:hidden');
-//     buttonGroup25_1.setAttribute('style','visibility:hidden');
-//     buttonGroup25_2.setAttribute('style','visibility:hidden');
-
-//     background_26.setAttribute('style','none');
-//     buttonGroup26_0.setAttribute('style','none');
-//     buttonGroup26_1.setAttribute('style','none');
-//     buttonGroup26_2.setAttribute('style','none');
-//     buttonGroup26_3.setAttribute('style','none');
-//     buttonGroup26_4.setAttribute('style','none');
-// }
 
 function clickBG26_4(){
+    if(correct==1){
     background_15.setAttribute('style','visibility:hidden');
     glass.setAttribute('style','visibility:hidden');
     option7.setAttribute('style','visibility:hidden');
     option8.setAttribute('style','visibility:hidden');
     option9.setAttribute('style','visibility:hidden');
     option10.setAttribute('style','visibility:hidden');
+    optiona2_t.setAttribute('style','visibility:hidden');
 
     background_17.setAttribute('style','none');
     talk17.setAttribute('style','none');
     option11.setAttribute('style','none');
     option12.setAttribute('style','none');
+    }
+    else{
+    optiona1_t.setAttribute('style','visibility:hidden');
+    optiona2_t.setAttribute('style','visibility:hidden');
+    optiona3_t.setAttribute('style','visibility:hidden');
+  
+    option7.setAttribute('style','none');
+    option8.setAttribute('style','none');
+    option9.setAttribute('style','none');
+    option10.setAttribute('style','none')
+    }
 }
 
 function clickBG28_1(){
@@ -252,6 +247,13 @@ function clickBG32_1_(){
 
 // buttonGroup25_2.addEventListener('touchstart',clickBG25_2_);
 // buttonGroup25_2.addEventListener('touchend',clickBG25_1);
+option7.addEventListener('click',clickoption7);
+option8.addEventListener('click',clickoption8);
+option9.addEventListener('click',clickoption9);
+optiona1_t.addEventListener('click',clickoptiona1_t);
+optiona2_t.addEventListener('click',clickoptiona2_t);
+optiona3_t.addEventListener('click',clickoptiona3_t);
+
 
 option10.addEventListener('touchstart',clickBG26_4_);
 option10.addEventListener('touchend',clickBG26_4);
