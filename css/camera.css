@@ -3,6 +3,7 @@ body{
     margin: 0px;
     width: 100%;
    height: 100%;
+   overflow: hidden;
 }
 
 #my_video{
@@ -25,13 +26,13 @@ body{
 }
 #open_webcam{
     position: absolute;
-    left: 45%;
-    top: 95%;
+    left: 48%;
+    
 }
 #black_rect{
     position: absolute;
     left: 0%;
-    width: 100%;
+    width: 1139px;
 }
 #picture{
     position: absolute;
