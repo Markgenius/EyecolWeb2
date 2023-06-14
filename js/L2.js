@@ -2,6 +2,31 @@ var correct = 0
 $(".op7").click(function(){
     window.location=('../html/ar_cloth.html')
 });
+var x = document.getElementById("myAudio");
+var playState = 0;
+x.autoplay = true;
+function music(){
+    if(playState ===  0) {
+        x2.pause();
+        x3.pause();
+        x.autoplay = true;
+        x.load();
+        playState = 1;
+    }
+}
+document.addEventListener('click', music); 
+
+var x2 = document.getElementById("myAudio_no");
+var playState2 = 0;
+function music2(){
+    if(playState2 ===  0) {
+        x.pause();
+        x3.pause();
+        x2.autoplay = true;
+        x2.load();
+        playState2 = 1;
+    }
+}
 $("#a1").click(function(){
     $("#a1").attr('style','visibility:hidden');
     $("#b1-t").attr('style','visibility:hidden');
@@ -32,27 +57,27 @@ $("#b1-t").click(function(){
 });
 
 
-$("#a").on('touchstart click',function(){
+$("#a").on('touchstart',function(){
     $("#a").attr('style','opacity: 0.5');
 }); 
-$("#b").on('touchstart click',function(){
+$("#b").on('touchstart',function(){
     $("#b").attr('style','opacity: 0.5');
 }); 
-$("#c").on('touchstart click',function(){
+$("#c").on('touchstart',function(){
     $("#c").attr('style','opacity: 0.5');
 }); 
-$(".bt11").on('touchstart click',function(){
-    $(".bt11").attr('style','opacity: 0.5');
-}); 
-$(".bt12").on('touchstart click',function(){
-    $(".bt12").attr('style','opacity: 0.5');
-}); 
-$(".bt13").on('touchstart click',function(){
-    $(".bt13").attr('style','opacity: 0.5');
-}); 
-$(".bt14").on('touchstart click',function(){
-    $(".bt14").attr('style','opacity: 0.5');
-}); 
+// $(".bt11").on('touchstart',function(){
+//     $(".bt11").attr('style','opacity: 0.5');
+// }); 
+// $(".bt12").on('touchstart',function(){
+//     $(".bt12").attr('style','opacity: 0.5');
+// }); 
+// $(".bt13").on('touchstart click',function(){
+//     $(".bt13").attr('style','opacity: 0.5');
+// }); 
+// $(".bt14").on('touchstart click',function(){
+//     $(".bt14").attr('style','opacity: 0.5');
+// }); 
 
 
 $("#c").on('touchend',function(){
@@ -101,6 +126,7 @@ $(".bt11").on('touchend',function(){
     $(".bg12").attr('style','none');
     $(".dl12").attr('style','none');
     $(".bt12").attr('style','none');
+    music2()
 });
 $(".bt12").on('touchend',function(){
     $(".dl12").attr('style','visibility:hidden');
