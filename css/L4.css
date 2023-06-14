@@ -105,10 +105,9 @@ body {
 
 .button22_2 {
   position: absolute;
-  max-width: 250px;
+  max-width: 260px;
   max-height: 816px;
-  left: 17%;
-  width: 68%;
+  left: 19%;
   top: 650px;
   z-index: 2;
 }
