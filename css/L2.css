@@ -50,12 +50,21 @@ body {
   top: 565px;
   z-index: 2;
 }
+<<<<<<< Updated upstream
 .bt7#c{
   position: absolute;
   width: 200px;
   height: 50px;
   left: 100px;
   top: 700px;
+=======
+.bt7#sub{
+  position: absolute;
+  width: 252px;
+  height: 61px;
+  left: calc(50% - 252px/2);
+  top: 706px;
+>>>>>>> Stashed changes
   z-index: 2;
 }
 
