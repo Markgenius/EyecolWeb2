@@ -12,11 +12,9 @@
     <canvas id="picture"></canvas>
     <img id="black_rect" src="../picture/page48/Rectangle 185.png">
     <img id="open_webcam" src="../picture/page48/Group 186.png">
-    <!-- <img id="photo" src="../picture/page48/Mask group.png" > -->
     <img id="sharebackground" src="../picture/page48/13 Pro - 31.png" style="visibility: hidden;">
-    <button id="again" style="visibility: hidden;">再拍一次</button>
-    <button id="sharefb" style="visibility: hidden;">FB分享</button>
-    <img id="end" src="../picture/page48/Group 368.png" style="visibility: hidden;">
+    <img id="back" style="visibility: hidden;" src="../picture/update06_09/page49/again@3x.png">
+    <img id="end" src="../picture/update06_09/page49/下一頁.png" style="visibility: hidden;">
     <img id="download" src="../picture/page48/Group 369.png" style="visibility: hidden;">
 
     <img id="endbg" src="../picture/update06_09/page50/13 Pro - 116.png" style="visibility: hidden;">
@@ -39,12 +37,11 @@
     var photo = document.getElementById("photo");
     var black = document.getElementById("black_rect");
     var share = document.getElementById("sharebackground");
-    var again = document.getElementById("again");
-    var sharefb = document.getElementById('sharefb');
     var end = document.getElementById('end');
     var download = document.getElementById('download');
     var endbg = document.getElementById('endbg');
     var renew = document.getElementById('return');
+    var back = document.getElementById('back');
     var image = new Image();
     image.src = '../picture/page48/Mask group.png';
    
@@ -97,18 +94,28 @@
         canvas_el.getContext('2d').drawImage(video_el, 0, 0, canvas_el.width, canvas_el.height);
         canvas_el.getContext('2d').drawImage(image, 0, 0, canvas_el.width, canvas_el.height);
         open_webcam_el.setAttribute('style','visibility:hidden');
-        // photo.setAttribute('style','visibility:hidden');
-        again.setAttribute('style','none');
-        sharefb.setAttribute('style','none'); 
+       
+        video_el.setAttribute('style','visibility:hidden')
+        share.setAttribute('style','none');
+        end.setAttribute('style','none');
+        download.setAttribute('style','none');
+        canvas_el.setAttribute('style','width:92%;height:82%; z-index:2;left:13%; top:5.5%;border-radius:100px');
+        back.setAttribute('style','none');
+
         });
         
         
-        again.addEventListener('click',function(){
-          var  canvas_el = document.getElementById("picture");
-          again.setAttribute('style','visibility:hidden');
+        back.addEventListener('click',function(){
+          back.setAttribute('style','visibility:hidden');
+          share.setAttribute('style','visibility:hidden');
+          end.setAttribute('style','visibility:hidden');
+          download.setAttribute('style','visibility:hidden');
+          video_el.setAttribute('style','none');
+          canvas_el.setAttribute('style','none');
+          
           black.setAttribute('style','none');
           open_webcam_el.setAttribute('style','none');
-          sharefb.setAttribute('style','visibility:hidden;')
+         
           context = canvas_el.getContext('2d');
           context.clearRect(0, 0, canvas_el.width, canvas_el.height);
           if(snap==1){
@@ -123,19 +130,7 @@
          }
            })
         
-        sharefb.addEventListener('click',function(){
-          sharefb.setAttribute('style','visibility:hidden;')
-          again.setAttribute('style','visibility:hidden')
-          video_el.setAttribute('style','visibility:hidden')
-          share.setAttribute('style','none');
-          end.setAttribute('style','none');
-          download.setAttribute('style','none');
-          canvas_el.setAttribute('style','width:92%;height:82%; z-index:2;left:13%; top:5.5%;border-radius:100px');
-
-          // canvas_el.setAttribute('style','height:50%');
-
-
-        });
+        
 
         download.addEventListener('click',function(){
           var imageDataURL = canvas_el.toDataURL('image/png');
@@ -150,6 +145,7 @@
           canvas_el.setAttribute('style','visibility:hidden;')
           end.setAttribute('style','visibility:hidden;')
           download.setAttribute('style','visibility:hidden;')
+          back.setAttribute('style','visibility:hidden;')
 
           endbg.setAttribute('style','none')
           renew.setAttribute('style','none')
