@@ -44,8 +44,6 @@ var background_21 = document.querySelector(".background_image21");
 var magichat_1 = document.querySelector(".magichat_1");
 var x = document.getElementById("myAudio");
 var playState = 0;
-x.autoplay = true;
-
 function music(){
     if(playState ===  0) {
         x.autoplay = true;
