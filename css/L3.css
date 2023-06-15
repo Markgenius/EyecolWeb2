@@ -382,8 +382,8 @@ body {
   .magichat_1 {
     position: absolute;
     width: 75%;
-    left: 3%;
-    top: 15%;
+    left: 4px;
+    top: 16%;
     z-index: 2;
     animation: shinning 1.5s;
     animation-iteration-count: infinite;

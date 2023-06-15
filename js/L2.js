@@ -112,3 +112,37 @@ $(".bt13").click(function(){
 $(".bt14").on('touchend',function(){
     window.location=("../html/L3.html")
 })
+
+// $(".bt7").on('touchstart',function(){
+//     $(".bt7").attr('style','opacity: 0.5');
+// }); 
+$("#a").on('touchstart',function(){
+    $("#a").attr('style','opacity: 0.5');
+}); 
+$("#b").on('touchstart',function(){
+    $("#b").attr('style','opacity: 0.5');
+}); 
+$("#a2").on('touchstart',function(){
+    $("#a2").attr('style','opacity: 0.5');
+}); 
+$("#a3").on('touchstart',function(){
+    $("#a3").attr('style','opacity: 0.5');
+}); 
+$("#b2").on('touchstart',function(){
+    $("#b2").attr('style','opacity: 0.5');
+}); 
+$("#b3").on('touchstart',function(){
+    $("#b3").attr('style','opacity: 0.5');
+}); 
+$("#a4").on('touchstart',function(){
+    $("#a4").attr('style','opacity: 0.5');
+}); 
+$("#b4").on('touchstart',function(){
+    $("#b4").attr('style','opacity: 0.5');
+}); 
+$(".bt10").on('touchstart',function(){
+    $(".bt10").attr('style','opacity: 0.5');
+}); 
+$("#sub").on('touchstart',function(){
+    $("#sub").attr('style','opacity: 0.5');
+}); 

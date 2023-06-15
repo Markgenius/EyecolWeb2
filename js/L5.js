@@ -158,7 +158,7 @@ function clickBG38_2(){
     input_38_value = document.querySelector(".input38").value;
     if(input_38_value == 5964){
         background_38.setAttribute('style','visibility:hidden');
-        buttonGroup38_1.setAttribute('style','visibility:hidden');
+        $(".button38_1").attr('style','visibility:hidden');
         input_38.setAttribute('style','visibility:hidden');
         buttonGroup38_2.setAttribute('style','visibility:hidden');
 
@@ -233,6 +233,9 @@ function clickBG46_1(){
     buttonGroup47_0.setAttribute('style','none');
     buttonGroup47_1.setAttribute('style','none');
     buttonGroup47_2.setAttribute('style','none');
+}
+function clickBG47(){
+    window.location=('../html/camera.html');
 }
 
 
@@ -347,6 +350,7 @@ buttonGroup46_1.addEventListener('touchend',clickBG46_1);
 buttonGroup46_2.addEventListener('touchstart',clickBG46_2_);
 buttonGroup46_2.addEventListener('touchend',clickBG46_1);
 
+buttonGroup47_1.addEventListener('click', clickBG47);
 
 // slider_1.oninput = function() {
 //     output1.innerHTML = this.value;

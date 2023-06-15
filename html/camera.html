@@ -4,38 +4,62 @@
 </head>
 <body>
   <!-- <div id="cameraView"></div> -->
-     
-    <video id="my_video" autoplay >
+    <audio id="myAudio_laugh" controls="" hidden="hidden" loop="loop">
+    <source src="../bgm/ending_bro_laughing.mp3" type="audio/mpeg"/>
+    </audio>
+    <video id="my_video" autoplay playsinline >
     </video>
     <canvas id="picture"></canvas>
-    
     <img id="black_rect" src="../picture/page48/Rectangle 185.png">
     <img id="open_webcam" src="../picture/page48/Group 186.png">
-    <img id="photo" src="../picture/page48/Mask group.png" >
     <img id="sharebackground" src="../picture/page48/13 Pro - 31.png" style="visibility: hidden;">
+    <img id="back" style="visibility: hidden;" src="../picture/update06_09/page49/again@3x.png">
+    <img id="end" src="../picture/update06_09/page49/下一頁.png" style="visibility: hidden;">
+    <img id="download" src="../picture/page48/Group 369.png" style="visibility: hidden;">
+
+    <img id="endbg" src="../picture/update06_09/page50/13 Pro - 116.png" style="visibility: hidden;">
+    <img id="return" src="../picture/update06_09/page50/Group 371.png" style="visibility: hidden;" onclick="location.href='../html/L1.html'">
+
 </body>
 <script>
-    //  Webcam.set({
-    //   width: 320,
-    //   height: 240,
-    //   dest_width: 640,
-    //   dest_height: 480,
-    //   image_format: 'jpeg',
-    //   jpeg_quality: 90
-    // });
-    // Webcam.attach('#cameraView');
-
+    window.fbAsyncInit = function() {
+    FB.init({
+      appId            : 'your-app-id',
+      autoLogAppEvents : true,
+      xfbml            : true,
+      version          : 'v17.0'
+    });
+  };
     const video_el = document.getElementById("my_video");
     var  canvas_el = document.getElementById("picture");
     var photo = document.getElementById("photo");
     var black = document.getElementById("black_rect");
     var share = document.getElementById("sharebackground");
-      // const canvas_el = document.getElementById("my_canvas");
-      // var image1 = document.getElementById('teacher');
+    var end = document.getElementById('end');
+    var download = document.getElementById('download');
+    var endbg = document.getElementById('endbg');
+    var renew = document.getElementById('return');
+    var back = document.getElementById('back');
+    var image = new Image();
+    image.src = '../picture/page48/Mask group.png';
+   
+    var snap = 0
+    var x = document.getElementById("myAudio_laugh");
+    var playState = 0;
+    function music(){
+        if(playState ===  0) {
+            x.autoplay = true;
+            x.load();
+            playState = 1;
+        }
+    }
+    document.addEventListener('click', music); 
+
+      
       var constrain ={audio:false,
                       video:{
-                        width: { ideal:  390 },//this.height,
-                        height: { ideal:  844 },
+                        width: {  ideal: 390},//this.height,
+                        height: {  ideal: 844 },
                         facingMode:"user" //this.width    
                          }}
       var stream_obj; // 預計用來存放 串流相關的物件(MediaStream)
@@ -56,23 +80,75 @@
         });
         
       open_webcam_el.addEventListener("click", function(){
+        snap=1;
         stream_obj.getTracks().forEach(function(track) {
           track.stop();
         });
 
-        stream_obj = undefined;    // 回到該變數原來預設(即 undefined)
+        stream_obj = undefined;   // 回到該變數原來預設(即 undefined)
         // video_el.srcObject = null; // 將 video 標籤上的 srcObject 清空
         canvas_el.width = video_el.videoWidth;
         canvas_el.height = video_el.videoHeight;
         canvas_el.getContext('2d').drawImage(video_el, 0, 0, canvas_el.width, canvas_el.height);
-        canvas_el.getContext('2d').drawImage(photo, 0, 0, canvas_el.width, canvas_el.height);
-        
-        black.setAttribute('style','visibility:hidden');
+        canvas_el.getContext('2d').drawImage(image, 0, 0, canvas_el.width, canvas_el.height);
         open_webcam_el.setAttribute('style','visibility:hidden');
-        photo.setAttribute('style','visibility:hidden');
-        // share.setAttribute('style','none');
-        
-      });
+       
+        video_el.setAttribute('style','visibility:hidden')
+        share.setAttribute('style','none');
+        end.setAttribute('style','none');
+        download.setAttribute('style','none');
+        canvas_el.setAttribute('style','width:92%;height:82%; z-index:2;left:13%; top:5.5%;border-radius:100px');
+        back.setAttribute('style','none');
 
+        });
+        
+        
+        back.addEventListener('click',function(){
+          back.setAttribute('style','visibility:hidden');
+          share.setAttribute('style','visibility:hidden');
+          end.setAttribute('style','visibility:hidden');
+          download.setAttribute('style','visibility:hidden');
+          video_el.setAttribute('style','none');
+          canvas_el.setAttribute('style','none');
+          
+          black.setAttribute('style','none');
+          open_webcam_el.setAttribute('style','none');
+         
+          context = canvas_el.getContext('2d');
+          context.clearRect(0, 0, canvas_el.width, canvas_el.height);
+          if(snap==1){
+            navigator.mediaDevices.getUserMedia(constrain).then(function(stream){
+            stream_obj = stream;         // 將串流物件放在 stream_obj 全域變數，方便後面關閉 webcam 時會用到
+            video_el.srcObject = stream;
+            snap=0 
+                  // video 標籤顯示 webcam 畫面
+          }).catch(function(error){      // 若無法取得畫面，執行 catch
+            console.log('navigator.MediaDevices.getUserMedia Error: ', error.message, error.name);
+          });
+         }
+           })
+        
+        
+
+        download.addEventListener('click',function(){
+          var imageDataURL = canvas_el.toDataURL('image/png');
+          var downloadLink = document.createElement('a');
+          downloadLink.href = imageDataURL;
+          downloadLink.download = 'canvas_image.png';
+          downloadLink.click();
+        })
+        
+        end.addEventListener('click',function(){
+          share.setAttribute('style','visibility:hidden;');
+          canvas_el.setAttribute('style','visibility:hidden;')
+          end.setAttribute('style','visibility:hidden;')
+          download.setAttribute('style','visibility:hidden;')
+          back.setAttribute('style','visibility:hidden;')
+
+          endbg.setAttribute('style','none')
+          renew.setAttribute('style','none')
+          
+        })
 </script>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
 </html>

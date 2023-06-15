@@ -19,13 +19,14 @@ body{
     position: absolute;
     left: 0%;
     top: 0%;
-    width: 1080px;
-    height: 2300px;
+    width: 1147px;
+   
     /* z-index: 2; */
 
 }
 #open_webcam{
     position: absolute;
+    top:2200px;
     left: 48%;
     
 }
@@ -33,13 +34,69 @@ body{
     position: absolute;
     left: 0%;
     width: 1139px;
+    height: 500px;
 }
 #picture{
     position: absolute;
     left: 0%;
     top:0%;
-    width: 120%;
+    width: 115%;
     height:100%;
+}
+#again{
+    position: absolute;
+    font-size: 50px;
+    left: 18%;
+    width: 30%;
+    height: 5%;
+    top: 2250px;
+    
+}
+#back{
+    position: absolute;
+    left: 15%;
+    width: 12%;
+    height: 6%;
+    z-index: 2;
+    top:7%;
+}
+#sharefb{
+    position: absolute;
+    font-size: 50px;
+    left: 65%;
+    width: 30%;
+    height: 5%;
+    top:2250px
+    
+}
+#end{
+    position: absolute;
+    left: 95%;
+    top: 2300px;
+    width: 15%;
+    z-index: 2;
+}
+#download{
+    position: absolute;
+    left: 65%;
+    top: 98%;
+    width: 40%;
+    height: 8%;
+    z-index: 2;
+}
+#endbg{
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    width: 1147px;
+}
+#return{
+    position: absolute;
+    left: 35%;
+    top: 98%;
+    width: 45%;
+    height: 9%;
+    z-index: 2;
 }
 
 /* @media screen and (max-width: 1200px){
