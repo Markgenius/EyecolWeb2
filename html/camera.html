@@ -22,16 +22,14 @@
 
 </body>
 <script>
-    //  Webcam.set({
-    //   width: 320,
-    //   height: 240,
-    //   dest_width: 640,
-    //   dest_height: 480,
-    //   image_format: 'jpeg',
-    //   jpeg_quality: 90
-    // });
-    // Webcam.attach('#cameraView');
-
+    window.fbAsyncInit = function() {
+    FB.init({
+      appId            : 'your-app-id',
+      autoLogAppEvents : true,
+      xfbml            : true,
+      version          : 'v17.0'
+    });
+  };
     const video_el = document.getElementById("my_video");
     var  canvas_el = document.getElementById("picture");
     var photo = document.getElementById("photo");
@@ -151,9 +149,6 @@
           renew.setAttribute('style','none')
           
         })
-        
-           
-      
-
 </script>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
 </html>
