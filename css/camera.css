@@ -63,6 +63,7 @@ body{
     top: 98%;
     width: 40%;
     height: 8%;
+    z-index: 2;
 }
 #download{
     position: absolute;
@@ -70,6 +71,7 @@ body{
     top: 98%;
     width: 40%;
     height: 8%;
+    z-index: 2;
 }
 
 /* @media screen and (max-width: 1200px){
