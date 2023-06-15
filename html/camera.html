@@ -5,7 +5,7 @@
 <body>
   <!-- <div id="cameraView"></div> -->
      
-    <video id="my_video" autoplay >
+    <video id="my_video" autoplay playsinline >
     </video>
     <canvas id="picture"></canvas>
     
@@ -13,6 +13,7 @@
     <img id="open_webcam" src="../picture/page48/Group 186.png">
     <img id="photo" src="../picture/page48/Mask group.png" >
     <img id="sharebackground" src="../picture/page48/13 Pro - 31.png" style="visibility: hidden;">
+    <button id="again" style="visibility: hidden;">再拍一次</button>
 </body>
 <script>
     //  Webcam.set({
@@ -30,12 +31,13 @@
     var photo = document.getElementById("photo");
     var black = document.getElementById("black_rect");
     var share = document.getElementById("sharebackground");
-      // const canvas_el = document.getElementById("my_canvas");
-      // var image1 = document.getElementById('teacher');
+    var again = document.getElementById("again");
+
+      
       var constrain ={audio:false,
                       video:{
-                        width: { ideal:  390 },//this.height,
-                        height: { ideal:  844 },
+                        width: { max:  390, ideal: 390},//this.height,
+                        height: { max:  844, ideal: 844 },
                         facingMode:"user" //this.width    
                          }}
       var stream_obj; // 預計用來存放 串流相關的物件(MediaStream)
@@ -70,8 +72,25 @@
         black.setAttribute('style','visibility:hidden');
         open_webcam_el.setAttribute('style','visibility:hidden');
         photo.setAttribute('style','visibility:hidden');
+        again.setAttribute('style','none');
         // share.setAttribute('style','none');
         
+        again.addEventListener('click',function(){
+          var  canvas_el = document.getElementById("picture");
+          again.setAttribute('style','visibility:hidden');
+          black.setAttribute('style','none');
+          open_webcam_el.setAttribute('style','none');
+          context = canvas_el.getContext('2d');
+          context.clearRect(0, 0, canvas_el.width, canvas_el.height);
+          navigator.mediaDevices.getUserMedia(constrain).then(function(stream){
+          stream_obj = stream;         // 將串流物件放在 stream_obj 全域變數，方便後面關閉 webcam 時會用到
+          video_el.srcObject = stream; // video 標籤顯示 webcam 畫面
+        }).catch(function(error){      // 若無法取得畫面，執行 catch
+          console.log('navigator.MediaDevices.getUserMedia Error: ', error.message, error.name);
+        });
+           })
+        
+           
       });
 
 </script>
