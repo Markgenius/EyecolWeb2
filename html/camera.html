@@ -4,7 +4,9 @@
 </head>
 <body>
   <!-- <div id="cameraView"></div> -->
-     
+    <audio id="myAudio_laugh" controls="" hidden="hidden" loop="loop">
+    <source src="../bgm/ending_bro_laughing.mp3" type="audio/mpeg"/>
+    </audio>
     <video id="my_video" autoplay playsinline >
     </video>
     <canvas id="picture"></canvas>
@@ -42,6 +44,16 @@
     image.src = '../picture/page48/Mask group.png';
    
     var snap = 0
+    var x = document.getElementById("myAudio_laugh");
+    var playState = 0;
+    function music(){
+        if(playState ===  0) {
+            x.autoplay = true;
+            x.load();
+            playState = 1;
+        }
+    }
+    document.addEventListener('click', music); 
 
       
       var constrain ={audio:false,
