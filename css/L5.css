@@ -74,16 +74,26 @@ body {
   z-index: 2;
 }
 
-.button38_1 {
+.button38_1#opt {
   position: absolute;
-  width: 77%;
-  left: 11.8%;
-  top: 260px;
+  width: 239.16px;
+  height: 262.33px;
+  left: 84px;
+  top: 318px; 
   animation: shake 1.5s;
   animation-iteration-count: infinite;
   z-index: 2;
 }
-
+.button38_1#finger {
+  position: absolute; 
+  width: 87px;
+height: 78px;
+left: 60px;
+top: 456px;
+  animation: shake 1.5s;
+  animation-iteration-count: infinite;
+  z-index: 3;
+}
 .input38 {
   position: absolute;
   height: 7%;
