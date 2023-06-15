@@ -155,16 +155,17 @@ function clickBG26_4(){
         buttonGroup28_2.setAttribute('style','none');
     }
     else {
-        clickBG26_state = 0;
-        buttonGroup26_4.setAttribute('style','none');
+        // clickBG26_state = 0;
+        // buttonGroup26_4.setAttribute('style','none');
 
-        buttonGroup26_1.setAttribute('style','none');
-        buttonGroup26_2.setAttribute('style','none');
-        buttonGroup26_3.setAttribute('style','none');
+        // buttonGroup26_1.setAttribute('style','none');
+        // buttonGroup26_2.setAttribute('style','none');
+        // buttonGroup26_3.setAttribute('style','none');
 
-        buttonGroup26_1_.setAttribute('style','visibility:hidden');
-        buttonGroup26_2_.setAttribute('style','visibility:hidden');
-        buttonGroup26_3_.setAttribute('style','visibility:hidden');
+        // buttonGroup26_1_.setAttribute('style','visibility:hidden');
+        // buttonGroup26_2_.setAttribute('style','visibility:hidden');
+        // buttonGroup26_3_.setAttribute('style','visibility:hidden');
+        window.location=('../html/wrongans3.html')
     }
 }
 

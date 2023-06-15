@@ -167,7 +167,8 @@ function clickBG38_2(){
         buttonGroup40_2.setAttribute('style','none');
     }
     else{
-        buttonGroup38_2.setAttribute('style','none');
+        // buttonGroup38_2.setAttribute('style','none');
+        window.location=('../html/wrongans4.html');
     }
 }
 
