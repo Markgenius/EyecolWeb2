@@ -53,7 +53,6 @@ var buttonGroup47_2 = document.querySelector(".button47_2");
 
 var x = document.getElementById("myAudio");
 var playState = 0;
-x.autoplay = true;
 function music(){
     if(playState ===  0) {
         x2.pause();

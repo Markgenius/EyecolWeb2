@@ -72,7 +72,6 @@ var buttonGroup33_0 = document.querySelector(".button33_0");
 
 var x = document.getElementById("myAudio");
 var playState = 0;
-x.autoplay = true;
 
 function music(){
     if(playState ===  0) {
