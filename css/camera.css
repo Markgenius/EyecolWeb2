@@ -49,6 +49,14 @@ body{
     height: 5%;
     
 }
+#sharefb{
+    position: absolute;
+    font-size: 50px;
+    left: 55%;
+    width: 30%;
+    height: 5%;
+    
+}
 
 /* @media screen and (max-width: 1200px){
 #my_video{

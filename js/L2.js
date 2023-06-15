@@ -113,9 +113,9 @@ $(".bt14").on('touchend',function(){
     window.location=("../html/L3.html")
 })
 
-$(".bt7").on('touchstart',function(){
-    $(".bt7").attr('style','opacity: 0.5');
-}); 
+// $(".bt7").on('touchstart',function(){
+//     $(".bt7").attr('style','opacity: 0.5');
+// }); 
 $(".bt9").on('touchstart',function(){
     $(".bt9").attr('style','opacity: 0.5');
 }); 

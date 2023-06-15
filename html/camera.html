@@ -14,6 +14,7 @@
     <img id="photo" src="../picture/page48/Mask group.png" >
     <img id="sharebackground" src="../picture/page48/13 Pro - 31.png" style="visibility: hidden;">
     <button id="again" style="visibility: hidden;">再拍一次</button>
+    <button id="sharefb" style="visibility: hidden;">FB分享</button>
 </body>
 <script>
     //  Webcam.set({
@@ -32,6 +33,7 @@
     var black = document.getElementById("black_rect");
     var share = document.getElementById("sharebackground");
     var again = document.getElementById("again");
+    var snap = 0
 
       
       var constrain ={audio:false,
@@ -58,6 +60,7 @@
         });
         
       open_webcam_el.addEventListener("click", function(){
+        snap=1;
         stream_obj.getTracks().forEach(function(track) {
           track.stop();
         });
@@ -73,7 +76,7 @@
         open_webcam_el.setAttribute('style','visibility:hidden');
         photo.setAttribute('style','visibility:hidden');
         again.setAttribute('style','none');
-        // share.setAttribute('style','none');
+        sharefb.setAttribute('style','none');
         
         again.addEventListener('click',function(){
           var  canvas_el = document.getElementById("picture");
@@ -82,12 +85,16 @@
           open_webcam_el.setAttribute('style','none');
           context = canvas_el.getContext('2d');
           context.clearRect(0, 0, canvas_el.width, canvas_el.height);
-          navigator.mediaDevices.getUserMedia(constrain).then(function(stream){
-          stream_obj = stream;         // 將串流物件放在 stream_obj 全域變數，方便後面關閉 webcam 時會用到
-          video_el.srcObject = stream; // video 標籤顯示 webcam 畫面
-        }).catch(function(error){      // 若無法取得畫面，執行 catch
-          console.log('navigator.MediaDevices.getUserMedia Error: ', error.message, error.name);
-        });
+          if(snap==1){
+            navigator.mediaDevices.getUserMedia(constrain).then(function(stream){
+            stream_obj = stream;         // 將串流物件放在 stream_obj 全域變數，方便後面關閉 webcam 時會用到
+            video_el.srcObject = stream;
+            snap=0 
+                  // video 標籤顯示 webcam 畫面
+          }).catch(function(error){      // 若無法取得畫面，執行 catch
+            console.log('navigator.MediaDevices.getUserMedia Error: ', error.message, error.name);
+          });
+         }
            })
         
            
