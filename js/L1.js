@@ -1,7 +1,6 @@
 $(document).ready()
 var x = document.getElementById("st_bgm");
 var playState = 0;
-x.autoplay = true;
 function music(){
     if(playState ===  0) {
         x2.pause();
