@@ -116,21 +116,33 @@ $(".bt14").on('touchend',function(){
 // $(".bt7").on('touchstart',function(){
 //     $(".bt7").attr('style','opacity: 0.5');
 // }); 
-$(".bt9").on('touchstart',function(){
-    $(".bt9").attr('style','opacity: 0.5');
+$("#a").on('touchstart',function(){
+    $("#a").attr('style','opacity: 0.5');
+}); 
+$("#b").on('touchstart',function(){
+    $("#b").attr('style','opacity: 0.5');
+}); 
+$("#a2").on('touchstart',function(){
+    $("#a2").attr('style','opacity: 0.5');
+}); 
+$("#a3").on('touchstart',function(){
+    $("#a3").attr('style','opacity: 0.5');
+}); 
+$("#b2").on('touchstart',function(){
+    $("#b2").attr('style','opacity: 0.5');
+}); 
+$("#b3").on('touchstart',function(){
+    $("#b3").attr('style','opacity: 0.5');
+}); 
+$("#a4").on('touchstart',function(){
+    $("#a4").attr('style','opacity: 0.5');
+}); 
+$("#b4").on('touchstart',function(){
+    $("#b4").attr('style','opacity: 0.5');
 }); 
 $(".bt10").on('touchstart',function(){
     $(".bt10").attr('style','opacity: 0.5');
 }); 
-$(".bt11").on('touchstart',function(){
-    $(".bt11").attr('style','opacity: 0.5');
-}); 
-$(".bt12").on('touchstart',function(){
-    $(".bt12").attr('style','opacity: 0.5');
-}); 
-$(".bt13").on('touchstart',function(){
-    $(".bt13").attr('style','opacity: 0.5');
-}); 
-$(".bt14").on('touchstart',function(){
-    $(".bt14").attr('style','opacity: 0.5');
+$("#sub").on('touchstart',function(){
+    $("#sub").attr('style','opacity: 0.5');
 }); 

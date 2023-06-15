@@ -7,5 +7,8 @@ function music(){
         playState = 1;
     }
 }
+$(".back").on('touchstart',function(){
+    $(".back").attr('style','opacity: 0.5');
+}); 
 
 document.addEventListener('click', music); 
