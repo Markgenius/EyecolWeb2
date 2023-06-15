@@ -12,12 +12,15 @@
     <canvas id="picture"></canvas>
     <img id="black_rect" src="../picture/page48/Rectangle 185.png">
     <img id="open_webcam" src="../picture/page48/Group 186.png">
-    <img id="photo" src="../picture/page48/Mask group.png" >
+    <!-- <img id="photo" src="../picture/page48/Mask group.png" > -->
     <img id="sharebackground" src="../picture/page48/13 Pro - 31.png" style="visibility: hidden;">
     <button id="again" style="visibility: hidden;">再拍一次</button>
     <button id="sharefb" style="visibility: hidden;">FB分享</button>
     <img id="end" src="../picture/page48/Group 368.png" style="visibility: hidden;">
     <img id="download" src="../picture/page48/Group 369.png" style="visibility: hidden;">
+
+    <img id="endbg" src="../picture/update06_09/page50/13 Pro - 116.png" style="visibility: hidden;">
+    <img id="return" src="../picture/update06_09/page50/Group 371.png" style="visibility: hidden;" onclick="location.href='../html/L1.html'">
 
 </body>
 <script>
@@ -40,6 +43,8 @@
     var sharefb = document.getElementById('sharefb');
     var end = document.getElementById('end');
     var download = document.getElementById('download');
+    var endbg = document.getElementById('endbg');
+    var renew = document.getElementById('return');
     var image = new Image();
     image.src = '../picture/page48/Mask group.png';
    
@@ -92,7 +97,7 @@
         canvas_el.getContext('2d').drawImage(video_el, 0, 0, canvas_el.width, canvas_el.height);
         canvas_el.getContext('2d').drawImage(image, 0, 0, canvas_el.width, canvas_el.height);
         open_webcam_el.setAttribute('style','visibility:hidden');
-        photo.setAttribute('style','visibility:hidden');
+        // photo.setAttribute('style','visibility:hidden');
         again.setAttribute('style','none');
         sharefb.setAttribute('style','none'); 
         });
@@ -139,7 +144,17 @@
           downloadLink.download = 'canvas_image.png';
           downloadLink.click();
         })
+        
+        end.addEventListener('click',function(){
+          share.setAttribute('style','visibility:hidden;');
+          canvas_el.setAttribute('style','visibility:hidden;')
+          end.setAttribute('style','visibility:hidden;')
+          download.setAttribute('style','visibility:hidden;')
 
+          endbg.setAttribute('style','none')
+          renew.setAttribute('style','none')
+          
+        })
         
            
       
