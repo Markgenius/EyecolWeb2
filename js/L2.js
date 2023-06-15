@@ -4,7 +4,6 @@ $(".op7").click(function(){
 });
 var x = document.getElementById("myAudio");
 var playState = 0;
-x.autoplay = true;
 function music(){
     if(playState ===  0) {
         x2.pause();
