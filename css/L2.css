@@ -128,8 +128,8 @@ body {
   position: absolute;
   width: 50%;
   height: 25%;
-  left: 212px;
-  top: 192px;
+  left: 198px;
+  top: 189px;
   z-index: 2;
   animation: shinning 1.5s;
   animation-iteration-count: infinite;
@@ -177,16 +177,19 @@ z-index: 2;
   }
 .bt13#a{
   position: absolute;
-  width: 64.6%;
-  left: calc(50% - 64.6%/2);
-  top: calc(578/844*100%);
+  width: 252px;
+height: 61px;
+left: 69px;
+top: 616px;
   z-index:2;
 }
 .bt13#b{
   position: absolute;
-  width: 64.6%;
-  left: calc(50% - 64.6%/2);
-  top: calc(677/844*100%);
+width: 252px;
+height: 61px;
+left: 69px;
+top: 711px;
+
   z-index: 2;
 }
 
@@ -200,16 +203,19 @@ z-index: 2;
   }
 .bt14#a{
   position: absolute;
-  width: 64.6%;
-  left: calc(50% - 64.6%/2);
-  top: calc(578/844*100%);
+  width: 252px;
+  height: 61px;
+  left: 69px;
+  top: 616px;
   z-index:2;
 }
 .bt14#b{
   position: absolute;
-  width: 64.6%;
-  left: calc(50% - 64.6%/2);
-  top: calc(677/844*100%);
+  width: 252px;
+height: 61px;
+left: 69px;
+top: 711px;
+
   z-index: 2;
 }
 
