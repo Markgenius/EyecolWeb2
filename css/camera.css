@@ -51,6 +51,14 @@ body{
     top: 2250px;
     
 }
+#back{
+    position: absolute;
+    left: 15%;
+    width: 12%;
+    height: 6%;
+    z-index: 2;
+    top:7%;
+}
 #sharefb{
     position: absolute;
     font-size: 50px;
@@ -62,10 +70,9 @@ body{
 }
 #end{
     position: absolute;
-    left: 10%;
-    top: 98%;
-    width: 40%;
-    height: 8%;
+    left: 95%;
+    top: 2300px;
+    width: 15%;
     z-index: 2;
 }
 #download{
@@ -84,10 +91,10 @@ body{
 }
 #return{
     position: absolute;
-    left: 38%;
+    left: 35%;
     top: 98%;
-    width: 40%;
-    height: 8%;
+    width: 45%;
+    height: 9%;
     z-index: 2;
 }
 
