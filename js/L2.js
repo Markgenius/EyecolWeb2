@@ -2,6 +2,28 @@ var correct = 0
 $(".op7").click(function(){
     window.location=('../html/ar_cloth.html')
 });
+var x = document.getElementById("myAudio");
+var playState = 0;
+x.autoplay = true;
+function music(){
+    if(playState ===  0) {
+        x2.pause();
+        x.autoplay = true;
+        x.load();
+        playState = 1;
+    }
+}
+var x2 = document.getElementById("myAudio_no");
+var playState2 = 0;
+function music2(){
+    if(playState2 ===  0) {
+        x.pause();
+        x2.autoplay = true;
+        x2.load();
+        playState2 = 1;
+    }
+}
+document.addEventListener('click', music); 
 $("#a1").click(function(){
     $("#a1").attr('style','visibility:hidden');
     $("#b1-t").attr('style','visibility:hidden');
@@ -33,6 +55,7 @@ $("#sub").click(function(){
     if(correct==1){
     $(".bg7").attr('style','visibility:hidden');
     $(".op7").attr('style','visibility:hidden');
+    $(".finger").attr('style','visibility:hidden');
     $(".bt7").attr('style','visibility:hidden');
 
     $(".bt9").attr('style','none');
@@ -59,6 +82,7 @@ $(".bt10").click(function(){
     $(".bt11").attr('style','none');
 });
 $(".bt11").click(function(){
+    music2();
     $(".bg11").attr('style','visibility:hidden');
     $(".bt11").attr('style','visibility:hidden');
 

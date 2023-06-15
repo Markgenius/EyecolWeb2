@@ -1,5 +1,6 @@
 var background_15 = document.querySelector(".background_image15");
 var glass = document.querySelector(".glass");
+var finger = document.querySelector(".finger");
 var option7 = document.querySelector(".option7");
 var option8 = document.querySelector(".option8");
 var option9 = document.querySelector(".option9");
@@ -164,6 +165,7 @@ function clickBG26_4(){
     if(correct==1){
     background_15.setAttribute('style','visibility:hidden');
     glass.setAttribute('style','visibility:hidden');
+    finger.setAttribute('style','visibility:hidden');
     option7.setAttribute('style','visibility:hidden');
     option8.setAttribute('style','visibility:hidden');
     option9.setAttribute('style','visibility:hidden');
@@ -184,6 +186,7 @@ function clickBG26_4(){
     // option8.setAttribute('style','none');
     // option9.setAttribute('style','none');
     // option10.setAttribute('style','none')
+    music();
     window.location=('../html/wrongans2.html');
     }
 }

@@ -1,15 +1,27 @@
 $(document).ready()
-
+var x = document.getElementById("st_bgm");
 var playState = 0;
-$(".myAudio").autoplay = true;
-
+x.autoplay = true;
 function music(){
     if(playState ===  0) {
-        $(".myAudio").autoplay = true;
+        x2.pause();
+        x.autoplay = true;
+        x.load();
         playState = 1;
     }
 }
-document.addEventListener('click', music);
+var x2 = document.getElementById("myAudio");
+var playState2 = 0;
+function music2(){
+    if(playState2 ===  0) {
+        x.pause();
+        x2.autoplay = true;
+        x2.load();
+        playState2 = 1;
+    }
+}
+document.addEventListener('click', music); 
+
 $(".bt1").on('touchstart',function(){
     $(".bt1").attr('style','opacity: 0.5');
 }); 
@@ -40,6 +52,7 @@ $(".bt1").on('touchend',function(){
     $(".bt2").attr('style','none');
 });
 $(".bt2").on('touchend',function(){
+    music2();
     $(".bg2").attr('style','visibility:hidden');
     $(".bt2").attr('style','visibility:hidden');
 
