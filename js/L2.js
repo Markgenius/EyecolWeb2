@@ -113,3 +113,25 @@ $(".bt13").click(function(){
 $(".bt14").on('touchend',function(){
     window.location=("../html/L3.html")
 })
+
+$(".bt7").on('touchstart',function(){
+    $(".bt7").attr('style','opacity: 0.5');
+}); 
+$(".bt9").on('touchstart',function(){
+    $(".bt9").attr('style','opacity: 0.5');
+}); 
+$(".bt10").on('touchstart',function(){
+    $(".bt10").attr('style','opacity: 0.5');
+}); 
+$(".bt11").on('touchstart',function(){
+    $(".bt11").attr('style','opacity: 0.5');
+}); 
+$(".bt12").on('touchstart',function(){
+    $(".bt12").attr('style','opacity: 0.5');
+}); 
+$(".bt13").on('touchstart',function(){
+    $(".bt13").attr('style','opacity: 0.5');
+}); 
+$(".bt14").on('touchstart',function(){
+    $(".bt14").attr('style','opacity: 0.5');
+}); 
