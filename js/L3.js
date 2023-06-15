@@ -185,8 +185,7 @@ function clickBG26_4(){
     // option7.setAttribute('style','none');
     // option8.setAttribute('style','none');
     // option9.setAttribute('style','none');
-    // option10.setAttribute('style','none')
-    music();
+    // option10.setAttribute('style','none');
     window.location=('../html/wrongans2.html');
     }
 }
