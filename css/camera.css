@@ -26,6 +26,7 @@ body{
 }
 #open_webcam{
     position: absolute;
+    top:2200px;
     left: 48%;
     
 }
