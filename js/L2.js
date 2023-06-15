@@ -29,10 +29,6 @@ $("#b1-t").click(function(){
     correct=0
 });
 
-
-
-
-
 $("#sub").click(function(){
     if(correct==1){
     $(".bg7").attr('style','visibility:hidden');
@@ -43,10 +39,7 @@ $("#sub").click(function(){
     $(".bg9").attr('style','none');
     }
     else{
-        $("#a1-t").attr('style','visibility:hidden');
-        $("#b1-t").attr('style','visibility:hidden');
-        $("#a1").attr('style','none');
-        $("#b1").attr('style','none');
+        window.location=('../html/wrongans.html');
     }
 });
 $(".bt9").click(function(){
