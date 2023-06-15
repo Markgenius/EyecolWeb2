@@ -19,8 +19,8 @@ body{
     position: absolute;
     left: 0%;
     top: 0%;
-    width: 1080px;
-    height: 2300px;
+    width: 1147px;
+   
     /* z-index: 2; */
 
 }
@@ -56,6 +56,20 @@ body{
     width: 30%;
     height: 5%;
     
+}
+#end{
+    position: absolute;
+    left: 10%;
+    top: 98%;
+    width: 40%;
+    height: 8%;
+}
+#download{
+    position: absolute;
+    left: 65%;
+    top: 98%;
+    width: 40%;
+    height: 8%;
 }
 
 /* @media screen and (max-width: 1200px){
