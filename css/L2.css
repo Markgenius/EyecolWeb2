@@ -126,9 +126,9 @@ body {
 }
 .bt11{
   position: absolute;
-  width: 50%;
-  height: 25%;
-  left: 198px;
+  width: 45%;
+  height: 20%;
+  left: 201px;
   top: 189px;
   z-index: 2;
   animation: shinning 1.5s;
