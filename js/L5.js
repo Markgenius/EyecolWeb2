@@ -234,6 +234,9 @@ function clickBG46_1(){
     buttonGroup47_1.setAttribute('style','none');
     buttonGroup47_2.setAttribute('style','none');
 }
+function clickBG47(){
+    window.location=('../html/camera.html');
+}
 
 
 function clickBG34_1_(){
@@ -347,6 +350,7 @@ buttonGroup46_1.addEventListener('touchend',clickBG46_1);
 buttonGroup46_2.addEventListener('touchstart',clickBG46_2_);
 buttonGroup46_2.addEventListener('touchend',clickBG46_1);
 
+buttonGroup47_1.addEventListener('click', clickBG47);
 
 // slider_1.oninput = function() {
 //     output1.innerHTML = this.value;
