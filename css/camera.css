@@ -33,28 +33,31 @@ body{
     position: absolute;
     left: 0%;
     width: 1139px;
+    height: 500px;
 }
 #picture{
     position: absolute;
     left: 0%;
     top:0%;
-    max-width: 100%;
+    width: 115%;
     height:100%;
 }
 #again{
     position: absolute;
     font-size: 50px;
-    left: 15%;
+    left: 18%;
     width: 30%;
     height: 5%;
+    top: 2250px;
     
 }
 #sharefb{
     position: absolute;
     font-size: 50px;
-    left: 55%;
+    left: 65%;
     width: 30%;
     height: 5%;
+    top:2250px
     
 }
 #end{
