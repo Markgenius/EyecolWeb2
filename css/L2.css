@@ -127,10 +127,10 @@ body {
 .bt11{
   position: absolute;
   width: 50%;
-  height: 20%;
-  left: 185px;
-  top: 187px;
-  z-index:2;
+  height: 25%;
+  left: 212px;
+  top: 192px;
+  z-index: 2;
   animation: shinning 1.5s;
   animation-iteration-count: infinite;
 }
