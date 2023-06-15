@@ -158,7 +158,7 @@ function clickBG38_2(){
     input_38_value = document.querySelector(".input38").value;
     if(input_38_value == 5964){
         background_38.setAttribute('style','visibility:hidden');
-        buttonGroup38_1.setAttribute('style','visibility:hidden');
+        $(".button38_1").attr('style','visibility:hidden');
         input_38.setAttribute('style','visibility:hidden');
         buttonGroup38_2.setAttribute('style','visibility:hidden');
 
