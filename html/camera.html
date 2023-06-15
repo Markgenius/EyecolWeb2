@@ -14,29 +14,33 @@
     <img id="open_webcam" src="../picture/page48/Group 186.png">
     <img id="sharebackground" src="../picture/page48/13 Pro - 31.png" style="visibility: hidden;">
     <img id="back" style="visibility: hidden;" src="../picture/update06_09/page49/again@3x.png">
+    
     <img id="end" src="../picture/update06_09/page49/下一頁.png" style="visibility: hidden;">
     <img id="download" src="../picture/page48/Group 369.png" style="visibility: hidden;">
+  
 
     <img id="endbg" src="../picture/update06_09/page50/13 Pro - 116.png" style="visibility: hidden;">
     <img id="return" src="../picture/update06_09/page50/Group 371.png" style="visibility: hidden;" onclick="location.href='../html/L1.html'">
 
 </body>
 <script>
-    window.fbAsyncInit = function() {
-    FB.init({
-      appId            : 'your-app-id',
-      autoLogAppEvents : true,
-      xfbml            : true,
-      version          : 'v17.0'
-    });
-  };
+  //   window.fbAsyncInit = function() {
+  //   FB.init({
+  //     appId            : 'your-app-id',
+  //     autoLogAppEvents : true,
+  //     xfbml            : true,
+  //     version          : 'v17.0'
+  //   });
+  // };
     const video_el = document.getElementById("my_video");
     var  canvas_el = document.getElementById("picture");
     var photo = document.getElementById("photo");
     var black = document.getElementById("black_rect");
     var share = document.getElementById("sharebackground");
     var end = document.getElementById('end');
+
     var download = document.getElementById('download');
+    var fb_share = document.querySelector('.fb-share-button');
     var endbg = document.getElementById('endbg');
     var renew = document.getElementById('return');
     var back = document.getElementById('back');
@@ -58,8 +62,8 @@
       
       var constrain ={audio:false,
                       video:{
-                        width: {  ideal: 390},//this.height,
-                        height: {  ideal: 844 },
+                        width: { ideal: 390},//this.height,
+                        height: { ideal: 844 },
                         facingMode:"user" //this.width    
                          }}
       var stream_obj; // 預計用來存放 串流相關的物件(MediaStream)
@@ -81,6 +85,7 @@
         
       open_webcam_el.addEventListener("click", function(){
         snap=1;
+        
         stream_obj.getTracks().forEach(function(track) {
           track.stop();
         });
@@ -99,6 +104,7 @@
         download.setAttribute('style','none');
         canvas_el.setAttribute('style','width:92%;height:82%; z-index:2;left:13%; top:5.5%;border-radius:100px');
         back.setAttribute('style','none');
+        fb_share.setAttribute('style','none')
 
         });
         
@@ -150,5 +156,4 @@
           
         })
 </script>
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
 </html>

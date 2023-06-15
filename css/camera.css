@@ -78,7 +78,7 @@ body{
 }
 #download{
     position: absolute;
-    left: 65%;
+    left: 39%;
     top: 98%;
     width: 40%;
     height: 8%;
@@ -98,7 +98,16 @@ body{
     height: 9%;
     z-index: 2;
 }
-
+/* .fb-share-button{
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    transform: scale(4.5);
+    z-index: 2;
+}
+.fb_iframe_widget_fluid {
+    display: none;
+} */
 /* @media screen and (max-width: 1200px){
 #my_video{
     
