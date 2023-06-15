@@ -8,13 +8,15 @@
     <video id="my_video" autoplay playsinline >
     </video>
     <canvas id="picture"></canvas>
-    
     <img id="black_rect" src="../picture/page48/Rectangle 185.png">
     <img id="open_webcam" src="../picture/page48/Group 186.png">
     <img id="photo" src="../picture/page48/Mask group.png" >
     <img id="sharebackground" src="../picture/page48/13 Pro - 31.png" style="visibility: hidden;">
     <button id="again" style="visibility: hidden;">再拍一次</button>
     <button id="sharefb" style="visibility: hidden;">FB分享</button>
+    <img id="end" src="../picture/page48/Group 368.png" style="visibility: hidden;">
+    <img id="download" src="../picture/page48/Group 369.png" style="visibility: hidden;">
+
 </body>
 <script>
     //  Webcam.set({
@@ -33,6 +35,12 @@
     var black = document.getElementById("black_rect");
     var share = document.getElementById("sharebackground");
     var again = document.getElementById("again");
+    var sharefb = document.getElementById('sharefb');
+    var end = document.getElementById('end');
+    var download = document.getElementById('download');
+    var image = new Image();
+    image.src = '../picture/page48/Mask group.png';
+   
     var snap = 0
 
       
@@ -65,24 +73,25 @@
           track.stop();
         });
 
-        stream_obj = undefined;    // 回到該變數原來預設(即 undefined)
+        stream_obj = undefined;   // 回到該變數原來預設(即 undefined)
         // video_el.srcObject = null; // 將 video 標籤上的 srcObject 清空
         canvas_el.width = video_el.videoWidth;
         canvas_el.height = video_el.videoHeight;
         canvas_el.getContext('2d').drawImage(video_el, 0, 0, canvas_el.width, canvas_el.height);
-        canvas_el.getContext('2d').drawImage(photo, 0, 0, canvas_el.width, canvas_el.height);
-        
-        black.setAttribute('style','visibility:hidden');
+        canvas_el.getContext('2d').drawImage(image, 0, 0, canvas_el.width, canvas_el.height);
         open_webcam_el.setAttribute('style','visibility:hidden');
         photo.setAttribute('style','visibility:hidden');
         again.setAttribute('style','none');
-        sharefb.setAttribute('style','none');
+        sharefb.setAttribute('style','none'); 
+        });
+        
         
         again.addEventListener('click',function(){
           var  canvas_el = document.getElementById("picture");
           again.setAttribute('style','visibility:hidden');
           black.setAttribute('style','none');
           open_webcam_el.setAttribute('style','none');
+          sharefb.setAttribute('style','visibility:hidden;')
           context = canvas_el.getContext('2d');
           context.clearRect(0, 0, canvas_el.width, canvas_el.height);
           if(snap==1){
@@ -97,8 +106,31 @@
          }
            })
         
+        sharefb.addEventListener('click',function(){
+          sharefb.setAttribute('style','visibility:hidden;')
+          again.setAttribute('style','visibility:hidden')
+          video_el.setAttribute('style','visibility:hidden')
+          share.setAttribute('style','none');
+          end.setAttribute('style','none');
+          download.setAttribute('style','none');
+          canvas_el.setAttribute('style','width:92%;height:82%; z-index:2;left:13%; top:5.5%;border-radius:100px');
+
+          // canvas_el.setAttribute('style','height:50%');
+
+
+        });
+
+        download.addEventListener('click',function(){
+          var imageDataURL = canvas_el.toDataURL('image/png');
+          var downloadLink = document.createElement('a');
+          downloadLink.href = imageDataURL;
+          downloadLink.download = 'canvas_image.png';
+          downloadLink.click();
+        })
+
+        
            
-      });
+      
 
 </script>
 </html>
